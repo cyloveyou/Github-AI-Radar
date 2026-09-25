@@ -6,7 +6,7 @@
 
 **面向科研与开发工作流的 GitHub AI 开源趋势雷达**
 
-[Daily Reports](./daily/) · [Trend Notes](./trends/) · [Weekly Reviews](./weekly/) · [PDF Archive](./pdf/) · [Methodology](./docs/METHODOLOGY.md)
+[Daily Reports](./daily/) · [Trend Notes](./trends/) · [Weekly Reviews](./weekly/) · [PDF Archive](./pdf/) · [Methodology](./docs/METHODOLOGY.md) · [Maintenance](./docs/MAINTENANCE.md)
 
 ![Status](https://img.shields.io/badge/status-active-success)
 <!-- RADAR_BADGES_START -->
@@ -234,6 +234,12 @@ New breakout / major change / trend shift
 ---
 
 ## 🛠 Utilities
+
+一键执行常规维护：
+
+```bash
+python3 scripts/maintain.py
+```
 
 验证仓库结构：
 
