@@ -9,8 +9,10 @@
 [Daily Reports](./daily/) · [Trend Notes](./trends/) · [Weekly Reviews](./weekly/) · [PDF Archive](./pdf/) · [Methodology](./docs/METHODOLOGY.md)
 
 ![Status](https://img.shields.io/badge/status-active-success)
+<!-- RADAR_BADGES_START -->
 ![Tracked](https://img.shields.io/badge/tracked_projects-22-blue)
 ![Reports](https://img.shields.io/badge/daily_reports-8-blueviolet)
+<!-- RADAR_BADGES_END -->
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 </div>
@@ -125,6 +127,7 @@ Literature / Data / Task
 
 ## 📊 Radar at a glance
 
+<!-- RADAR_STATS_START -->
 | Metric | Current |
 |---|---:|
 | Tracked projects | **22** |
@@ -133,6 +136,7 @@ Literature / Data / Task
 | Weekly reviews | **1** |
 | Historical PDF reports | **6** |
 | First observation | **2026-09-17** |
+<!-- RADAR_STATS_END -->
 
 > 这里的数字代表 Radar 已归档的数据，而不是整个 GitHub AI 生态的项目总量。
 
@@ -235,6 +239,12 @@ New breakout / major change / trend shift
 
 ```bash
 python3 scripts/validate_repo.py
+```
+
+更新 README 自动统计：
+
+```bash
+python3 scripts/update_readme_stats.py
 ```
 
 重建 PDF Archive 索引：

@@ -1,0 +1,31 @@
+name: Project nomination
+description: Recommend an AI open-source project for the Radar
+title: "[Nomination] "
+labels: ["nomination"]
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: GitHub repository
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What does it do?
+    validations:
+      required: true
+  - type: textarea
+    id: why-now
+    attributes:
+      label: Why is it worth watching now?
+      description: Include verifiable growth, release, adoption or technical signals when possible.
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Research / developer workflow value
+    validations:
+      required: true
