@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-09-25",
+  "projects": {
+    "alibaba/open-code-review": {
+      "name": "Open Code Review",
+      "repo_url": "https://github.com/alibaba/open-code-review",
+      "categories": [
+        "coding-agent",
+        "code-review"
+      ],
+      "first_seen": "2026-09-17",
+      "last_reported": "2026-09-17",
+      "reports": [
+        "daily/2026/09/2026-09-17.md"
+      ],
+      "status": "watching"
+    },
+    "JustVugg/colibri": {
+      "name": "colibri",
+      "repo_url": "https://github.com/JustVugg/colibri",
+      "categories": [
+        "local-model",
+        "inference"
+      ],
+      "first_seen": "2026-09-17",
+      "last_reported": "2026-09-17",
+      "reports": [
+        "daily/2026/09/2026-09-17.md"
+      ],
+      "status": "watching"
+    },
+    "alphaXiv/OpenResearch": {
+      "name": "OpenResearch",
+      "repo_url": "https://github.com/alphaXiv/OpenResearch",
+      "categories": [
+        "research-agent"
+      ],
+      "first_seen": "2026-09-17",
+      "last_reported": "2026-09-17",
+      "reports": [
+        "daily/2026/09/2026-09-17.md"
+      ],
+      "status": "watching"
+    },
+    "pacifio/atlas": {
+      "name": "atlas",
+      "repo_url": "https://github.com/pacifio/atlas",
+      "categories": [
+        "multi-agent",
+        "state"
+      ],
+      "first_seen": "2026-09-17",
+      "last_reported": "2026-09-17",
+      "reports": [
+        "daily/2026/09/2026-09-17.md"
+      ],
+      "status": "watching"
+    },
+    "Tencent/BrowserSkill": {
+      "name": "BrowserSkill",
+      "repo_url": "https://github.com/Tencent/BrowserSkill",
+      "categories": [
+        "browser-agent",
+        "skill"
+      ],
+      "first_seen": "2026-09-18",
+      "last_reported": "2026-09-18",
+      "reports": [
+        "daily/2026/09/2026-09-18.md"
+      ],
+      "status": "watching"
+    },
+    "cloudflare/security-audit-skill": {
+      "name": "security-audit-skill",
+      "repo_url": "https://github.com/cloudflare/security-audit-skill",
+      "categories": [
+        "coding-agent",
+        "skill",
+        "security"
+      ],
+      "first_seen": "2026-09-19",
+      "last_reported": "2026-09-19",
+      "reports": [
+        "daily/2026/09/2026-09-19.md"
+      ],
+      "status": "watching"
+    },
+    "browser-use/jev-ultrafast": {
+      "name": "jev-ultrafast",
+      "repo_url": "https://github.com/browser-use/jev-ultrafast",
+      "categories": [
+        "browser-agent"
+      ],
+      "first_seen": "2026-09-19",
+      "last_reported": "2026-09-19",
+      "reports": [
+        "daily/2026/09/2026-09-19.md"
+      ],
+      "status": "watching"
+    },
+    "tamaratran/fast-jev-compaction": {
+      "name": "fast-jev-compaction",
+      "repo_url": "https://github.com/tamaratran/fast-jev-compaction",
+      "categories": [
+        "context-engineering"
+      ],
+      "first_seen": "2026-09-19",
+      "last_reported": "2026-09-19",
+      "reports": [
+        "daily/2026/09/2026-09-19.md"
+      ],
+      "status": "watching"
+    },
+    "deepseek-ai/deepseek-harness": {
+      "name": "deepseek-harness",
+      "repo_url": "https://github.com/deepseek-ai/deepseek-harness",
+      "categories": [
+        "agent-harness"
+      ],
+      "first_seen": "2026-09-19",
+      "last_reported": "2026-09-19",
+      "reports": [
+        "daily/2026/09/2026-09-19.md"
+      ],
+      "status": "watching"
+    },
+    "trycua/cua": {
+      "name": "cua",
+      "repo_url": "https://github.com/trycua/cua",
+      "categories": [
+        "computer-use",
+        "sandbox"
+      ],
+      "first_seen": "2026-09-20",
+      "last_reported": "2026-09-20",
+      "reports": [
+        "daily/2026/09/2026-09-20.md"
+      ],
+      "status": "watching"
+    },
+    "yynxxxxx/Codex-X": {
+      "name": "Codex-X",
+      "repo_url": "https://github.com/yynxxxxx/Codex-X",
+      "categories": [
+        "coding-agent",
+        "management"
+      ],
+      "first_seen": "2026-09-21",
+      "last_reported": "2026-09-21",
+      "reports": [
+        "daily/2026/09/2026-09-21.md"
+      ],
+      "status": "watching"
+    },
+    "vercel-labs/json-render": {
+      "name": "json-render",
+      "repo_url": "https://github.com/vercel-labs/json-render",
+      "categories": [
+        "generative-ui"
+      ],
+      "first_seen": "2026-09-21",
+      "last_reported": "2026-09-21",
+      "reports": [
+        "daily/2026/09/2026-09-21.md"
+      ],
+      "status": "watching"
+    },
+    "krillinai/OpenCreator": {
+      "name": "OpenCreator",
+      "repo_url": "https://github.com/krillinai/OpenCreator",
+      "categories": [
+        "multimodal-agent"
+      ],
+      "first_seen": "2026-09-21",
+      "last_reported": "2026-09-21",
+      "reports": [
+        "daily/2026/09/2026-09-21.md"
+      ],
+      "status": "watching"
+    },
+    "BuilderIO/agent-native": {
+      "name": "agent-native",
+      "repo_url": "https://github.com/BuilderIO/agent-native",
+      "categories": [
+        "agent-framework",
+        "actions"
+      ],
+      "first_seen": "2026-09-22",
+      "last_reported": "2026-09-22",
+      "reports": [
+        "daily/2026/09/2026-09-22.md"
+      ],
+      "status": "watching"
+    },
+    "akitaonrails/ai-memory": {
+      "name": "ai-memory",
+      "repo_url": "https://github.com/akitaonrails/ai-memory",
+      "categories": [
+        "agent-memory"
+      ],
+      "first_seen": "2026-09-22",
+      "last_reported": "2026-09-22",
+      "reports": [
+        "daily/2026/09/2026-09-22.md"
+      ],
+      "status": "watching"
+    },
+    "coder/coder": {
+      "name": "coder",
+      "repo_url": "https://github.com/coder/coder",
+      "categories": [
+        "sandbox",
+        "dev-environment"
+      ],
+      "first_seen": "2026-09-22",
+      "last_reported": "2026-09-22",
+      "reports": [
+        "daily/2026/09/2026-09-22.md"
+      ],
+      "status": "watching"
+    },
+    "google/ax": {
+      "name": "ax",
+      "repo_url": "https://github.com/google/ax",
+      "categories": [
+        "agent-runtime",
+        "orchestration",
+        "sandbox"
+      ],
+      "first_seen": "2026-09-23",
+      "last_reported": "2026-09-23",
+      "reports": [
+        "daily/2026/09/2026-09-23.md"
+      ],
+      "status": "watching"
+    },
+    "Nasiko-Labs/nasiko": {
+      "name": "nasiko",
+      "repo_url": "https://github.com/Nasiko-Labs/nasiko",
+      "categories": [
+        "agent-control-plane"
+      ],
+      "first_seen": "2026-09-23",
+      "last_reported": "2026-09-23",
+      "reports": [
+        "daily/2026/09/2026-09-23.md"
+      ],
+      "status": "watching"
+    },
+    "jaredpalmer/kev": {
+      "name": "kev",
+      "repo_url": "https://github.com/jaredpalmer/kev",
+      "categories": [
+        "small-model",
+        "decision-layer"
+      ],
+      "first_seen": "2026-09-24",
+      "last_reported": "2026-09-24",
+      "reports": [
+        "daily/2026/09/2026-09-24.md"
+      ],
+      "status": "watching"
+    },
+    "NandhaKishorM/laya": {
+      "name": "laya",
+      "repo_url": "https://github.com/NandhaKishorM/laya",
+      "categories": [
+        "small-model",
+        "decision-layer"
+      ],
+      "first_seen": "2026-09-24",
+      "last_reported": "2026-09-24",
+      "reports": [
+        "daily/2026/09/2026-09-24.md"
+      ],
+      "status": "watching"
+    },
+    "unreallabsai/unreal-agent": {
+      "name": "unreal-agent",
+      "repo_url": "https://github.com/unreallabsai/unreal-agent",
+      "categories": [
+        "agent-harness",
+        "async"
+      ],
+      "first_seen": "2026-09-24",
+      "last_reported": "2026-09-24",
+      "reports": [
+        "daily/2026/09/2026-09-24.md"
+      ],
+      "status": "watching"
+    },
+    "CopilotKit/openmuse": {
+      "name": "openmuse",
+      "repo_url": "https://github.com/CopilotKit/openmuse",
+      "categories": [
+        "personal-agent",
+        "ag-ui"
+      ],
+      "first_seen": "2026-09-24",
+      "last_reported": "2026-09-24",
+      "reports": [
+        "daily/2026/09/2026-09-24.md"
+      ],
+      "status": "watching"
+    }
+  }
+}
