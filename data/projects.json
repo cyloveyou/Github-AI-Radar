@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-25",
+  "updated_at": "2026-09-26",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -301,6 +301,65 @@
       "last_reported": "2026-09-24",
       "reports": [
         "daily/2026/09/2026-09-24.md"
+      ],
+      "status": "watching"
+    },
+    "docker/sandbox-kit-spec": {
+      "name": "sandbox-kit-spec",
+      "repo_url": "https://github.com/docker/sandbox-kit-spec",
+      "categories": [
+        "agent-sandbox",
+        "packaging-standard",
+        "authority-as-code"
+      ],
+      "first_seen": "2026-09-26",
+      "last_reported": "2026-09-26",
+      "reports": [
+        "daily/2026/09/2026-09-26.md"
+      ],
+      "status": "watching"
+    },
+    "docker/sbx-releases": {
+      "name": "sbx-releases",
+      "repo_url": "https://github.com/docker/sbx-releases",
+      "categories": [
+        "agent-sandbox",
+        "cloud-runtime"
+      ],
+      "first_seen": "2026-09-26",
+      "last_reported": "2026-09-26",
+      "reports": [
+        "daily/2026/09/2026-09-26.md"
+      ],
+      "status": "watching"
+    },
+    "opensandbox-group/OpenSandbox": {
+      "name": "OpenSandbox",
+      "repo_url": "https://github.com/opensandbox-group/OpenSandbox",
+      "categories": [
+        "agent-sandbox",
+        "runtime",
+        "open-protocol"
+      ],
+      "first_seen": "2026-09-26",
+      "last_reported": "2026-09-26",
+      "reports": [
+        "daily/2026/09/2026-09-26.md"
+      ],
+      "status": "watching"
+    },
+    "microsoft/quicksand": {
+      "name": "quicksand",
+      "repo_url": "https://github.com/microsoft/quicksand",
+      "categories": [
+        "agent-sandbox",
+        "qemu",
+        "vm-runtime"
+      ],
+      "first_seen": "2026-09-26",
+      "last_reported": "2026-09-26",
+      "reports": [
+        "daily/2026/09/2026-09-26.md"
       ],
       "status": "watching"
     }

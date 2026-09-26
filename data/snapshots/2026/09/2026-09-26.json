@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-26",
+  "source": "GitHub REST repository metadata + official project documentation",
+  "projects": {
+    "docker/sandbox-kit-spec": {
+      "stars": 62,
+      "forks": 6,
+      "created_at": "2026-09-16T16:39:00Z",
+      "pushed_at": "2026-09-25T14:09:04Z"
+    },
+    "docker/sbx-releases": {
+      "stars": 405,
+      "forks": 22,
+      "created_at": "2026-03-03T14:37:50Z",
+      "pushed_at": "2026-09-25T08:31:21Z"
+    },
+    "opensandbox-group/OpenSandbox": {
+      "stars": 15513,
+      "forks": 1427,
+      "created_at": "2025-12-17T08:41:09Z",
+      "pushed_at": "2026-09-25T04:09:47Z"
+    },
+    "microsoft/quicksand": {
+      "stars": 53,
+      "forks": 7,
+      "created_at": "2026-04-14T18:50:56Z",
+      "pushed_at": "2026-09-24T22:26:59Z"
+    }
+  },
+  "notes": "Point-in-time values verified during the 2026-09-26 Asia/Shanghai radar run; no daily growth rate inferred without a prior snapshot."
+}
