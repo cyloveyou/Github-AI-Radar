@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-29",
+  "source": "GitHub REST repository metadata + NVIDIA official documentation",
+  "projects": {
+    "NVIDIA/OpenShell": {
+      "stars": 9397,
+      "forks": 1334,
+      "created_at": "2026-02-24T22:52:22Z",
+      "pushed_at": "2026-09-29T00:06:12Z",
+      "license": "Apache-2.0"
+    }
+  },
+  "notes": "Point-in-time values verified during this Radar run. Trigger is the 2026-09-28 Open Agent Safety Platform launch and the shift toward externally enforced runtime policy plus an independent watchdog; no daily growth rate inferred without a prior OpenShell snapshot."
+}

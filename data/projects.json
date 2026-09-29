@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-26",
+  "updated_at": "2026-09-29",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -360,6 +360,22 @@
       "last_reported": "2026-09-26",
       "reports": [
         "daily/2026/09/2026-09-26.md"
+      ],
+      "status": "watching"
+    },
+    "NVIDIA/OpenShell": {
+      "name": "OpenShell",
+      "repo_url": "https://github.com/NVIDIA/OpenShell",
+      "categories": [
+        "agent-runtime",
+        "sandbox",
+        "runtime-policy",
+        "agent-safety"
+      ],
+      "first_seen": "2026-09-29",
+      "last_reported": "2026-09-29",
+      "reports": [
+        "daily/2026/09/2026-09-29.md"
       ],
       "status": "watching"
     }

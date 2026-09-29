@@ -37,3 +37,13 @@ Docker Cloud Sandboxes 与 Sandbox Kit Specification v3 把此前的 Sandbox / R
 **Skills → Context/Memory → Computer Use → Harness → Sandbox → Runtime/Control Plane → Portable Authority + Cloud Execution**
 
 值得继续观察的核心问题是：OCI Kit / Sandbox Protocol 是否会像容器时代的镜像与运行时接口一样，形成 Agent 时代的可移植执行标准。
+
+## 2026-09-29 update — Runtime enforcement moves outside the agent
+
+NVIDIA 在 2026-09-28 发布 Open Agent Safety Platform，将 OpenShell secure runtime 与 Sentry out-of-band watchdog 组合为从软件到硬件/基础设施的 Agent 控制层。OpenShell 在 sandbox 外部执行文件、system call、网络与凭据策略，并对策略变更做形式化检查；Sentry 则把高风险监督进一步放到独立的硬件信任域。
+
+这使当前演化链继续扩展为：
+
+**Skills → Context/Memory → Computer Use → Harness → Sandbox → Runtime/Control Plane → Portable Authority → Runtime Policy Enforcement → Independent Oversight**
+
+与 9 月 26 日 Docker Sandbox Kit v3 的 Portable Authority 信号结合看，Agent 基础设施正在同时解决两个问题：**权限如何声明/分发**，以及 **权限如何在 Agent 无法绕过的边界上被真正执行**。
