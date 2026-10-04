@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-29",
+  "updated_at": "2026-10-03",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -376,6 +376,22 @@
       "last_reported": "2026-09-29",
       "reports": [
         "daily/2026/09/2026-09-29.md"
+      ],
+      "status": "watching"
+    },
+    "strands-labs/strands-decider": {
+      "name": "strands-decider",
+      "repo_url": "https://github.com/strands-labs/strands-decider",
+      "categories": [
+        "decision-model",
+        "system-one",
+        "agent-routing",
+        "guardrails"
+      ],
+      "first_seen": "2026-10-03",
+      "last_reported": "2026-10-03",
+      "reports": [
+        "daily/2026/10/2026-10-03.md"
       ],
       "status": "watching"
     }

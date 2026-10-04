@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-03",
+  "source": "GitHub REST repository metadata + official Strands Decider README + Cloudflare official announcement",
+  "projects": {
+    "strands-labs/strands-decider": {
+      "stars": 293,
+      "forks": 44,
+      "created_at": "2026-09-29T16:36:38Z",
+      "pushed_at": "2026-10-03T23:17:12Z",
+      "license": "Apache-2.0"
+    }
+  },
+  "notes": "Point-in-time values verified during this Radar run. Trigger is the transition from early small decision-layer experiments to explicit System-1 decision models, independently reinforced by Strands Decider and Cloudflare Clef/Clef-flash. No daily growth rate inferred without a prior strands-decider snapshot."
+}
