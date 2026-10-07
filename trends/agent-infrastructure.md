@@ -47,3 +47,13 @@ NVIDIA 在 2026-09-28 发布 Open Agent Safety Platform，将 OpenShell secure r
 **Skills → Context/Memory → Computer Use → Harness → Sandbox → Runtime/Control Plane → Portable Authority → Runtime Policy Enforcement → Independent Oversight**
 
 与 9 月 26 日 Docker Sandbox Kit v3 的 Portable Authority 信号结合看，Agent 基础设施正在同时解决两个问题：**权限如何声明/分发**，以及 **权限如何在 Agent 无法绕过的边界上被真正执行**。
+
+## 2026-10-06 — Kubernetes-native sandbox becomes an Agent workload primitive
+
+`kubernetes-sigs/agent-sandbox` v1.0.5 strengthens a new control-plane layer: declarative Sandbox CRDs, warm pools, durable claim adoption, direct runtime transports, framework adapters, browser/MCP bridging, observability, and interchangeable isolation backends. The important shift is from “sandbox as a security feature” to **sandbox as a schedulable, recoverable and observable Agent workload primitive**.
+
+Current infrastructure chain:
+
+`Harness → Sandbox → Runtime / Control Plane → Portable Authority → Runtime Policy Enforcement → Kubernetes-native Agent Workload Primitive`
+
+Watch next: cross-provider Sandbox API compatibility, E2B-compatible gateways, snapshot/suspend-resume semantics, and whether Agent frameworks standardize pluggable sandbox providers.
