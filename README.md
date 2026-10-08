@@ -10,8 +10,8 @@
 
 ![Status](https://img.shields.io/badge/status-active-success)
 <!-- RADAR_BADGES_START -->
-![Tracked](https://img.shields.io/badge/tracked_projects-29-blue)
-![Reports](https://img.shields.io/badge/daily_reports-12-blueviolet)
+![Tracked](https://img.shields.io/badge/tracked_projects-33-blue)
+![Reports](https://img.shields.io/badge/daily_reports-13-blueviolet)
 <!-- RADAR_BADGES_END -->
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -43,15 +43,14 @@ GitHub AI Radar 持续观察 GitHub 上**当前热门和快速上升的 AI 开�
 
 | Date | Project / Signal | Area | Why it matters |
 |---|---|---|---|
-| **09-24** | **kev / laya** | Small Model · Decision Layer | 小模型开始承担 Agent 高频分类、评分和路由，形成“大模型复杂推理 + 小模型高速决策”的潜在分层 |
-| **09-24** | **unreal-agent** | Async Agent Harness | 异步任务、可持久化与可 fork 会话历史开始进入 Harness 核心设计 |
-| **09-23** | **Google ax** | Runtime · Orchestration | Agent 从单个 CLI 进程进一步走向可调度、可隔离的 Runtime |
-| **09-22** | **agent-native** | Actions · Agent App | 一次定义 Action，同时服务 Agent、UI、HTTP、MCP、A2A 与 CLI |
-| **09-22** | **ai-memory** | Context · Memory | 用 Git + Markdown 把 Agent 长期记忆变成可读、可 diff、可回滚的项目资产 |
-| **09-20** | **CUA** | Computer Use | Agent 执行层从 Browser 进一步扩展到完整桌面与跨应用工作流 |
-| **09-18** | **BrowserSkill** | Browser Agent | 真实 Chromium 登录态开始成为 Agent Skill 的一部分 |
+| **10-07** | **autoharness** | Self-learning Skills · Harness | 真实会话生成的 Skill 开始有合并、证据账本与归档生命周期 |
+| **10-07** | **Agent Memory Repo** | Context · Memory Specification | Git/Markdown 记忆从单一实现进一步向跨 Agent 共享格式推进 |
+| **10-07** | **tester-army/e2e** | Agent Testing · Browser/Mobile | 自然语言探索动作与确定性断言、后续重放结合 |
+| **10-06** | **Kubernetes agent-sandbox** | Runtime · Control Plane | Sandbox 成为可调度、可预热、可恢复的 Agent workload primitive |
+| **10-03** | **Strands Decider / Clef** | System-1 · Decision Layer | Agent 高频路由与评分开始从生成式 LLM 拆分为专用决策模型 |
+| **09-29** | **NVIDIA OpenShell** | Runtime Policy Enforcement | 在 Agent 外部实施权限与运行时策略，强化隔离执行边界 |
 
-➡️ [Browse all daily reports](./daily/2026/09/) · [Read PDF archive](./pdf/)
+➡️ [Browse latest daily reports](./daily/2026/10/) · [Read PDF archive](./pdf/)
 
 ---
 
@@ -130,11 +129,11 @@ Literature / Data / Task
 <!-- RADAR_STATS_START -->
 | Metric | Current |
 |---|---:|
-| Tracked projects | **29** |
-| Triggered daily reports | **12** |
+| Tracked projects | **33** |
+| Triggered daily reports | **13** |
 | Trend notes | **4** |
 | Weekly reviews | **1** |
-| Historical PDF reports | **10** |
+| Historical PDF reports | **11** |
 | First observation | **2026-09-17** |
 <!-- RADAR_STATS_END -->
 

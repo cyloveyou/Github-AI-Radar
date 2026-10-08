@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-06",
+  "updated_at": "2026-10-07",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -408,6 +408,66 @@
       "last_reported": "2026-10-06",
       "reports": [
         "daily/2026/10/2026-10-06.md"
+      ],
+      "status": "watching"
+    },
+    "tigerless-labs/autoharness": {
+      "name": "autoharness",
+      "repo_url": "https://github.com/tigerless-labs/autoharness",
+      "categories": [
+        "coding-agent",
+        "agent-harness",
+        "self-learning-skills"
+      ],
+      "first_seen": "2026-10-07",
+      "last_reported": "2026-10-07",
+      "reports": [
+        "daily/2026/10/2026-10-07.md"
+      ],
+      "status": "watching"
+    },
+    "AgentMemoryRepo/agentmemoryrepo": {
+      "name": "Agent Memory Repo",
+      "repo_url": "https://github.com/AgentMemoryRepo/agentmemoryrepo",
+      "categories": [
+        "agent-memory",
+        "open-specification",
+        "git-backed-context"
+      ],
+      "first_seen": "2026-10-07",
+      "last_reported": "2026-10-07",
+      "reports": [
+        "daily/2026/10/2026-10-07.md"
+      ],
+      "status": "watching"
+    },
+    "tester-army/e2e": {
+      "name": "e2e",
+      "repo_url": "https://github.com/tester-army/e2e",
+      "categories": [
+        "agent-testing",
+        "browser-agent",
+        "mobile-automation"
+      ],
+      "first_seen": "2026-10-07",
+      "last_reported": "2026-10-07",
+      "reports": [
+        "daily/2026/10/2026-10-07.md"
+      ],
+      "status": "watching"
+    },
+    "CopilotKit/OpenDots": {
+      "name": "OpenDots",
+      "repo_url": "https://github.com/CopilotKit/OpenDots",
+      "categories": [
+        "persistent-agent",
+        "computer-use",
+        "human-in-the-loop"
+      ],
+      "first_seen": "2026-10-07",
+      "last_reported": "2026-10-07",
+      "reports": [
+        "daily/2026/10/2026-10-07.md"
       ],
       "status": "watching"
     }
