@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-07",
+  "updated_at": "2026-10-08",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -468,6 +468,37 @@
       "last_reported": "2026-10-07",
       "reports": [
         "daily/2026/10/2026-10-07.md"
+      ],
+      "status": "watching"
+    },
+    "morluto/rea": {
+      "name": "REA",
+      "repo_url": "https://github.com/morluto/rea",
+      "categories": [
+        "coding-agent",
+        "mcp",
+        "reverse-engineering",
+        "evidence-first"
+      ],
+      "first_seen": "2026-10-08",
+      "last_reported": "2026-10-08",
+      "reports": [
+        "daily/2026/10/2026-10-08.md"
+      ],
+      "status": "watching"
+    },
+    "cathrynlavery/diagram-design": {
+      "name": "diagram-design",
+      "repo_url": "https://github.com/cathrynlavery/diagram-design",
+      "categories": [
+        "coding-agent-skills",
+        "ai-tools",
+        "artifact-verification"
+      ],
+      "first_seen": "2026-10-08",
+      "last_reported": "2026-10-08",
+      "reports": [
+        "daily/2026/10/2026-10-08.md"
       ],
       "status": "watching"
     }

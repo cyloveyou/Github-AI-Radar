@@ -10,8 +10,8 @@
 
 ![Status](https://img.shields.io/badge/status-active-success)
 <!-- RADAR_BADGES_START -->
-![Tracked](https://img.shields.io/badge/tracked_projects-33-blue)
-![Reports](https://img.shields.io/badge/daily_reports-13-blueviolet)
+![Tracked](https://img.shields.io/badge/tracked_projects-35-blue)
+![Reports](https://img.shields.io/badge/daily_reports-14-blueviolet)
 <!-- RADAR_BADGES_END -->
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -43,6 +43,8 @@ GitHub AI Radar 持续观察 GitHub 上**当前热门和快速上升的 AI 开�
 
 | Date | Project / Signal | Area | Why it matters |
 |---|---|---|---|
+| **10-08** | **REA 5.0** | Coding Agent · MCP · Reverse Engineering | 专业分析工具聚合为带证据定位的 Agent 工作流，GitHub Trending 显著爆发 |
+| **10-08** | **diagram-design** | Skills · Verifiable Artifact | 跨宿主图表 Skill 引入几何、数据守恒和导出 CI 校验 |
 | **10-07** | **autoharness** | Self-learning Skills · Harness | 真实会话生成的 Skill 开始有合并、证据账本与归档生命周期 |
 | **10-07** | **Agent Memory Repo** | Context · Memory Specification | Git/Markdown 记忆从单一实现进一步向跨 Agent 共享格式推进 |
 | **10-07** | **tester-army/e2e** | Agent Testing · Browser/Mobile | 自然语言探索动作与确定性断言、后续重放结合 |
@@ -129,11 +131,11 @@ Literature / Data / Task
 <!-- RADAR_STATS_START -->
 | Metric | Current |
 |---|---:|
-| Tracked projects | **33** |
-| Triggered daily reports | **13** |
-| Trend notes | **4** |
+| Tracked projects | **35** |
+| Triggered daily reports | **14** |
+| Trend notes | **5** |
 | Weekly reviews | **1** |
-| Historical PDF reports | **11** |
+| Historical PDF reports | **12** |
 | First observation | **2026-09-17** |
 <!-- RADAR_STATS_END -->
 

@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-08",
+  "source": "GitHub REST repository metadata + official GitHub Trending Daily + primary release notes and README",
+  "projects": {
+    "morluto/rea": {
+      "stars": 16976,
+      "forks": 1773,
+      "open_issues": 90,
+      "created_at": "2026-04-14T00:51:32Z",
+      "pushed_at": "2026-10-08T05:40:11Z",
+      "license": "MIT"
+    },
+    "cathrynlavery/diagram-design": {
+      "stars": 45238,
+      "forks": 2906,
+      "open_issues": 46,
+      "created_at": "2026-04-16T18:01:16Z",
+      "pushed_at": "2026-10-08T01:34:39Z",
+      "license": "MIT"
+    }
+  },
+  "trending_daily_stars_observed": {
+    "morluto/rea": 4655,
+    "cathrynlavery/diagram-design": 825
+  },
+  "notes": "Daily-trending stars are an ephemeral GitHub Trending display statistic, not a calculated delta from historical snapshot metadata. Major trigger is REA 5.0.0 release and a strong official Trending signal. diagram-design is a secondary artifact verification signal.",
+  "verified_at_utc": "2026-10-08T05:54:21+00:00"
+}
