@@ -63,3 +63,9 @@ Watch next: cross-provider Sandbox API compatibility, E2B-compatible gateways, s
 `tester-army/e2e` 将自然语言驱动的 Web/Mobile 操作与显式断言、后续确定性重放结合，展示从「Agent 能完成动作」到「动作能被复验并纳入 CI」的转变。同期 `tigerless-labs/autoharness` 把 Skill 的在线生成与治理做成生命周期；`CopilotKit/OpenDots` 在此前 OpenMuse 基础上继续整合持久 per-agent computer、审批和后台任务。
 
 新增评估维度：Agent 操作的重放命中率、断言稳定性、技能复用与变更可审计性。这与 10 月 6 日 Kubernetes-native Sandbox Control Plane 属于互补层次，不能用一个层面的 Star 热度替代另一个层面的工程验证。
+
+## 2026-10-09 — Persistent workspace meets human-takeover control plane
+
+`paperclipai/paperclip` v2026.1005.0 将 per-agent 文件跨任务持久化、GitHub Skill 安装快照、MCP 连接器、Browser Use Cloud 实时观察/人工接管、多 Harness runner 组合成 Agent 任务控制面。它与 Kubernetes-native Sandbox 互补：前者偏任务、文件、工具与人机协同治理，后者偏基础设施 sandbox workload 调度。
+
+新增验证维度：状态恢复与并发文件冲突、技能供应链快照、浏览器接管授权与审计、Agent/人类控制权交接。Source: https://github.com/paperclipai/paperclip/releases/tag/v2026.1005.0

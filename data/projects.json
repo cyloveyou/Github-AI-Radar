@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-08",
+  "updated_at": "2026-10-09",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -481,9 +481,10 @@
         "evidence-first"
       ],
       "first_seen": "2026-10-08",
-      "last_reported": "2026-10-08",
+      "last_reported": "2026-10-09",
       "reports": [
-        "daily/2026/10/2026-10-08.md"
+        "daily/2026/10/2026-10-08.md",
+        "daily/2026/10/2026-10-09.md"
       ],
       "status": "watching"
     },
@@ -499,6 +500,38 @@
       "last_reported": "2026-10-08",
       "reports": [
         "daily/2026/10/2026-10-08.md"
+      ],
+      "status": "watching"
+    },
+    "paperclipai/paperclip": {
+      "name": "Paperclip",
+      "repo_url": "https://github.com/paperclipai/paperclip",
+      "categories": [
+        "agent-control-plane",
+        "persistent-workspace",
+        "human-in-the-loop",
+        "browser-use"
+      ],
+      "first_seen": "2026-10-09",
+      "last_reported": "2026-10-09",
+      "reports": [
+        "daily/2026/10/2026-10-09.md"
+      ],
+      "status": "watching"
+    },
+    "vectorize-io/hindsight": {
+      "name": "Hindsight",
+      "repo_url": "https://github.com/vectorize-io/hindsight",
+      "categories": [
+        "agent-memory",
+        "context",
+        "coding-agent",
+        "memory-governance"
+      ],
+      "first_seen": "2026-10-09",
+      "last_reported": "2026-10-09",
+      "reports": [
+        "daily/2026/10/2026-10-09.md"
       ],
       "status": "watching"
     }

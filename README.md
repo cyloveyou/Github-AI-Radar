@@ -10,8 +10,8 @@
 
 ![Status](https://img.shields.io/badge/status-active-success)
 <!-- RADAR_BADGES_START -->
-![Tracked](https://img.shields.io/badge/tracked_projects-35-blue)
-![Reports](https://img.shields.io/badge/daily_reports-14-blueviolet)
+![Tracked](https://img.shields.io/badge/tracked_projects-37-blue)
+![Reports](https://img.shields.io/badge/daily_reports-15-blueviolet)
 <!-- RADAR_BADGES_END -->
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -43,6 +43,9 @@ GitHub AI Radar 持续观察 GitHub 上**当前热门和快速上升的 AI 开�
 
 | Date | Project / Signal | Area | Why it matters |
 |---|---|---|---|
+| **10-09** | **Paperclip v2026.1005.0** | Agent Control Plane · Browser Use | 持久 Agent 工作区、Skill 快照与可接管浏览器统一到任务控制面 |
+| **10-09** | **Hindsight v0.10.3** | Memory · Coding Agent | 将历史事实记忆与团队行为指导分离，强化跨 Harness 记忆治理 |
+| **10-09** | **REA 6.0** | MCP · Evidence-first Toolchain | 路径输入契约破坏性升级，已收录项目出现可核验二次爆发 |
 | **10-08** | **REA 5.0** | Coding Agent · MCP · Reverse Engineering | 专业分析工具聚合为带证据定位的 Agent 工作流，GitHub Trending 显著爆发 |
 | **10-08** | **diagram-design** | Skills · Verifiable Artifact | 跨宿主图表 Skill 引入几何、数据守恒和导出 CI 校验 |
 | **10-07** | **autoharness** | Self-learning Skills · Harness | 真实会话生成的 Skill 开始有合并、证据账本与归档生命周期 |
@@ -131,11 +134,11 @@ Literature / Data / Task
 <!-- RADAR_STATS_START -->
 | Metric | Current |
 |---|---:|
-| Tracked projects | **35** |
-| Triggered daily reports | **14** |
+| Tracked projects | **37** |
+| Triggered daily reports | **15** |
 | Trend notes | **5** |
 | Weekly reviews | **1** |
-| Historical PDF reports | **12** |
+| Historical PDF reports | **13** |
 | First observation | **2026-09-17** |
 <!-- RADAR_STATS_END -->
 

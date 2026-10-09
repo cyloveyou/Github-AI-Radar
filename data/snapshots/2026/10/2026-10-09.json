@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-09",
+  "source": "GitHub REST official repository and release API",
+  "projects": {
+    "paperclipai/paperclip": {
+      "stars": 98844,
+      "forks": 16692,
+      "open_issues": 6231,
+      "created_at": "2026-03-02T15:01:51Z",
+      "pushed_at": "2026-10-09T00:19:17Z",
+      "license": "MIT"
+    },
+    "vectorize-io/hindsight": {
+      "stars": 47284,
+      "forks": 5970,
+      "open_issues": 167,
+      "created_at": "2025-10-30T11:49:48Z",
+      "pushed_at": "2026-10-08T21:42:39Z",
+      "license": "MIT"
+    },
+    "morluto/rea": {
+      "stars": 26123,
+      "forks": 2940,
+      "open_issues": 65,
+      "created_at": "2026-04-14T00:51:32Z",
+      "pushed_at": "2026-10-09T00:15:19Z",
+      "license": "MIT"
+    }
+  },
+  "observed_deltas": {
+    "morluto/rea": {
+      "previous_date": "2026-10-08",
+      "previous_verified_at_utc": "2026-10-08T05:54:21+00:00",
+      "previous_stars": 16976,
+      "previous_forks": 1773,
+      "stars_between_snapshots": 9147,
+      "forks_between_snapshots": 1167,
+      "note": "This is the difference between two GitHub REST snapshots, not a calendar-day delta."
+    }
+  },
+  "verified_at_utc": "2026-10-09T00:24:58+00:00",
+  "notes": "Release dates and breaking changes verified from official GitHub Releases. New projects lack comparable prior local snapshots."
+}
