@@ -69,3 +69,11 @@ Watch next: cross-provider Sandbox API compatibility, E2B-compatible gateways, s
 `paperclipai/paperclip` v2026.1005.0 将 per-agent 文件跨任务持久化、GitHub Skill 安装快照、MCP 连接器、Browser Use Cloud 实时观察/人工接管、多 Harness runner 组合成 Agent 任务控制面。它与 Kubernetes-native Sandbox 互补：前者偏任务、文件、工具与人机协同治理，后者偏基础设施 sandbox workload 调度。
 
 新增验证维度：状态恢复与并发文件冲突、技能供应链快照、浏览器接管授权与审计、Agent/人类控制权交接。Source: https://github.com/paperclipai/paperclip/releases/tag/v2026.1005.0
+
+## 2026-10-10 — Cross-tool semantic and temporal policy enforcement
+
+Strands Box v0.1.0 (2026-10-07) combines OS sandbox grants with an out-of-agent Dogwood default-deny policy engine. Controlled Shell/Python, egress gateway and MCP broker share an event history: a later HTTP request can be denied based on an earlier file read. Unlike OCI permission packaging or Kubernetes workload scheduling, the new axis is **history-aware cross-tool authorization**.
+
+**Boundary:** Direct Agent filesystem calls are governed by OS grants, not individual Dogwood policy decisions. Developer preview is Apple Silicon macOS only; Linux planned. No independent security benchmark.
+
+Sources: https://github.com/strands-agents/box ; https://strandsagents.com/blog/strands-box-the-big-picture/

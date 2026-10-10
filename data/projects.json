@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-09",
+  "updated_at": "2026-10-10",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -481,10 +481,11 @@
         "evidence-first"
       ],
       "first_seen": "2026-10-08",
-      "last_reported": "2026-10-09",
+      "last_reported": "2026-10-10",
       "reports": [
         "daily/2026/10/2026-10-08.md",
-        "daily/2026/10/2026-10-09.md"
+        "daily/2026/10/2026-10-09.md",
+        "daily/2026/10/2026-10-10.md"
       ],
       "status": "watching"
     },
@@ -532,6 +533,22 @@
       "last_reported": "2026-10-09",
       "reports": [
         "daily/2026/10/2026-10-09.md"
+      ],
+      "status": "watching"
+    },
+    "strands-agents/box": {
+      "name": "Strands Box",
+      "repo_url": "https://github.com/strands-agents/box",
+      "categories": [
+        "agent-sandbox",
+        "runtime-policy",
+        "temporal-authorization",
+        "mcp-security"
+      ],
+      "first_seen": "2026-10-10",
+      "last_reported": "2026-10-10",
+      "reports": [
+        "daily/2026/10/2026-10-10.md"
       ],
       "status": "watching"
     }

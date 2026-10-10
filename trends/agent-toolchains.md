@@ -15,3 +15,11 @@ Sources: https://github.com/morluto/rea/releases/tag/rea-agents-5.0.0 ; https://
 `morluto/rea` 于 2026-10-08 发布 v6.0.0：MCP 本地文件输入改为绝对主机路径（breaking change），扩展 ELF、Windows PE、LLDB、crash、历史浏览器证据和 EVM 分析。10-08 与 10-09 两次 GitHub REST 快照净增 9,147 Stars（非自然日增量），属于已收录项目的二次爆发，不重复视为新项目。
 
 Source: https://github.com/morluto/rea/releases/tag/rea-agents-6.0.0
+
+## 2026-10-10 — REA canonical Evidence and typed provenance contracts
+
+REA v6.2 / v6.3 makes canonical Evidence, profile-bound observations, producer and transaction identity, typed WebMCP schema hashes, event journals and inline evidence contexts required parts of analysis outputs. Missing provenance is rejected rather than silently repaired. Two official GitHub REST snapshots approximately 24.35 hours apart show +19,960 Stars, which is a snapshot delta, not calendar-day growth.
+
+The direction is **Agent toolchain → typed observations → provenance/integrity contract → auditable comparison**. These are breaking changes; archived evidence may need recapture, and independent accuracy benchmarks are not yet established.
+
+Sources: https://github.com/morluto/rea/releases/tag/rea-agents-6.2.0 ; https://github.com/morluto/rea/releases/tag/rea-agents-6.3.0
