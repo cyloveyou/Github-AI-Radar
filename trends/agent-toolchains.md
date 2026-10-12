@@ -23,3 +23,11 @@ REA v6.2 / v6.3 makes canonical Evidence, profile-bound observations, producer a
 The direction is **Agent toolchain → typed observations → provenance/integrity contract → auditable comparison**. These are breaking changes; archived evidence may need recapture, and independent accuracy benchmarks are not yet established.
 
 Sources: https://github.com/morluto/rea/releases/tag/rea-agents-6.2.0 ; https://github.com/morluto/rea/releases/tag/rea-agents-6.3.0
+
+## 2026-10-12 — Bounded evidence retrieval and runnable visual artifacts
+
+REA 6.4.0 把大型分析的保留证据改为可按摘要/选定视图读取，JS 分析隔离在带内存和超时上限的独立进程，并在资源不足时保留已知事实、明确标记未知项。相较 10-10 快照，约 47.47 小时净增 57,571 Stars（非自然日增量），但 Star 不能代表部署或准确性。
+
+新项目 Anatomy v1.0.0 用 SVG/WebGL/3D 和几何审计制作交互式技术示意图；answer-me-with-html v0.5.0 将 Agent 复杂回答打包为可离线交互的 HTML，包含 ER 图、变更标记和远程预览。与已收录 diagram-design 一起形成 **可运行产物 + 自动检查 + 人工复核** 的互补路线。形式验证不能替代科学正确性。
+
+Sources: https://github.com/morluto/rea/releases/tag/rea-agents-6.4.0 ; https://github.com/wheresryan22/anatomy/releases/tag/v1.0.0 ; https://github.com/QingYunA/answer-me-with-html/releases/tag/v0.5.0

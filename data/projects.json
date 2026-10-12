@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-10",
+  "updated_at": "2026-10-12",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -481,11 +481,12 @@
         "evidence-first"
       ],
       "first_seen": "2026-10-08",
-      "last_reported": "2026-10-10",
+      "last_reported": "2026-10-12",
       "reports": [
         "daily/2026/10/2026-10-08.md",
         "daily/2026/10/2026-10-09.md",
-        "daily/2026/10/2026-10-10.md"
+        "daily/2026/10/2026-10-10.md",
+        "daily/2026/10/2026-10-12.md"
       ],
       "status": "watching"
     },
@@ -549,6 +550,38 @@
       "last_reported": "2026-10-10",
       "reports": [
         "daily/2026/10/2026-10-10.md"
+      ],
+      "status": "watching"
+    },
+    "wheresryan22/anatomy": {
+      "name": "Anatomy",
+      "repo_url": "https://github.com/wheresryan22/anatomy",
+      "categories": [
+        "agent-skills",
+        "ai-tools",
+        "verifiable-artifacts",
+        "interactive-visualization"
+      ],
+      "first_seen": "2026-10-12",
+      "last_reported": "2026-10-12",
+      "reports": [
+        "daily/2026/10/2026-10-12.md"
+      ],
+      "status": "watching"
+    },
+    "QingYunA/answer-me-with-html": {
+      "name": "answer-me-with-html",
+      "repo_url": "https://github.com/QingYunA/answer-me-with-html",
+      "categories": [
+        "agent-skills",
+        "ai-tools",
+        "interactive-html",
+        "artifact-delivery"
+      ],
+      "first_seen": "2026-10-12",
+      "last_reported": "2026-10-12",
+      "reports": [
+        "daily/2026/10/2026-10-12.md"
       ],
       "status": "watching"
     }

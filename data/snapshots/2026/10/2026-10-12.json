@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-12",
+  "source": "Official GitHub REST repository metadata and GitHub release API",
+  "verified_at_utc": "2026-10-12T00:13:47Z",
+  "projects": {
+    "morluto/rea": {
+      "stars": 103654,
+      "forks": 22726,
+      "created_at": "2026-04-14T00:51:32Z",
+      "pushed_at": "2026-10-12T00:09:08Z",
+      "license": "MIT"
+    },
+    "wheresryan22/anatomy": {
+      "stars": 3256,
+      "forks": 248,
+      "created_at": "2026-10-08T10:12:49Z",
+      "pushed_at": "2026-10-11T23:50:41Z",
+      "license": "MIT"
+    },
+    "QingYunA/answer-me-with-html": {
+      "stars": 2900,
+      "forks": 196,
+      "created_at": "2026-10-02T09:57:40Z",
+      "pushed_at": "2026-10-11T09:06:28Z",
+      "license": "MIT"
+    }
+  },
+  "release_verification": {
+    "morluto/rea": {
+      "tag": "rea-agents-6.4.0",
+      "published_at": "2026-10-11T03:58:03Z",
+      "url": "https://github.com/morluto/rea/releases/tag/rea-agents-6.4.0"
+    },
+    "wheresryan22/anatomy": {
+      "tag": "v1.0.0",
+      "published_at": "2026-10-10T15:44:31Z",
+      "url": "https://github.com/wheresryan22/anatomy/releases/tag/v1.0.0"
+    },
+    "QingYunA/answer-me-with-html": {
+      "tag": "v0.5.0",
+      "published_at": "2026-10-09T11:22:46Z",
+      "url": "https://github.com/QingYunA/answer-me-with-html/releases/tag/v0.5.0"
+    }
+  },
+  "observed_deltas": {
+    "morluto/rea": {
+      "previous_date": "2026-10-10",
+      "previous_verified_at_utc": "2026-10-10T00:45:48+00:00",
+      "previous_stars": 46083,
+      "previous_forks": 7351,
+      "stars_between_snapshots": 57571,
+      "forks_between_snapshots": 15375,
+      "elapsed_hours": 47.47,
+      "note": "Difference between two REST observations, NOT calendar-day growth."
+    }
+  },
+  "notes": "No inferred daily growth for first-seen repositories. No independent performance or security benchmark."
+}

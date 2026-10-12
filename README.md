@@ -10,8 +10,8 @@
 
 ![Status](https://img.shields.io/badge/status-active-success)
 <!-- RADAR_BADGES_START -->
-![Tracked](https://img.shields.io/badge/tracked_projects-38-blue)
-![Reports](https://img.shields.io/badge/daily_reports-16-blueviolet)
+![Tracked](https://img.shields.io/badge/tracked_projects-40-blue)
+![Reports](https://img.shields.io/badge/daily_reports-17-blueviolet)
 <!-- RADAR_BADGES_END -->
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -43,6 +43,9 @@ GitHub AI Radar 持续观察 GitHub 上**当前热门和快速上升的 AI 开�
 
 | Date | Project / Signal | Area | Why it matters |
 |---|---|---|---|
+| **10-12** | **REA v6.4.0** | Evidence · Bounded Execution | 大型分析按需证据检索、独立受限进程和显式部分失败；两次 REST 快照再度显著加速 |
+| **10-12** | **Anatomy v1.0.0** | Skills · Interactive Visualization | SVG/WebGL/3D 技术示意图附几何审计与浏览器检查 |
+| **10-12** | **answer-me-with-html v0.5.0** | Skills · HTML Artifact | Agent 答案输出可交互 HTML，ER 图、变更标记和远程预览 |
 | **10-10** | **Strands Box v0.1.0** | Sandbox · Temporal Policy | 跨 Shell/Python/MCP/HTTP 共享事件历史的语义授权，OS 隔离与外部策略组合 |
 | **10-10** | **REA v6.2–v6.3** | MCP · Canonical Evidence | 证据身份/来源/完整性成为类型化契约，持续爆发但不重复视为新项目 |
 | **10-09** | **Paperclip v2026.1005.0** | Agent Control Plane · Browser Use | 持久 Agent 工作区、Skill 快照与可接管浏览器统一到任务控制面 |
@@ -136,11 +139,11 @@ Literature / Data / Task
 <!-- RADAR_STATS_START -->
 | Metric | Current |
 |---|---:|
-| Tracked projects | **38** |
-| Triggered daily reports | **16** |
+| Tracked projects | **40** |
+| Triggered daily reports | **17** |
 | Trend notes | **5** |
 | Weekly reviews | **1** |
-| Historical PDF reports | **14** |
+| Historical PDF reports | **15** |
 | First observation | **2026-09-17** |
 <!-- RADAR_STATS_END -->
 
