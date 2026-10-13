@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-14",
+  "source": "Official GitHub REST repositories/releases and GitHub Trending",
+  "verified_at_utc": "2026-10-13T23:50:26+00:00",
+  "projects": {
+    "heygen-com/hyperframes": {
+      "stars": 62751,
+      "forks": 5627,
+      "created_at": "2026-03-10T01:51:06Z",
+      "pushed_at": "2026-10-13T23:46:30Z",
+      "license": "Apache-2.0"
+    },
+    "thedotmack/claude-mem": {
+      "stars": 100431,
+      "forks": 8799,
+      "created_at": "2025-08-31T20:50:03Z",
+      "pushed_at": "2026-10-13T21:35:02Z",
+      "license": "Apache-2.0"
+    },
+    "cursor/plugins": {
+      "stars": 11219,
+      "forks": 1090,
+      "created_at": "2026-01-23T01:57:42Z",
+      "pushed_at": "2026-10-13T21:39:58Z",
+      "license": null
+    },
+    "morluto/rea": {
+      "stars": 206160,
+      "forks": 50200,
+      "created_at": "2026-04-14T00:51:32Z",
+      "pushed_at": "2026-10-13T23:46:02Z",
+      "license": "MIT"
+    }
+  },
+  "observed_deltas": {
+    "morluto/rea": {
+      "previous_date": "2026-10-13",
+      "previous_verified_at_utc": "2026-10-13T00:33:19+00:00",
+      "previous_stars": 156570,
+      "previous_forks": 36117,
+      "stars_between_snapshots": 49590,
+      "forks_between_snapshots": 14083,
+      "note": "Two REST snapshots; not calendar-day growth. No newer release than 6.4.0."
+    }
+  },
+  "notes": "Trending values are page display figures, not independently calculated REST deltas. No independent benchmark of claims.",
+  "trending_observed": {
+    "heygen-com/hyperframes": {
+      "weekly": 4482
+    },
+    "thedotmack/claude-mem": {
+      "weekly": 3762
+    },
+    "cursor/plugins": {
+      "weekly": 1144
+    },
+    "morluto/rea": {
+      "daily": 54706
+    }
+  },
+  "release_verification": {
+    "heygen-com/hyperframes": {
+      "tag": "v0.8.155",
+      "url": "https://github.com/heygen-com/hyperframes/releases/tag/v0.8.155",
+      "published_at": "2026-10-13T23:33:42Z"
+    },
+    "thedotmack/claude-mem": {
+      "tag": "v13.39.0",
+      "url": "https://github.com/thedotmack/claude-mem/releases/tag/v13.39.0",
+      "published_at": "2026-10-13T21:31:41Z"
+    },
+    "morluto/rea": {
+      "tag": "rea-agents-6.4.0",
+      "url": "https://github.com/morluto/rea/releases/tag/rea-agents-6.4.0",
+      "published_at": "2026-10-11T03:58:03Z"
+    }
+  }
+}

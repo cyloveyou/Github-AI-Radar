@@ -35,3 +35,11 @@ Sources: https://github.com/morluto/rea/releases/tag/rea-agents-6.4.0 ; https://
 ## 2026-10-13 — Agent artifacts reach CAD/engineering handoff
 
 `earthtojake/text-to-cad` connects agent Skills/MCP to local CAD generation, STEP/GLB/STL/3MF export, engineering drawings, DFM checks and fabrication workflows. This extends the earlier diagram-design/Anatomy emphasis on inspectable visual outputs toward **engineering-format artifacts and manufacturing handoff**. DFM checks cannot substitute for mechanical verification, tolerancing or independent engineering review. Source: https://github.com/earthtojake/text-to-cad
+
+## 2026-10-14 — Agent-native video artifacts and manifest-based distribution
+
+HyperFrames 将 HTML/CSS 与可寻址动画时间轴渲染为 MP4，提供跨 Coding Agent 的 Skills 和渲染 CLI，把可验证 Agent 成果物从图表、CAD 扩展到 **可重复执行的时间型媒体**。v0.8.155 修复 FFmpeg 边缘黑条并验证编码参数，但不是重大发布；跨平台逐帧一致性仍需独立测评。
+
+Cursor 官方 plugins 仓库以 `.cursor-plugin/plugin.json` 为插件声明入口，形成 Skills、连接器与工作流的分发层。官方目录不等于第三方插件权限已独立审计。
+
+Sources: https://github.com/heygen-com/hyperframes ; https://github.com/heygen-com/hyperframes/releases/tag/v0.8.155 ; https://github.com/cursor/plugins

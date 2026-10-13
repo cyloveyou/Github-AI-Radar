@@ -10,8 +10,8 @@
 
 ![Status](https://img.shields.io/badge/status-active-success)
 <!-- RADAR_BADGES_START -->
-![Tracked](https://img.shields.io/badge/tracked_projects-43-blue)
-![Reports](https://img.shields.io/badge/daily_reports-18-blueviolet)
+![Tracked](https://img.shields.io/badge/tracked_projects-46-blue)
+![Reports](https://img.shields.io/badge/daily_reports-19-blueviolet)
 <!-- RADAR_BADGES_END -->
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -43,6 +43,9 @@ GitHub AI Radar 持续观察 GitHub 上**当前热门和快速上升的 AI 开�
 
 | Date | Project / Signal | Area | Why it matters |
 |---|---|---|---|
+| **10-14** | **HyperFrames** | Coding Agent · Video Artifact | HTML/CSS/可寻址动画生成可重复渲染 MP4，Agent Skill 路由与编码参数校验 |
+| **10-14** | **claude-mem v13.39** | Memory · Subagent Lifecycle | Codex 子 Agent 压缩后按线程标识恢复记忆时间线，避免重复注入 |
+| **10-14** | **Cursor Plugins** | Coding Agent · Plugin Manifest | 官方插件目录以 Manifest 分发 Skills、连接器与团队工具 |
 | **10-13** | **OpenRig v0.6.10** | Multi-Harness · Team Runtime | 持久 Agent 团队与跨主机消息、会话恢复、交付不确定性显式处理 |
 | **10-13** | **Context Mode** | Context · MCP · Memory | 工具输出沙箱化、SQLite FTS5 事件索引与按需上下文路由 |
 | **10-13** | **text-to-cad** | Coding Agent · CAD · Artifacts | 从图形生成走向 STEP/DFM 与制造交接的工程成果物 |
@@ -142,11 +145,11 @@ Literature / Data / Task
 <!-- RADAR_STATS_START -->
 | Metric | Current |
 |---|---:|
-| Tracked projects | **43** |
-| Triggered daily reports | **18** |
+| Tracked projects | **46** |
+| Triggered daily reports | **19** |
 | Trend notes | **5** |
 | Weekly reviews | **1** |
-| Historical PDF reports | **16** |
+| Historical PDF reports | **17** |
 | First observation | **2026-09-17** |
 <!-- RADAR_STATS_END -->
 

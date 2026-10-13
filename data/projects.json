@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-13",
+  "updated_at": "2026-10-14",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -630,6 +630,53 @@
       "last_reported": "2026-10-13",
       "reports": [
         "daily/2026/10/2026-10-13.md"
+      ],
+      "status": "watching"
+    },
+    "heygen-com/hyperframes": {
+      "name": "HyperFrames",
+      "repo_url": "https://github.com/heygen-com/hyperframes",
+      "categories": [
+        "coding-agent",
+        "ai-tools",
+        "video-artifacts",
+        "agent-skills"
+      ],
+      "first_seen": "2026-10-14",
+      "last_reported": "2026-10-14",
+      "reports": [
+        "daily/2026/10/2026-10-14.md"
+      ],
+      "status": "watching"
+    },
+    "thedotmack/claude-mem": {
+      "name": "claude-mem",
+      "repo_url": "https://github.com/thedotmack/claude-mem",
+      "categories": [
+        "memory",
+        "context",
+        "coding-agent",
+        "subagent-recovery"
+      ],
+      "first_seen": "2026-10-14",
+      "last_reported": "2026-10-14",
+      "reports": [
+        "daily/2026/10/2026-10-14.md"
+      ],
+      "status": "watching"
+    },
+    "cursor/plugins": {
+      "name": "Cursor Plugins",
+      "repo_url": "https://github.com/cursor/plugins",
+      "categories": [
+        "coding-agent",
+        "plugins",
+        "harness-ecosystem"
+      ],
+      "first_seen": "2026-10-14",
+      "last_reported": "2026-10-14",
+      "reports": [
+        "daily/2026/10/2026-10-14.md"
       ],
       "status": "watching"
     }

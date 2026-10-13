@@ -24,3 +24,9 @@
 ## 2026-10-13 — Context as a routed data plane
 
 `mksglu/context-mode` keeps raw tool output outside the model window and uses sandboxed code processing plus SQLite FTS5/BM25 event retrieval to supply only relevant summaries/state. It claims 17 client integrations with MCP and hooks. Unlike Hindsight memory semantics, this focuses on **which bytes enter model context at all**. The project’s 98% saving is a self-reported example, not independent evidence. Source: https://github.com/mksglu/context-mode
+
+## 2026-10-14 — Subagent memory recovery after compaction
+
+claude-mem v13.39.0 修复 Codex 子 Agent 压缩后记忆时间线消失：按 `session_id + agent_id` 记录 PostCompact，在下一次 PostToolUse 中注入一次时间线，根线程的 SessionStart 清理标记。关键技术方向是 **线程级生命周期事件 → 上下文压缩边界 → 可恢复记忆状态**，区别于 Context Mode 的工具输出路由和 Hindsight 的记忆语义治理。并发、崩溃和 exactly-once 仍需独立验证。
+
+Source: https://github.com/thedotmack/claude-mem/releases/tag/v13.39.0
