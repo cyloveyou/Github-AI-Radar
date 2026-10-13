@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-12",
+  "updated_at": "2026-10-13",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -582,6 +582,54 @@
       "last_reported": "2026-10-12",
       "reports": [
         "daily/2026/10/2026-10-12.md"
+      ],
+      "status": "watching"
+    },
+    "mvschwarz/openrig": {
+      "name": "OpenRig",
+      "repo_url": "https://github.com/mvschwarz/openrig",
+      "categories": [
+        "multi-agent",
+        "harness",
+        "agent-runtime",
+        "control-plane"
+      ],
+      "first_seen": "2026-10-13",
+      "last_reported": "2026-10-13",
+      "reports": [
+        "daily/2026/10/2026-10-13.md"
+      ],
+      "status": "watching"
+    },
+    "mksglu/context-mode": {
+      "name": "Context Mode",
+      "repo_url": "https://github.com/mksglu/context-mode",
+      "categories": [
+        "context-engineering",
+        "memory",
+        "mcp",
+        "coding-agent"
+      ],
+      "first_seen": "2026-10-13",
+      "last_reported": "2026-10-13",
+      "reports": [
+        "daily/2026/10/2026-10-13.md"
+      ],
+      "status": "watching"
+    },
+    "earthtojake/text-to-cad": {
+      "name": "text-to-cad",
+      "repo_url": "https://github.com/earthtojake/text-to-cad",
+      "categories": [
+        "coding-agent",
+        "skills",
+        "cad",
+        "verifiable-artifacts"
+      ],
+      "first_seen": "2026-10-13",
+      "last_reported": "2026-10-13",
+      "reports": [
+        "daily/2026/10/2026-10-13.md"
       ],
       "status": "watching"
     }

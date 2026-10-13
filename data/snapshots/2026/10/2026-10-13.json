@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-13",
+  "source": "Official GitHub REST repositories/releases and GitHub Trending",
+  "verified_at_utc": "2026-10-13T00:33:19+00:00",
+  "projects": {
+    "mvschwarz/openrig": {
+      "stars": 7247,
+      "forks": 550,
+      "created_at": "2026-04-01T06:22:40Z",
+      "pushed_at": "2026-10-13T00:16:47Z",
+      "license": "Apache-2.0"
+    },
+    "mksglu/context-mode": {
+      "stars": 27280,
+      "forks": 1944,
+      "created_at": "2026-02-23T05:56:28Z",
+      "pushed_at": "2026-10-12T18:05:18Z",
+      "license": "NOASSERTION"
+    },
+    "earthtojake/text-to-cad": {
+      "stars": 19637,
+      "forks": 1932,
+      "created_at": "2026-04-22T01:09:45Z",
+      "pushed_at": "2026-10-12T23:51:24Z",
+      "license": "MIT"
+    },
+    "morluto/rea": {
+      "stars": 156570,
+      "forks": 36117,
+      "created_at": "2026-04-14T00:51:32Z",
+      "pushed_at": "2026-10-13T00:26:30Z",
+      "license": "MIT"
+    }
+  },
+  "release_verification": {
+    "mvschwarz/openrig": {
+      "tag": "v0.6.10",
+      "published_at": "2026-10-12T07:01:52Z",
+      "url": "https://github.com/mvschwarz/openrig/releases/tag/v0.6.10"
+    },
+    "mksglu/context-mode": {
+      "tag": "v1.0.169",
+      "published_at": "2026-06-29T18:18:53Z",
+      "url": "https://github.com/mksglu/context-mode/releases/tag/v1.0.169"
+    },
+    "earthtojake/text-to-cad": {
+      "tag": "v0.7.21",
+      "published_at": "2026-10-11T15:14:48Z",
+      "url": "https://github.com/earthtojake/text-to-cad/releases/tag/v0.7.21"
+    },
+    "morluto/rea": {
+      "tag": "rea-agents-6.4.0",
+      "published_at": "2026-10-11T03:58:03Z",
+      "url": "https://github.com/morluto/rea/releases/tag/rea-agents-6.4.0"
+    }
+  },
+  "trending_observed": {
+    "morluto/rea": {
+      "daily": {
+        "stars_displayed": 45327,
+        "label": "today"
+      },
+      "weekly": {
+        "stars_displayed": 130471,
+        "label": "this week"
+      }
+    },
+    "mksglu/context-mode": {
+      "daily": {
+        "stars_displayed": 246,
+        "label": "today"
+      }
+    },
+    "earthtojake/text-to-cad": {
+      "weekly": {
+        "stars_displayed": 2441,
+        "label": "this week"
+      }
+    },
+    "mvschwarz/openrig": {
+      "weekly": {
+        "stars_displayed": 2056,
+        "label": "this week"
+      }
+    }
+  },
+  "observed_deltas": {
+    "morluto/rea": {
+      "previous_date": "2026-10-12",
+      "previous_verified_at_utc": "2026-10-12T00:13:47Z",
+      "previous_stars": 103654,
+      "previous_forks": 22726,
+      "stars_between_snapshots": 52916,
+      "forks_between_snapshots": 13391,
+      "note": "Two REST samples; not calendar-day growth; no newer official release than v6.4.0."
+    }
+  },
+  "notes": "Trending values are ephemeral display metrics. Context Mode 98% reduction is self-reported, not an independent benchmark."
+}

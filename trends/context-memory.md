@@ -20,3 +20,7 @@
 `vectorize-io/hindsight` v0.10.3（2026-10-08 发布）在 Coding Agent 记忆中将「过去发生的事实记录」与「团队制定的行动指导」分离，并改进多 Harness 接入、后台记忆深化任务的锁和 429 处理。这是 10-07 可移植 Memory 之外的语义治理问题：**memory ≠ policy/instructions**，不能让旧事实自动变成长期命令。
 
 需要验证事实/指导冲突如何被发现、团队规则如何审批和撤回，以及跨 Codex、Hermes、TRAE 的兼容边界。Source: https://github.com/vectorize-io/hindsight/releases/tag/v0.10.3
+
+## 2026-10-13 — Context as a routed data plane
+
+`mksglu/context-mode` keeps raw tool output outside the model window and uses sandboxed code processing plus SQLite FTS5/BM25 event retrieval to supply only relevant summaries/state. It claims 17 client integrations with MCP and hooks. Unlike Hindsight memory semantics, this focuses on **which bytes enter model context at all**. The project’s 98% saving is a self-reported example, not independent evidence. Source: https://github.com/mksglu/context-mode

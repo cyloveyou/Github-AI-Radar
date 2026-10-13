@@ -31,3 +31,7 @@ REA 6.4.0 把大型分析的保留证据改为可按摘要/选定视图读取，
 新项目 Anatomy v1.0.0 用 SVG/WebGL/3D 和几何审计制作交互式技术示意图；answer-me-with-html v0.5.0 将 Agent 复杂回答打包为可离线交互的 HTML，包含 ER 图、变更标记和远程预览。与已收录 diagram-design 一起形成 **可运行产物 + 自动检查 + 人工复核** 的互补路线。形式验证不能替代科学正确性。
 
 Sources: https://github.com/morluto/rea/releases/tag/rea-agents-6.4.0 ; https://github.com/wheresryan22/anatomy/releases/tag/v1.0.0 ; https://github.com/QingYunA/answer-me-with-html/releases/tag/v0.5.0
+
+## 2026-10-13 — Agent artifacts reach CAD/engineering handoff
+
+`earthtojake/text-to-cad` connects agent Skills/MCP to local CAD generation, STEP/GLB/STL/3MF export, engineering drawings, DFM checks and fabrication workflows. This extends the earlier diagram-design/Anatomy emphasis on inspectable visual outputs toward **engineering-format artifacts and manufacturing handoff**. DFM checks cannot substitute for mechanical verification, tolerancing or independent engineering review. Source: https://github.com/earthtojake/text-to-cad

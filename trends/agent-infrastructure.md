@@ -77,3 +77,9 @@ Strands Box v0.1.0 (2026-10-07) combines OS sandbox grants with an out-of-agent 
 **Boundary:** Direct Agent filesystem calls are governed by OS grants, not individual Dogwood policy decisions. Developer preview is Apple Silicon macOS only; Linux planned. No independent security benchmark.
 
 Sources: https://github.com/strands-agents/box ; https://strandsagents.com/blog/strands-box-the-big-picture/
+
+## 2026-10-13 — Multi-harness team runtime needs explicit recovery semantics
+
+`mvschwarz/openrig` v0.6.9/0.6.10 uses YAML-defined team seats, persistent agent identities, queue and daemon state, cross-host messaging, and recovery of Claude/Codex sessions. A remote send whose outcome is unknown is explicitly `Delivery UNCONFIRMED`; a partly restored seat is not reported as fully restored. Unlike Paperclip task control or Kubernetes sandbox workload scheduling, this is **multi-harness team orchestration with explicit delivery/recovery semantics**.
+
+Watch: idempotency, duplicate execution after network timeout, persistent identity and access policy for cross-host seats. Sources: https://github.com/mvschwarz/openrig/releases/tag/v0.6.9 ; https://github.com/mvschwarz/openrig/releases/tag/v0.6.10

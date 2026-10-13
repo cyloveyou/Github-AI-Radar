@@ -10,8 +10,8 @@
 
 ![Status](https://img.shields.io/badge/status-active-success)
 <!-- RADAR_BADGES_START -->
-![Tracked](https://img.shields.io/badge/tracked_projects-40-blue)
-![Reports](https://img.shields.io/badge/daily_reports-17-blueviolet)
+![Tracked](https://img.shields.io/badge/tracked_projects-43-blue)
+![Reports](https://img.shields.io/badge/daily_reports-18-blueviolet)
 <!-- RADAR_BADGES_END -->
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -43,6 +43,9 @@ GitHub AI Radar 持续观察 GitHub 上**当前热门和快速上升的 AI 开�
 
 | Date | Project / Signal | Area | Why it matters |
 |---|---|---|---|
+| **10-13** | **OpenRig v0.6.10** | Multi-Harness · Team Runtime | 持久 Agent 团队与跨主机消息、会话恢复、交付不确定性显式处理 |
+| **10-13** | **Context Mode** | Context · MCP · Memory | 工具输出沙箱化、SQLite FTS5 事件索引与按需上下文路由 |
+| **10-13** | **text-to-cad** | Coding Agent · CAD · Artifacts | 从图形生成走向 STEP/DFM 与制造交接的工程成果物 |
 | **10-12** | **REA v6.4.0** | Evidence · Bounded Execution | 大型分析按需证据检索、独立受限进程和显式部分失败；两次 REST 快照再度显著加速 |
 | **10-12** | **Anatomy v1.0.0** | Skills · Interactive Visualization | SVG/WebGL/3D 技术示意图附几何审计与浏览器检查 |
 | **10-12** | **answer-me-with-html v0.5.0** | Skills · HTML Artifact | Agent 答案输出可交互 HTML，ER 图、变更标记和远程预览 |
@@ -139,11 +142,11 @@ Literature / Data / Task
 <!-- RADAR_STATS_START -->
 | Metric | Current |
 |---|---:|
-| Tracked projects | **40** |
-| Triggered daily reports | **17** |
+| Tracked projects | **43** |
+| Triggered daily reports | **18** |
 | Trend notes | **5** |
 | Weekly reviews | **1** |
-| Historical PDF reports | **15** |
+| Historical PDF reports | **16** |
 | First observation | **2026-09-17** |
 <!-- RADAR_STATS_END -->
 
