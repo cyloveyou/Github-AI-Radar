@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-14",
+  "updated_at": "2026-10-15",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -481,12 +481,13 @@
         "evidence-first"
       ],
       "first_seen": "2026-10-08",
-      "last_reported": "2026-10-12",
+      "last_reported": "2026-10-15",
       "reports": [
         "daily/2026/10/2026-10-08.md",
         "daily/2026/10/2026-10-09.md",
         "daily/2026/10/2026-10-10.md",
-        "daily/2026/10/2026-10-12.md"
+        "daily/2026/10/2026-10-12.md",
+        "daily/2026/10/2026-10-15.md"
       ],
       "status": "watching"
     },
@@ -515,9 +516,10 @@
         "browser-use"
       ],
       "first_seen": "2026-10-09",
-      "last_reported": "2026-10-09",
+      "last_reported": "2026-10-15",
       "reports": [
-        "daily/2026/10/2026-10-09.md"
+        "daily/2026/10/2026-10-09.md",
+        "daily/2026/10/2026-10-15.md"
       ],
       "status": "watching"
     },
@@ -677,6 +679,21 @@
       "last_reported": "2026-10-14",
       "reports": [
         "daily/2026/10/2026-10-14.md"
+      ],
+      "status": "watching"
+    },
+    "ifixai-ai/iFixAi": {
+      "name": "iFixAi",
+      "repo_url": "https://github.com/ifixai-ai/iFixAi",
+      "categories": [
+        "agent-audit",
+        "agent-evaluation",
+        "coding-agent"
+      ],
+      "first_seen": "2026-10-15",
+      "last_reported": "2026-10-15",
+      "reports": [
+        "daily/2026/10/2026-10-15.md"
       ],
       "status": "watching"
     }

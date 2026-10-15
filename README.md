@@ -10,8 +10,8 @@
 
 ![Status](https://img.shields.io/badge/status-active-success)
 <!-- RADAR_BADGES_START -->
-![Tracked](https://img.shields.io/badge/tracked_projects-46-blue)
-![Reports](https://img.shields.io/badge/daily_reports-19-blueviolet)
+![Tracked](https://img.shields.io/badge/tracked_projects-47-blue)
+![Reports](https://img.shields.io/badge/daily_reports-20-blueviolet)
 <!-- RADAR_BADGES_END -->
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -43,6 +43,9 @@ GitHub AI Radar 持续观察 GitHub 上**当前热门和快速上升的 AI 开�
 
 | Date | Project / Signal | Area | Why it matters |
 |---|---|---|---|
+| **10-15** | **iFixAi** | Agent Audit · Evaluation | 独立行为探针、跨供应商评判与评分可靠性修复，首次收录 |
+| **10-15** | **Paperclip v2026.1012** | MCP · Delegated Authority | 外部助手经用户授权进入控制面，工具授权 fail-closed |
+| **10-15** | **REA v6.5** | Evidence · Bounded Retrieval | 严格源文件范围、跨 bundle provenance 与分页证据 |
 | **10-14** | **HyperFrames** | Coding Agent · Video Artifact | HTML/CSS/可寻址动画生成可重复渲染 MP4，Agent Skill 路由与编码参数校验 |
 | **10-14** | **claude-mem v13.39** | Memory · Subagent Lifecycle | Codex 子 Agent 压缩后按线程标识恢复记忆时间线，避免重复注入 |
 | **10-14** | **Cursor Plugins** | Coding Agent · Plugin Manifest | 官方插件目录以 Manifest 分发 Skills、连接器与团队工具 |
@@ -100,7 +103,7 @@ GitHub AI Radar 持续观察 GitHub 上**当前热门和快速上升的 AI 开�
 
 > **如何让 Agent 长期、可靠、安全、低成本地完成真实任务。**
 
-📖 [Agent Infrastructure](./trends/agent-infrastructure.md) · [Context & Memory](./trends/context-memory.md) · [Browser & Computer Use](./trends/browser-computer-use.md) · [Efficient Decision Layer](./trends/efficient-decision-layer.md)
+📖 [Agent Infrastructure](./trends/agent-infrastructure.md) · [Context & Memory](./trends/context-memory.md) · [Browser & Computer Use](./trends/browser-computer-use.md) · [Efficient Decision Layer](./trends/efficient-decision-layer.md) · [Agent Audit](./trends/agent-audit.md)
 
 ---
 
@@ -145,11 +148,11 @@ Literature / Data / Task
 <!-- RADAR_STATS_START -->
 | Metric | Current |
 |---|---:|
-| Tracked projects | **46** |
-| Triggered daily reports | **19** |
-| Trend notes | **5** |
+| Tracked projects | **47** |
+| Triggered daily reports | **20** |
+| Trend notes | **6** |
 | Weekly reviews | **1** |
-| Historical PDF reports | **17** |
+| Historical PDF reports | **18** |
 | First observation | **2026-09-17** |
 <!-- RADAR_STATS_END -->
 

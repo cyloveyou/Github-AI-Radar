@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-15",
+  "source": "GitHub REST repositories and releases; official README",
+  "verified_at_utc": "2026-10-15T00:16:14Z",
+  "projects": {
+    "ifixai-ai/iFixAi": {
+      "stars": 27375,
+      "forks": 1503,
+      "created_at": "2026-04-27T13:02:34Z",
+      "license": "Apache-2.0"
+    },
+    "paperclipai/paperclip": {
+      "stars": 102160,
+      "forks": 17110,
+      "created_at": "2026-03-02T15:01:51Z",
+      "license": "MIT"
+    },
+    "morluto/rea": {
+      "stars": 241329,
+      "forks": 60044,
+      "created_at": "2026-04-14T00:51:32Z",
+      "license": "MIT"
+    },
+    "outcrawlai/scout": {
+      "stars": 646,
+      "forks": 22,
+      "created_at": "2026-10-13T09:18:55Z",
+      "status": "watchlist"
+    },
+    "Graphicle-AI/graphicle": {
+      "stars": 122,
+      "forks": 6,
+      "created_at": "2026-10-14T12:25:36Z",
+      "status": "watchlist"
+    }
+  },
+  "release_verification": {
+    "ifixai-ai/iFixAi": {
+      "tag": "v4.1.0",
+      "published_at": "2026-10-08T06:18:45Z"
+    },
+    "paperclipai/paperclip": {
+      "tag": "v2026.1012.0",
+      "published_at": "2026-10-12T21:06:53Z"
+    },
+    "morluto/rea": {
+      "tag": "rea-agents-6.5.0",
+      "published_at": "2026-10-14T12:32:45Z"
+    }
+  },
+  "observed_deltas": {
+    "morluto/rea": {
+      "previous_date": "2026-10-14",
+      "previous_verified_at_utc": "2026-10-13T23:50:26Z",
+      "previous_stars": 206160,
+      "previous_forks": 50200,
+      "stars_between_snapshots": 35169,
+      "forks_between_snapshots": 9844,
+      "note": "Anomalously large short-window difference. Not calendar-day growth or verified organic adoption."
+    }
+  },
+  "notes": "Official GitHub API readouts; no unverified Trending daily counts."
+}
