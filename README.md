@@ -10,8 +10,8 @@
 
 ![Status](https://img.shields.io/badge/status-active-success)
 <!-- RADAR_BADGES_START -->
-![Tracked](https://img.shields.io/badge/tracked_projects-47-blue)
-![Reports](https://img.shields.io/badge/daily_reports-20-blueviolet)
+![Tracked](https://img.shields.io/badge/tracked_projects-50-blue)
+![Reports](https://img.shields.io/badge/daily_reports-21-blueviolet)
 <!-- RADAR_BADGES_END -->
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -43,6 +43,9 @@ GitHub AI Radar 持续观察 GitHub 上**当前热门和快速上升的 AI 开�
 
 | Date | Project / Signal | Area | Why it matters |
 |---|---|---|---|
+| **10-16** | **XERJ signed corpus** | RAG · Agent Memory · Supply Chain | 签名 Agent 轨迹语料、时效校验与可追溯检索来源 |
+| **10-16** | **Scientific Agent Skills** | Scientific Agent · Skills | 177 项科研技能与开放标准，强调科研工作流验证 |
+| **10-16** | **VoiceStudio** | Local Models · MCP · Multimodal | 本地语音工具向 Coding Agent 的 MCP 接口扩展 |
 | **10-15** | **iFixAi** | Agent Audit · Evaluation | 独立行为探针、跨供应商评判与评分可靠性修复，首次收录 |
 | **10-15** | **Paperclip v2026.1012** | MCP · Delegated Authority | 外部助手经用户授权进入控制面，工具授权 fail-closed |
 | **10-15** | **REA v6.5** | Evidence · Bounded Retrieval | 严格源文件范围、跨 bundle provenance 与分页证据 |
@@ -148,11 +151,11 @@ Literature / Data / Task
 <!-- RADAR_STATS_START -->
 | Metric | Current |
 |---|---:|
-| Tracked projects | **47** |
-| Triggered daily reports | **20** |
-| Trend notes | **6** |
+| Tracked projects | **50** |
+| Triggered daily reports | **21** |
+| Trend notes | **7** |
 | Weekly reviews | **1** |
-| Historical PDF reports | **18** |
+| Historical PDF reports | **19** |
 | First observation | **2026-09-17** |
 <!-- RADAR_STATS_END -->
 

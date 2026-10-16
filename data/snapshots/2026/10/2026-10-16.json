@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-16",
+  "source": "GitHub REST and Trending Daily",
+  "projects": {
+    "xerj-org/xerj": {
+      "stars": 5612,
+      "forks": 307,
+      "created_at": "2026-06-30T04:32:45Z",
+      "license": "Apache-2.0"
+    },
+    "K-Dense-AI/scientific-agent-skills": {
+      "stars": 50440,
+      "forks": 4486,
+      "created_at": "2025-10-19T20:54:15Z",
+      "license": "MIT"
+    },
+    "debpalash/VoiceStudio": {
+      "stars": 69024,
+      "forks": 7554,
+      "created_at": "2026-04-09T21:40:26Z",
+      "license": "AGPL-3.0"
+    },
+    "morluto/rea": {
+      "stars": 269367,
+      "forks": 67518,
+      "created_at": "2026-04-14T00:51:32Z",
+      "status": "watchlist",
+      "stars_since_previous_snapshot": 28038,
+      "note": "Unusually large difference, not verified organic growth"
+    }
+  },
+  "trending_daily_stars_observed": {
+    "xerj-org/xerj": 725,
+    "K-Dense-AI/scientific-agent-skills": 1091,
+    "debpalash/VoiceStudio": 3027
+  },
+  "observation_window_utc": "2026-10-15 23:53-23:55 UTC",
+  "release_verification": {
+    "xerj-org/xerj": {"tag": "pack-agent-session-trajectories-2026-10-15", "published_at": "2026-10-15T09:41:28Z", "type": "signed corpus pack"},
+    "K-Dense-AI/scientific-agent-skills": {"tag": "v2.72.0", "published_at": "2026-10-01T22:42:08Z"},
+    "debpalash/VoiceStudio": {"tag": "v0.5.6", "published_at": "2026-09-23T08:53:32Z"}
+  },
+  "notes": "Trending instantaneous values are not computed daily growth; project benchmarks are self-reported."
+}

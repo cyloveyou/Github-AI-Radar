@@ -30,3 +30,9 @@
 claude-mem v13.39.0 修复 Codex 子 Agent 压缩后记忆时间线消失：按 `session_id + agent_id` 记录 PostCompact，在下一次 PostToolUse 中注入一次时间线，根线程的 SessionStart 清理标记。关键技术方向是 **线程级生命周期事件 → 上下文压缩边界 → 可恢复记忆状态**，区别于 Context Mode 的工具输出路由和 Hindsight 的记忆语义治理。并发、崩溃和 exactly-once 仍需独立验证。
 
 Source: https://github.com/thedotmack/claude-mem/releases/tag/v13.39.0
+
+## 2026-10-16 — Signed retrieval corpora as an Agent data-plane boundary
+
+XERJ 发布带签名的 Agent 会话轨迹语料包，包含失败步骤、构建元数据和 30 天过期拒绝策略。与 Context Mode 的上下文路由不同，这里强调检索前的语料来源与时效：**provenance → signature/freshness → indexing → retrieval**。签名不保证内容真实，仍需污染与偏差检测。
+
+Source: https://github.com/xerj-org/xerj/releases/tag/pack-agent-session-trajectories-2026-10-15
