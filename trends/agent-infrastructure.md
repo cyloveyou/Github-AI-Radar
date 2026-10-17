@@ -89,3 +89,9 @@ Watch: idempotency, duplicate execution after network timeout, persistent identi
 Substrate v0.5.0 引入多版本 SandboxConfig、WorkerPool sandboxClasses、SnapshotFidelity 梯度与 preferred_fidelity；Actor JWT 可在 egress gateway 签发并注入网络策略，未配置策略时默认拒绝 DNS，系统入口默认拒绝。其与 Kubernetes Agent Sandbox 的 CRD/调度层互补，重点是 **versioned workload configuration → recovery fidelity → actor identity → controlled egress**。升级存在 Breaking Changes，安全性质需要实测而非仅看 release notes。
 
 Source: https://github.com/agent-substrate/substrate/releases/tag/v0.5.0
+
+## 2026-10-18 — Multi-harness workspace control requires host ownership and per-chat permissions
+
+Orca v1.4.227/229 integrates per-native-chat Claude/Codex permission modes, desktop/mobile/SSH workspaces, explicit remote-host CLI control, and host-scoped workspace association. The critical runtime invariant is that a project on host A must not be confused with an identical-path project on host B. This complements OpenRig delivery/recovery and Paperclip task control rather than replacing them. Release notes describe fixes, not independent isolation validation.
+
+Source: https://github.com/stablyai/orca/releases/tag/v1.4.229

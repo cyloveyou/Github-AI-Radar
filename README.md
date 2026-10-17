@@ -10,8 +10,8 @@
 
 ![Status](https://img.shields.io/badge/status-active-success)
 <!-- RADAR_BADGES_START -->
-![Tracked](https://img.shields.io/badge/tracked_projects-52-blue)
-![Reports](https://img.shields.io/badge/daily_reports-22-blueviolet)
+![Tracked](https://img.shields.io/badge/tracked_projects-55-blue)
+![Reports](https://img.shields.io/badge/daily_reports-23-blueviolet)
 <!-- RADAR_BADGES_END -->
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -43,6 +43,9 @@ GitHub AI Radar 持续观察 GitHub 上**当前热门和快速上升的 AI 开�
 
 | Date | Project / Signal | Area | Why it matters |
 |---|---|---|---|
+| **10-18** | **Orca v1.4.229** | Multi-Harness · Remote Workspaces | 原生会话权限、SSH/手机协作与跨主机所有权修复 |
+| **10-18** | **Android Skills v1.0.15** | Domain Skills · Android | Google 官方 LiteRT、Compose 性能与车载开发技能 |
+| **10-18** | **billion-context v0.1.198–199** | Context · Long-lived Agent | 增量摄取、状态持久化与会话恢复竞态修复 |
 | **10-17** | **PageIndex v0.4.1** | RAG · Agent Tools | Flash 布局优先索引与本地/云端统一检索工具契约 |
 | **10-17** | **Substrate v0.5.0** | Sandbox · Actor Runtime | 配置版本化、快照恢复保真度、Actor 身份与默认拒绝出站 |
 | **10-17** | **XERJ rc.96** | Retrieval · Audit | 公开未通过的错误且自信检测门槛，区分来源签名与结论可靠性 |
@@ -154,11 +157,11 @@ Literature / Data / Task
 <!-- RADAR_STATS_START -->
 | Metric | Current |
 |---|---:|
-| Tracked projects | **52** |
-| Triggered daily reports | **22** |
+| Tracked projects | **55** |
+| Triggered daily reports | **23** |
 | Trend notes | **7** |
 | Weekly reviews | **1** |
-| Historical PDF reports | **20** |
+| Historical PDF reports | **21** |
 | First observation | **2026-09-17** |
 <!-- RADAR_STATS_END -->
 

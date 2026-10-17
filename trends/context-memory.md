@@ -42,3 +42,9 @@ Source: https://github.com/xerj-org/xerj/releases/tag/pack-agent-session-traject
 PageIndex v0.4.1 通过 PDF 布局/书签构造结构树，再用 LLM 摘要与可选扩展，减少纯 LLM 结构生成开销；本地/云端 SDK 共享 Agent Tools 形态，覆盖 OpenAI/Anthropic/MCP。与 XERJ 的语料签名、Context Mode 的上下文路由互补：**document structure → index build → retrieval tool contract → agent use**。成本更低属于官方主张，必须以同语料召回率、问答正确率和模型调用费用对照验证。
 
 Source: https://github.com/VectifyAI/PageIndex/releases/tag/v0.4.1
+
+## 2026-10-18 — Compaction requires incremental ingest and concurrency-safe recovery
+
+billion-context v0.1.198/199 introduces per-session ingest watermarks, delta-turn upload, fsync+rename state persistence, stale-reference checks, and dsh attach/takeover race fixes. Unlike Context Mode (tool-output routing) or claude-mem (thread memory restoration), this is long-lived context as a stateful data plane: delta ingestion, reference lifetime, transport, recovery idempotence and repair tooling. Claimed 5x token saving is project-reported; a fast release path skips portions of CI, so independent regression testing matters.
+
+Sources: https://github.com/ranxianglei/billion-context/releases/tag/v0.1.198 ; https://github.com/ranxianglei/billion-context/releases/tag/v0.1.199

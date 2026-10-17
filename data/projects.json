@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-17",
+  "updated_at": "2026-10-18",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -740,6 +740,52 @@
       "first_seen": "2026-10-17",
       "last_reported": "2026-10-17",
       "reports": ["daily/2026/10/2026-10-17.md"],
+      "status": "watching"
+    },
+    "stablyai/orca": {
+      "name": "Orca",
+      "repo_url": "https://github.com/stablyai/orca",
+      "categories": [
+        "coding-agent",
+        "multi-harness",
+        "remote-workspace",
+        "automation"
+      ],
+      "first_seen": "2026-10-18",
+      "last_reported": "2026-10-18",
+      "reports": [
+        "daily/2026/10/2026-10-18.md"
+      ],
+      "status": "watching"
+    },
+    "android/skills": {
+      "name": "Android Skills",
+      "repo_url": "https://github.com/android/skills",
+      "categories": [
+        "coding-agent-skills",
+        "android",
+        "domain-skills"
+      ],
+      "first_seen": "2026-10-18",
+      "last_reported": "2026-10-18",
+      "reports": [
+        "daily/2026/10/2026-10-18.md"
+      ],
+      "status": "watching"
+    },
+    "ranxianglei/billion-context": {
+      "name": "billion-context",
+      "repo_url": "https://github.com/ranxianglei/billion-context",
+      "categories": [
+        "context-engineering",
+        "compaction",
+        "agent-runtime"
+      ],
+      "first_seen": "2026-10-18",
+      "last_reported": "2026-10-18",
+      "reports": [
+        "daily/2026/10/2026-10-18.md"
+      ],
       "status": "watching"
     }
   }

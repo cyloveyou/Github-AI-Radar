@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-18",
+  "observation_utc": "2026-10-17T23:49:29+00:00",
+  "source": "Official GitHub REST, Releases, and Trending Daily/Weekly",
+  "projects": {
+    "stablyai/orca": {
+      "stars": 95379,
+      "forks": 6109,
+      "created_at": "2026-03-17T03:28:57Z",
+      "pushed_at": "2026-10-17T23:49:24Z",
+      "license": "MIT"
+    },
+    "android/skills": {
+      "stars": 8410,
+      "forks": 554,
+      "created_at": "2026-03-16T12:41:46Z",
+      "pushed_at": "2026-10-16T10:07:27Z",
+      "license": "Apache-2.0"
+    },
+    "ranxianglei/billion-context": {
+      "stars": 1715,
+      "forks": 137,
+      "created_at": "2026-08-06T08:27:34Z",
+      "pushed_at": "2026-10-17T21:39:06Z",
+      "license": "NOASSERTION"
+    },
+    "morluto/rea": {
+      "stars": 307376,
+      "forks": 77769,
+      "created_at": "2026-04-14T00:51:32Z",
+      "pushed_at": "2026-10-17T23:49:15Z",
+      "license": "MIT"
+    }
+  },
+  "trending_daily_stars_observed": {
+    "stablyai/orca": 829,
+    "android/skills": 368
+  },
+  "trending_weekly_stars_observed": {
+    "ranxianglei/billion-context": 779
+  },
+  "release_verification": {
+    "stablyai/orca": {
+      "tag": "v1.4.229",
+      "published_at": "2026-10-17T06:54:05Z"
+    },
+    "android/skills": {
+      "tag": "v1.0.15",
+      "published_at": "2026-10-14T11:24:10Z"
+    },
+    "ranxianglei/billion-context": {
+      "tags": [
+        "v0.1.198",
+        "v0.1.199"
+      ],
+      "published_at": [
+        "2026-10-17T11:44:38Z",
+        "2026-10-17T17:18:03Z"
+      ]
+    }
+  },
+  "notes": "Trending stars are observed display values, not measured deltas. Project self-reported performance is not independent validation.",
+  "stars_since_previous_snapshot": {
+    "morluto/rea": 16502
+  }
+}
