@@ -15,3 +15,9 @@ Paperclip v2026.1012.0 增加实验性 Assistant Connection (MCP)：外部 Codin
 Sources:
 - https://github.com/ifixai-ai/iFixAi/releases/tag/v4.1.0
 - https://github.com/paperclipai/paperclip/releases/tag/v2026.1012.0
+
+## 2026-10-17 — Publish failed correctness gates rather than success-only metrics
+
+XERJ v1.0.0-rc.96 公开了“wrong-and-confident detection”真实 watcher 路径测试未达标：0.2449，而门槛为 ≤0.05。它不是合格率提升，而是**可审计的失败证据**，与前一期语料签名结合说明：来源签名无法替代错误结论检测。应继续跟踪门槛修复、复测协议和第三方复现。
+
+Source: https://github.com/xerj-org/xerj/releases/tag/v1.0.0-rc.96

@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-17",
+  "source": "GitHub REST repository metadata; official GitHub Releases; GitHub Trending Daily",
+  "observation_window_utc": "2026-10-17T00:11:00Z (approximately; REST requests sampled sequentially)",
+  "projects": {
+    "VectifyAI/PageIndex": {
+      "stars": 39190,
+      "forks": 3402,
+      "created_at": "2025-04-01",
+      "license": "MIT",
+      "first_seen": "2026-10-17"
+    },
+    "agent-substrate/substrate": {
+      "stars": 5316,
+      "forks": 583,
+      "created_at": "2026-05-13",
+      "license": "Apache-2.0",
+      "first_seen": "2026-10-17"
+    },
+    "xerj-org/xerj": {
+      "stars": 6918,
+      "forks": 352,
+      "created_at": "2026-06-30",
+      "license": "Apache-2.0"
+    },
+    "morluto/rea": {
+      "stars": 290874,
+      "forks": 73181,
+      "created_at": "2026-04-14",
+      "license": "MIT",
+      "status": "watchlist"
+    }
+  },
+  "release_verification": {
+    "VectifyAI/PageIndex": {
+      "tag": "v0.4.1",
+      "published_at": "2026-10-16T08:15:02Z",
+      "url": "https://github.com/VectifyAI/PageIndex/releases/tag/v0.4.1"
+    },
+    "agent-substrate/substrate": {
+      "tag": "v0.5.0",
+      "published_at": "2026-10-14T22:22:40Z",
+      "url": "https://github.com/agent-substrate/substrate/releases/tag/v0.5.0"
+    },
+    "xerj-org/xerj": {
+      "tag": "v1.0.0-rc.96",
+      "published_at": "2026-10-16T14:51:29Z",
+      "url": "https://github.com/xerj-org/xerj/releases/tag/v1.0.0-rc.96"
+    }
+  },
+  "trending_daily_stars_observed": {
+    "xerj-org/xerj": 1648
+  },
+  "stars_since_previous_snapshot": {
+    "xerj-org/xerj": 1306,
+    "morluto/rea": 21507
+  },
+  "notes": "Stars since previous snapshot are differences between two discrete REST samples, not exact natural-day growth. GitHub Trending daily stars are an independent snapshot display. PageIndex cost claim is unverified by independent benchmark; Substrate security is not independently audited here; XERJ wrong-and-confident detection gate FAILED: 0.2449 vs <=0.05."
+}

@@ -83,3 +83,9 @@ Sources: https://github.com/strands-agents/box ; https://strandsagents.com/blog/
 `mvschwarz/openrig` v0.6.9/0.6.10 uses YAML-defined team seats, persistent agent identities, queue and daemon state, cross-host messaging, and recovery of Claude/Codex sessions. A remote send whose outcome is unknown is explicitly `Delivery UNCONFIRMED`; a partly restored seat is not reported as fully restored. Unlike Paperclip task control or Kubernetes sandbox workload scheduling, this is **multi-harness team orchestration with explicit delivery/recovery semantics**.
 
 Watch: idempotency, duplicate execution after network timeout, persistent identity and access policy for cross-host seats. Sources: https://github.com/mvschwarz/openrig/releases/tag/v0.6.9 ; https://github.com/mvschwarz/openrig/releases/tag/v0.6.10
+
+## 2026-10-17 — Versioned Sandbox config, snapshot fidelity, and Actor egress identity
+
+Substrate v0.5.0 引入多版本 SandboxConfig、WorkerPool sandboxClasses、SnapshotFidelity 梯度与 preferred_fidelity；Actor JWT 可在 egress gateway 签发并注入网络策略，未配置策略时默认拒绝 DNS，系统入口默认拒绝。其与 Kubernetes Agent Sandbox 的 CRD/调度层互补，重点是 **versioned workload configuration → recovery fidelity → actor identity → controlled egress**。升级存在 Breaking Changes，安全性质需要实测而非仅看 release notes。
+
+Source: https://github.com/agent-substrate/substrate/releases/tag/v0.5.0

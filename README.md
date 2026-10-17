@@ -10,8 +10,8 @@
 
 ![Status](https://img.shields.io/badge/status-active-success)
 <!-- RADAR_BADGES_START -->
-![Tracked](https://img.shields.io/badge/tracked_projects-50-blue)
-![Reports](https://img.shields.io/badge/daily_reports-21-blueviolet)
+![Tracked](https://img.shields.io/badge/tracked_projects-52-blue)
+![Reports](https://img.shields.io/badge/daily_reports-22-blueviolet)
 <!-- RADAR_BADGES_END -->
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -43,6 +43,9 @@ GitHub AI Radar 持续观察 GitHub 上**当前热门和快速上升的 AI 开�
 
 | Date | Project / Signal | Area | Why it matters |
 |---|---|---|---|
+| **10-17** | **PageIndex v0.4.1** | RAG · Agent Tools | Flash 布局优先索引与本地/云端统一检索工具契约 |
+| **10-17** | **Substrate v0.5.0** | Sandbox · Actor Runtime | 配置版本化、快照恢复保真度、Actor 身份与默认拒绝出站 |
+| **10-17** | **XERJ rc.96** | Retrieval · Audit | 公开未通过的错误且自信检测门槛，区分来源签名与结论可靠性 |
 | **10-16** | **XERJ signed corpus** | RAG · Agent Memory · Supply Chain | 签名 Agent 轨迹语料、时效校验与可追溯检索来源 |
 | **10-16** | **Scientific Agent Skills** | Scientific Agent · Skills | 177 项科研技能与开放标准，强调科研工作流验证 |
 | **10-16** | **VoiceStudio** | Local Models · MCP · Multimodal | 本地语音工具向 Coding Agent 的 MCP 接口扩展 |
@@ -151,11 +154,11 @@ Literature / Data / Task
 <!-- RADAR_STATS_START -->
 | Metric | Current |
 |---|---:|
-| Tracked projects | **50** |
-| Triggered daily reports | **21** |
+| Tracked projects | **52** |
+| Triggered daily reports | **22** |
 | Trend notes | **7** |
 | Weekly reviews | **1** |
-| Historical PDF reports | **19** |
+| Historical PDF reports | **20** |
 | First observation | **2026-09-17** |
 <!-- RADAR_STATS_END -->
 

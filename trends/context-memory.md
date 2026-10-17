@@ -36,3 +36,9 @@ Source: https://github.com/thedotmack/claude-mem/releases/tag/v13.39.0
 XERJ 发布带签名的 Agent 会话轨迹语料包，包含失败步骤、构建元数据和 30 天过期拒绝策略。与 Context Mode 的上下文路由不同，这里强调检索前的语料来源与时效：**provenance → signature/freshness → indexing → retrieval**。签名不保证内容真实，仍需污染与偏差检测。
 
 Source: https://github.com/xerj-org/xerj/releases/tag/pack-agent-session-trajectories-2026-10-15
+
+## 2026-10-17 — Vectorless RAG: layout-first trees and portable Agent retrieval tools
+
+PageIndex v0.4.1 通过 PDF 布局/书签构造结构树，再用 LLM 摘要与可选扩展，减少纯 LLM 结构生成开销；本地/云端 SDK 共享 Agent Tools 形态，覆盖 OpenAI/Anthropic/MCP。与 XERJ 的语料签名、Context Mode 的上下文路由互补：**document structure → index build → retrieval tool contract → agent use**。成本更低属于官方主张，必须以同语料召回率、问答正确率和模型调用费用对照验证。
+
+Source: https://github.com/VectifyAI/PageIndex/releases/tag/v0.4.1
