@@ -10,8 +10,8 @@
 
 ![Status](https://img.shields.io/badge/status-active-success)
 <!-- RADAR_BADGES_START -->
-![Tracked](https://img.shields.io/badge/tracked_projects-60-blue)
-![Reports](https://img.shields.io/badge/daily_reports-24-blueviolet)
+![Tracked](https://img.shields.io/badge/tracked_projects-65-blue)
+![Reports](https://img.shields.io/badge/daily_reports-25-blueviolet)
 <!-- RADAR_BADGES_END -->
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -43,6 +43,12 @@ GitHub AI Radar 持续观察 GitHub 上**当前热门和快速上升的 AI 开�
 
 | Date | Project / Signal | Area | Why it matters |
 |---|---|---|---|
+| **10-20** | **Perplexity SPACE** | Agent Sandbox · Firecracker | 微虚拟机生命周期、异步执行、warm pools 与网络策略；10 月 20 日提交级加固 |
+| **10-20** | **Headroom v0.41.0** | Context · Compression · Proxy | 跨协议请求压缩、可恢复缓存与按 Agent 费用归因 |
+| **10-20** | **ESP32 iPhone Agent** | Computer Use · iOS | ESP32-S3 AirPlay/USB HID + 同机 iPhone Agent；主分支新架构，尚非新 Release |
+| **10-20** | **Magpie v0.1.1294** | Coding Agent · Model Gateway | Ollama 兼容入口、跨 Harness 模型路由和 Git Skills |
+| **10-20** | **Scout** | Browser Agent · Model Routing | Browser hands/eyes/brain/extract 分工与云端/本地/CDP 运行 |
+| **10-19** | **Ruflo / Rakazo / Graphify / TencentDB Memory / Otari** | Policy · Automation · Context | 默认权限、事件触发、代码图谱保真、记忆决策与供应商白名单 |
 | **10-18** | **Orca v1.4.229** | Multi-Harness · Remote Workspaces | 原生会话权限、SSH/手机协作与跨主机所有权修复 |
 | **10-18** | **Android Skills v1.0.15** | Domain Skills · Android | Google 官方 LiteRT、Compose 性能与车载开发技能 |
 | **10-18** | **billion-context v0.1.198–199** | Context · Long-lived Agent | 增量摄取、状态持久化与会话恢复竞态修复 |
@@ -157,11 +163,11 @@ Literature / Data / Task
 <!-- RADAR_STATS_START -->
 | Metric | Current |
 |---|---:|
-| Tracked projects | **60** |
-| Triggered daily reports | **24** |
+| Tracked projects | **65** |
+| Triggered daily reports | **25** |
 | Trend notes | **7** |
 | Weekly reviews | **1** |
-| Historical PDF reports | **22** |
+| Historical PDF reports | **23** |
 | First observation | **2026-09-17** |
 <!-- RADAR_STATS_END -->
 

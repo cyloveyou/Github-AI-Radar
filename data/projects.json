@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-19",
+  "updated_at": "2026-10-20",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -700,46 +700,80 @@
     "xerj-org/xerj": {
       "name": "XERJ",
       "repo_url": "https://github.com/xerj-org/xerj",
-      "categories": ["rag", "mcp", "signed-corpus", "agent-memory"],
+      "categories": [
+        "rag",
+        "mcp",
+        "signed-corpus",
+        "agent-memory"
+      ],
       "first_seen": "2026-10-16",
       "last_reported": "2026-10-17",
-      "reports": ["daily/2026/10/2026-10-16.md", "daily/2026/10/2026-10-17.md"],
+      "reports": [
+        "daily/2026/10/2026-10-16.md",
+        "daily/2026/10/2026-10-17.md"
+      ],
       "status": "watching"
     },
     "K-Dense-AI/scientific-agent-skills": {
       "name": "Scientific Agent Skills",
       "repo_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "categories": ["scientific-agent", "agent-skills", "research-workflows"],
+      "categories": [
+        "scientific-agent",
+        "agent-skills",
+        "research-workflows"
+      ],
       "first_seen": "2026-10-16",
       "last_reported": "2026-10-16",
-      "reports": ["daily/2026/10/2026-10-16.md"],
+      "reports": [
+        "daily/2026/10/2026-10-16.md"
+      ],
       "status": "watching"
     },
     "debpalash/VoiceStudio": {
       "name": "VoiceStudio",
       "repo_url": "https://github.com/debpalash/VoiceStudio",
-      "categories": ["local-models", "mcp", "multimodal"],
+      "categories": [
+        "local-models",
+        "mcp",
+        "multimodal"
+      ],
       "first_seen": "2026-10-16",
       "last_reported": "2026-10-16",
-      "reports": ["daily/2026/10/2026-10-16.md"],
+      "reports": [
+        "daily/2026/10/2026-10-16.md"
+      ],
       "status": "watching"
     },
     "VectifyAI/PageIndex": {
       "name": "PageIndex",
       "repo_url": "https://github.com/VectifyAI/PageIndex",
-      "categories": ["rag", "context", "agent-tools", "document-index"],
+      "categories": [
+        "rag",
+        "context",
+        "agent-tools",
+        "document-index"
+      ],
       "first_seen": "2026-10-17",
       "last_reported": "2026-10-17",
-      "reports": ["daily/2026/10/2026-10-17.md"],
+      "reports": [
+        "daily/2026/10/2026-10-17.md"
+      ],
       "status": "watching"
     },
     "agent-substrate/substrate": {
       "name": "Substrate",
       "repo_url": "https://github.com/agent-substrate/substrate",
-      "categories": ["agent-runtime", "sandbox", "control-plane", "actor-identity"],
+      "categories": [
+        "agent-runtime",
+        "sandbox",
+        "control-plane",
+        "actor-identity"
+      ],
       "first_seen": "2026-10-17",
       "last_reported": "2026-10-17",
-      "reports": ["daily/2026/10/2026-10-17.md"],
+      "reports": [
+        "daily/2026/10/2026-10-17.md"
+      ],
       "status": "watching"
     },
     "stablyai/orca": {
@@ -791,46 +825,155 @@
     "ruvnet/ruflo": {
       "name": "Ruflo",
       "repo_url": "https://github.com/ruvnet/ruflo",
-      "categories": ["agent-harness", "coding-agent", "mcp-security", "runtime-policy"],
+      "categories": [
+        "agent-harness",
+        "coding-agent",
+        "mcp-security",
+        "runtime-policy"
+      ],
       "first_seen": "2026-10-19",
       "last_reported": "2026-10-19",
-      "reports": ["daily/2026/10/2026-10-19.md"],
+      "reports": [
+        "daily/2026/10/2026-10-19.md"
+      ],
       "status": "watching"
     },
     "elie222/rakazo": {
       "name": "Rakazo",
       "repo_url": "https://github.com/elie222/rakazo",
-      "categories": ["automation", "personal-agent", "event-trigger", "sandbox"],
+      "categories": [
+        "automation",
+        "personal-agent",
+        "event-trigger",
+        "sandbox"
+      ],
       "first_seen": "2026-10-19",
       "last_reported": "2026-10-19",
-      "reports": ["daily/2026/10/2026-10-19.md"],
+      "reports": [
+        "daily/2026/10/2026-10-19.md"
+      ],
       "status": "watching"
     },
     "Graphify-Labs/graphify": {
       "name": "Graphify",
       "repo_url": "https://github.com/Graphify-Labs/graphify",
-      "categories": ["rag", "code-knowledge-graph"],
+      "categories": [
+        "rag",
+        "code-knowledge-graph"
+      ],
       "first_seen": "2026-10-19",
       "last_reported": "2026-10-19",
-      "reports": ["daily/2026/10/2026-10-19.md"],
+      "reports": [
+        "daily/2026/10/2026-10-19.md"
+      ],
       "status": "watching"
     },
     "TencentCloud/TencentDB-Agent-Memory": {
       "name": "TencentDB Agent Memory",
       "repo_url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
-      "categories": ["agent-memory", "skill-routing", "decision-service", "team-memory"],
+      "categories": [
+        "agent-memory",
+        "skill-routing",
+        "decision-service",
+        "team-memory"
+      ],
       "first_seen": "2026-10-19",
       "last_reported": "2026-10-19",
-      "reports": ["daily/2026/10/2026-10-19.md"],
+      "reports": [
+        "daily/2026/10/2026-10-19.md"
+      ],
       "status": "watching"
     },
     "mozilla-ai/otari": {
       "name": "Otari",
       "repo_url": "https://github.com/mozilla-ai/otari",
-      "categories": ["llm-gateway", "provider-access-control", "local-models"],
+      "categories": [
+        "llm-gateway",
+        "provider-access-control",
+        "local-models"
+      ],
       "first_seen": "2026-10-19",
       "last_reported": "2026-10-19",
-      "reports": ["daily/2026/10/2026-10-19.md"],
+      "reports": [
+        "daily/2026/10/2026-10-19.md"
+      ],
+      "status": "watching"
+    },
+    "perplexityai/SPACE": {
+      "name": "SPACE",
+      "repo_url": "https://github.com/perplexityai/SPACE",
+      "categories": [
+        "agent-sandbox",
+        "firecracker",
+        "agent-runtime",
+        "network-policy"
+      ],
+      "first_seen": "2026-10-20",
+      "last_reported": "2026-10-20",
+      "reports": [
+        "daily/2026/10/2026-10-20.md"
+      ],
+      "status": "watching"
+    },
+    "headroomlabs-ai/headroom": {
+      "name": "Headroom",
+      "repo_url": "https://github.com/headroomlabs-ai/headroom",
+      "categories": [
+        "context-engineering",
+        "compression",
+        "llm-proxy",
+        "mcp"
+      ],
+      "first_seen": "2026-10-20",
+      "last_reported": "2026-10-20",
+      "reports": [
+        "daily/2026/10/2026-10-20.md"
+      ],
+      "status": "watching"
+    },
+    "onehumanbeing/esp32-iphone-agent": {
+      "name": "ESP32 iPhone Agent",
+      "repo_url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+      "categories": [
+        "computer-use",
+        "ios",
+        "hardware-agent"
+      ],
+      "first_seen": "2026-10-20",
+      "last_reported": "2026-10-20",
+      "reports": [
+        "daily/2026/10/2026-10-20.md"
+      ],
+      "status": "watching"
+    },
+    "yetone/magpie": {
+      "name": "Magpie",
+      "repo_url": "https://github.com/yetone/magpie",
+      "categories": [
+        "coding-agent",
+        "model-gateway",
+        "multi-harness"
+      ],
+      "first_seen": "2026-10-20",
+      "last_reported": "2026-10-20",
+      "reports": [
+        "daily/2026/10/2026-10-20.md"
+      ],
+      "status": "watching"
+    },
+    "outcrawlai/scout": {
+      "name": "Scout",
+      "repo_url": "https://github.com/outcrawlai/scout",
+      "categories": [
+        "browser-agent",
+        "computer-use",
+        "model-routing"
+      ],
+      "first_seen": "2026-10-20",
+      "last_reported": "2026-10-20",
+      "reports": [
+        "daily/2026/10/2026-10-20.md"
+      ],
       "status": "watching"
     }
   }

@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-20",
+  "observation_utc": "2026-10-20T00:33:42+00:00",
+  "source": "Official GitHub REST API, project READMEs, release notes and default-branch commits; GitHub Trending Daily/Weekly",
+  "projects": {
+    "perplexityai/SPACE": {
+      "stars": 1682,
+      "forks": 139,
+      "created_at": "2026-10-01T18:43:46Z",
+      "pushed_at": "2026-10-20T00:33:14Z",
+      "license": "Apache-2.0"
+    },
+    "headroomlabs-ai/headroom": {
+      "stars": 76239,
+      "forks": 5924,
+      "created_at": "2026-01-07T19:58:51Z",
+      "pushed_at": "2026-10-17T18:29:50Z",
+      "license": "Apache-2.0"
+    },
+    "onehumanbeing/esp32-iphone-agent": {
+      "stars": 3283,
+      "forks": 436,
+      "created_at": "2026-10-11T19:10:25Z",
+      "pushed_at": "2026-10-19T21:10:19Z",
+      "license": "MIT"
+    },
+    "yetone/magpie": {
+      "stars": 16997,
+      "forks": 1226,
+      "created_at": "2026-09-23T16:22:35Z",
+      "pushed_at": "2026-10-19T22:27:02Z",
+      "license": "MIT"
+    },
+    "outcrawlai/scout": {
+      "stars": 951,
+      "forks": 29,
+      "created_at": "2026-10-13T09:18:55Z",
+      "pushed_at": "2026-10-20T00:05:46Z",
+      "license": "Apache-2.0"
+    }
+  },
+  "release_verification": {
+    "perplexityai/SPACE": {
+      "commit": "c17d28284d10",
+      "committed_at": "2026-10-20T00:13:46Z",
+      "note": "default-branch guardrail fix; no GitHub release"
+    },
+    "headroomlabs-ai/headroom": {
+      "tag": "v0.41.0",
+      "published_at": "2026-10-14T22:46:09Z",
+      "commit": "fbf7bc3278c1",
+      "note": "release plus subsequent default-branch HTTP/WebSocket Responses hook"
+    },
+    "onehumanbeing/esp32-iphone-agent": {
+      "tag": "v0.1.0",
+      "published_at": "2026-10-14T20:51:32Z",
+      "commit": "f911d841c0f6",
+      "note": "tag is LEGACY architecture; iPhone-only app redesign on main since 2026-10-15, not yet released"
+    },
+    "yetone/magpie": {
+      "tag": "v0.1.1294",
+      "published_at": "2026-10-19T18:23:55Z"
+    },
+    "outcrawlai/scout": {
+      "commit": "2c880d6806",
+      "committed_at": "2026-10-20T00:05:45Z",
+      "note": "public GitHub mirror of upstream repository; no GitHub release"
+    }
+  },
+  "notes": "Point-in-time REST counts, not 24-hour gains. No independent performance, security or success-rate validation. iPhone app redesign and SPACE guardrail fix are default-branch commits, not formal releases. Scout repository states it mirrors an upstream repository."
+}

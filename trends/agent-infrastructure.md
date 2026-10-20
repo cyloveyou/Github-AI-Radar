@@ -105,3 +105,12 @@ Rakazo 10 月 18 日主分支提交新增 RoutineWatch：监控文件、命令�
 Mozilla Otari v0.28.0 要求显式声明可用模型供应商，未声明返回 424；本地无密钥模型也须注册。它与 Ruflo 工具权限互补：分别控制可调用的模型和 Agent 可执行的工具。升级是 Breaking Change。
 
 Sources: https://github.com/ruvnet/ruflo/releases/tag/v3.57.0 ; https://github.com/elie222/rakazo/commit/4429327e918e555ec91b43eb5c974a81b72cc8c4 ; https://github.com/mozilla-ai/otari/releases/tag/v0.28.0
+
+
+## 2026-10-20 — MicroVM sandbox lifecycle and cross-harness model routing
+
+Perplexity SPACE combines Firecracker microVMs with async sandbox lifecycle, data-plane output streams, warm pools, snapshots and operator egress policies. The 2026-10-19/20 commits narrow network-policy exceptions and validate sandbox identifiers. Unlike Substrate's actor identity and recovery fidelity, this emphasizes an HTTP-compatible execution substrate and deployable network controls; changes are not yet a tagged release.
+
+Magpie v0.1.1294 exposes a local cross-harness model gateway as an Ollama-compatible endpoint, following v0.1.1293's arbitrary Git-sourced Skills support. This complements Otari's provider allowlisting: policy says which provider may run; routing says how models and protocols are connected. Test credentials, subscription authorization and tool-call fidelity independently.
+
+Sources: https://github.com/perplexityai/SPACE ; https://github.com/perplexityai/SPACE/commit/c17d28284d10 ; https://github.com/yetone/magpie/releases/tag/v0.1.1294

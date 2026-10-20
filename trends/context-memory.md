@@ -56,3 +56,10 @@ Graphify v0.9.92 修复多语言 AST 调用解析、节点 ID 冲突，以及 gr
 TencentDB Agent Memory v2.0.3-beta.1 将 Skill 选择和 Memory L3 更新判定纳入可插拔决策服务，支持按需加载 Skill 和保存会话轨迹。新能力默认关闭，决策服务失败可回退。这补足了此前 Hindsight 的事实/指导分离和 Context Mode 的输出路由：**memory asset → selection/update policy → observable agent reuse**。需要评估错误 Skill 选择、记忆遗漏与决策服务故障。
 
 Sources: https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.92 ; https://github.com/TencentCloud/TencentDB-Agent-Memory/releases/tag/v2.0.3-beta.1
+
+
+## 2026-10-20 — Reversible compression at the model request boundary
+
+Headroom v0.41.0 brings context compression to an agent-facing proxy, MCP, local cache and per-agent cost attribution. The later HTTP/WebSocket Responses hook integrates Codex-like streaming request paths. Compared with Context Mode's output sandbox and retrieval, the differentiator is a reversible compression gateway with observability. Vendor-reported token savings and answer preservation require independent task-level testing.
+
+Sources: https://github.com/headroomlabs-ai/headroom/releases/tag/v0.41.0 ; https://github.com/headroomlabs-ai/headroom/commit/fbf7bc3278c1
