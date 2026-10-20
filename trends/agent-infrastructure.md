@@ -95,3 +95,13 @@ Source: https://github.com/agent-substrate/substrate/releases/tag/v0.5.0
 Orca v1.4.227/229 integrates per-native-chat Claude/Codex permission modes, desktop/mobile/SSH workspaces, explicit remote-host CLI control, and host-scoped workspace association. The critical runtime invariant is that a project on host A must not be confused with an identical-path project on host B. This complements OpenRig delivery/recovery and Paperclip task control rather than replacing them. Release notes describe fixes, not independent isolation validation.
 
 Source: https://github.com/stablyai/orca/releases/tag/v1.4.229
+
+## 2026-10-19 — Safer defaults and conditional automation
+
+Ruflo v3.57.0 将 Codex 初始化默认权限改为 workspace-write/on-request/cached，要求显式开启高信任模式；本机 MCP bridge 检查 loopback Host 与 Origin 白名单，并强化策略账本的独立锚点校验。这是在 Harness 配置、MCP 入口和审计账本三层实施最小权限治理。需验证旧配置迁移与权限回归。
+
+Rakazo 10 月 18 日主分支提交新增 RoutineWatch：监控文件、命令或集成工具结果的指纹，变化后才启动 Agent；检查失败则暂停并报告。形成 scheduled polling → deterministic change detection → conditional agent execution 的路线。该能力尚非正式 Release，需评估漏报、误报与延迟。
+
+Mozilla Otari v0.28.0 要求显式声明可用模型供应商，未声明返回 424；本地无密钥模型也须注册。它与 Ruflo 工具权限互补：分别控制可调用的模型和 Agent 可执行的工具。升级是 Breaking Change。
+
+Sources: https://github.com/ruvnet/ruflo/releases/tag/v3.57.0 ; https://github.com/elie222/rakazo/commit/4429327e918e555ec91b43eb5c974a81b72cc8c4 ; https://github.com/mozilla-ai/otari/releases/tag/v0.28.0

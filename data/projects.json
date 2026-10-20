@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-18",
+  "updated_at": "2026-10-19",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -786,6 +786,51 @@
       "reports": [
         "daily/2026/10/2026-10-18.md"
       ],
+      "status": "watching"
+    },
+    "ruvnet/ruflo": {
+      "name": "Ruflo",
+      "repo_url": "https://github.com/ruvnet/ruflo",
+      "categories": ["agent-harness", "coding-agent", "mcp-security", "runtime-policy"],
+      "first_seen": "2026-10-19",
+      "last_reported": "2026-10-19",
+      "reports": ["daily/2026/10/2026-10-19.md"],
+      "status": "watching"
+    },
+    "elie222/rakazo": {
+      "name": "Rakazo",
+      "repo_url": "https://github.com/elie222/rakazo",
+      "categories": ["automation", "personal-agent", "event-trigger", "sandbox"],
+      "first_seen": "2026-10-19",
+      "last_reported": "2026-10-19",
+      "reports": ["daily/2026/10/2026-10-19.md"],
+      "status": "watching"
+    },
+    "Graphify-Labs/graphify": {
+      "name": "Graphify",
+      "repo_url": "https://github.com/Graphify-Labs/graphify",
+      "categories": ["rag", "code-knowledge-graph"],
+      "first_seen": "2026-10-19",
+      "last_reported": "2026-10-19",
+      "reports": ["daily/2026/10/2026-10-19.md"],
+      "status": "watching"
+    },
+    "TencentCloud/TencentDB-Agent-Memory": {
+      "name": "TencentDB Agent Memory",
+      "repo_url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "categories": ["agent-memory", "skill-routing", "decision-service", "team-memory"],
+      "first_seen": "2026-10-19",
+      "last_reported": "2026-10-19",
+      "reports": ["daily/2026/10/2026-10-19.md"],
+      "status": "watching"
+    },
+    "mozilla-ai/otari": {
+      "name": "Otari",
+      "repo_url": "https://github.com/mozilla-ai/otari",
+      "categories": ["llm-gateway", "provider-access-control", "local-models"],
+      "first_seen": "2026-10-19",
+      "last_reported": "2026-10-19",
+      "reports": ["daily/2026/10/2026-10-19.md"],
       "status": "watching"
     }
   }

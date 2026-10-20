@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-19",
+  "observation_utc": "2026-10-18T23:47:19+00:00",
+  "source": "Official GitHub REST, Releases, Commits and Trending Daily/Weekly",
+  "projects": {
+    "ruvnet/ruflo": {
+      "stars": 76501,
+      "forks": 9046,
+      "created_at": "2025-06-02T21:24:20Z",
+      "pushed_at": "2026-10-18T11:13:04Z",
+      "license": "MIT"
+    },
+    "elie222/rakazo": {
+      "stars": 4589,
+      "forks": 832,
+      "created_at": "2026-08-13T06:28:56Z",
+      "pushed_at": "2026-10-18T23:44:31Z",
+      "license": "Apache-2.0"
+    },
+    "Graphify-Labs/graphify": {
+      "stars": 128407,
+      "forks": 12376,
+      "created_at": "2026-04-03T15:49:07Z",
+      "pushed_at": "2026-10-16T17:57:21Z",
+      "license": "Apache-2.0"
+    },
+    "TencentCloud/TencentDB-Agent-Memory": {
+      "stars": 29569,
+      "forks": 2952,
+      "created_at": "2026-04-07T06:34:26Z",
+      "pushed_at": "2026-10-15T12:24:35Z",
+      "license": "NOASSERTION"
+    },
+    "mozilla-ai/otari": {
+      "stars": 659,
+      "forks": 83,
+      "created_at": "2026-04-02T09:42:10Z",
+      "pushed_at": "2026-10-18T15:56:13Z",
+      "license": "Apache-2.0"
+    },
+    "morluto/rea": {
+      "stars": 321859,
+      "forks": 81563,
+      "created_at": "2026-04-14T00:51:32Z",
+      "pushed_at": "2026-10-18T23:47:06Z",
+      "license": "MIT"
+    }
+  },
+  "trending_daily_stars_observed": {
+    "ruvnet/ruflo": 502,
+    "Graphify-Labs/graphify": 592,
+    "mozilla-ai/otari": 46
+  },
+  "trending_weekly_stars_observed": {
+    "elie222/rakazo": 808,
+    "TencentCloud/TencentDB-Agent-Memory": 1631
+  },
+  "release_verification": {
+    "ruvnet/ruflo": {
+      "tag": "v3.57.0",
+      "published_at": "2026-10-17T22:38:55Z"
+    },
+    "elie222/rakazo": {
+      "commit": "4429327e918e555ec91b43eb5c974a81b72cc8c4",
+      "committed_at": "2026-10-18T23:19:26Z",
+      "note": "merged commit on default branch; not a release"
+    },
+    "Graphify-Labs/graphify": {
+      "tag": "v0.9.92",
+      "published_at": "2026-10-16T17:57:21Z"
+    },
+    "TencentCloud/TencentDB-Agent-Memory": {
+      "tag": "v2.0.3-beta.1",
+      "published_at": "2026-10-13T10:43:52Z",
+      "note": "tag contains beta; GitHub prerelease flag false"
+    },
+    "mozilla-ai/otari": {
+      "tag": "v0.28.0",
+      "published_at": "2026-10-16T19:09:11Z"
+    }
+  },
+  "stars_since_previous_snapshot": {
+    "morluto/rea": 14483
+  },
+  "notes": "Official REST point-in-time values. Trending displayed values are not snapshot deltas. No independent validation of security or performance claims."
+}

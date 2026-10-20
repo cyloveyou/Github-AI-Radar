@@ -48,3 +48,11 @@ Source: https://github.com/VectifyAI/PageIndex/releases/tag/v0.4.1
 billion-context v0.1.198/199 introduces per-session ingest watermarks, delta-turn upload, fsync+rename state persistence, stale-reference checks, and dsh attach/takeover race fixes. Unlike Context Mode (tool-output routing) or claude-mem (thread memory restoration), this is long-lived context as a stateful data plane: delta ingestion, reference lifetime, transport, recovery idempotence and repair tooling. Claimed 5x token saving is project-reported; a fast release path skips portions of CI, so independent regression testing matters.
 
 Sources: https://github.com/ranxianglei/billion-context/releases/tag/v0.1.198 ; https://github.com/ranxianglei/billion-context/releases/tag/v0.1.199
+
+## 2026-10-19 — Code graph fidelity and decision-aware team memory
+
+Graphify v0.9.92 修复多语言 AST 调用解析、节点 ID 冲突，以及 graph.json/MCP 往返时平行边丢失问题。与 PageIndex 的文档布局索引不同，其检索路径是 **deterministic AST → explainable code graph → MCP query**；重点应测试边保真率、同名解析与缓存 Schema 升级重建。
+
+TencentDB Agent Memory v2.0.3-beta.1 将 Skill 选择和 Memory L3 更新判定纳入可插拔决策服务，支持按需加载 Skill 和保存会话轨迹。新能力默认关闭，决策服务失败可回退。这补足了此前 Hindsight 的事实/指导分离和 Context Mode 的输出路由：**memory asset → selection/update policy → observable agent reuse**。需要评估错误 Skill 选择、记忆遗漏与决策服务故障。
+
+Sources: https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.92 ; https://github.com/TencentCloud/TencentDB-Agent-Memory/releases/tag/v2.0.3-beta.1
