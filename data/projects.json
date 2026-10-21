@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-20",
+  "updated_at": "2026-10-21",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -973,6 +973,81 @@
       "last_reported": "2026-10-20",
       "reports": [
         "daily/2026/10/2026-10-20.md"
+      ],
+      "status": "watching"
+    },
+    "google-research/harness2": {
+      "name": "Harness²",
+      "repo_url": "https://github.com/google-research/harness2",
+      "categories": [
+        "agent-harness",
+        "recursive-optimization",
+        "coding-agent"
+      ],
+      "first_seen": "2026-10-21",
+      "last_reported": "2026-10-21",
+      "reports": [
+        "daily/2026/10/2026-10-21.md"
+      ],
+      "status": "watching"
+    },
+    "feder-cr/git-ai": {
+      "name": "gitai",
+      "repo_url": "https://github.com/feder-cr/git-ai",
+      "categories": [
+        "coding-agent",
+        "version-control",
+        "concurrency"
+      ],
+      "first_seen": "2026-10-21",
+      "last_reported": "2026-10-21",
+      "reports": [
+        "daily/2026/10/2026-10-21.md"
+      ],
+      "status": "watching"
+    },
+    "Tongyi-MAI/OpenGCUA": {
+      "name": "OpenGCUA",
+      "repo_url": "https://github.com/Tongyi-MAI/OpenGCUA",
+      "categories": [
+        "computer-use",
+        "cross-device",
+        "agent-runtime"
+      ],
+      "first_seen": "2026-10-21",
+      "last_reported": "2026-10-21",
+      "reports": [
+        "daily/2026/10/2026-10-21.md"
+      ],
+      "status": "watching"
+    },
+    "reason-machines/reason-network": {
+      "name": "Reason Network",
+      "repo_url": "https://github.com/reason-machines/reason-network",
+      "categories": [
+        "multi-agent",
+        "peer-to-peer",
+        "agent-messaging"
+      ],
+      "first_seen": "2026-10-21",
+      "last_reported": "2026-10-21",
+      "reports": [
+        "daily/2026/10/2026-10-21.md"
+      ],
+      "status": "watching"
+    },
+    "Leonxlnx/earshot": {
+      "name": "earshot",
+      "repo_url": "https://github.com/Leonxlnx/earshot",
+      "categories": [
+        "ai-tools",
+        "multimodal-agent",
+        "audio-feedback"
+      ],
+      "first_seen": "2026-10-21",
+      "last_reported": "2026-10-21",
+      "reports": [
+        "daily/2026/10/2026-10-21.md"
       ],
       "status": "watching"
     }

@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-21",
+  "observation_utc": "2026-10-21T00:11:37Z",
+  "source": "Official GitHub REST API repository metadata, GitHub release API, project READMEs, primary research reports; Github Trending",
+  "projects": {
+    "google-research/harness2": {
+      "stars": 15318,
+      "forks": 1414,
+      "created_at": "2026-10-06T21:48:11Z",
+      "pushed_at": "2026-10-14T02:22:51Z",
+      "license": "Apache-2.0"
+    },
+    "feder-cr/git-ai": {
+      "stars": 1267,
+      "forks": 122,
+      "created_at": "2026-10-15T13:12:02Z",
+      "pushed_at": "2026-10-20T23:53:40Z",
+      "license": "NOASSERTION"
+    },
+    "Tongyi-MAI/OpenGCUA": {
+      "stars": 339,
+      "forks": 25,
+      "created_at": "2026-10-15T09:03:56Z",
+      "pushed_at": "2026-10-20T14:59:07Z",
+      "license": "Apache-2.0"
+    },
+    "reason-machines/reason-network": {
+      "stars": 686,
+      "forks": 53,
+      "created_at": "2026-10-16T15:34:34Z",
+      "pushed_at": "2026-10-21T00:09:31Z",
+      "license": "Apache-2.0 OR MIT (dual-license files)"
+    },
+    "Leonxlnx/earshot": {
+      "stars": 1945,
+      "forks": 111,
+      "created_at": "2026-10-15T06:52:46Z",
+      "pushed_at": "2026-10-18T07:22:49Z",
+      "license": "MIT"
+    }
+  },
+  "release_verification": {
+    "google-research/harness2": {
+      "tag": null,
+      "commit": "1cfe254e8d25",
+      "committed_at": "2026-10-14T02:22:49Z",
+      "note": "GitHub releases/latest returned 404; public research repo and preprint, not a tagged release."
+    },
+    "feder-cr/git-ai": {
+      "tag": "v0.3.0",
+      "published_at": "2026-10-20T12:42:48Z",
+      "url": "https://github.com/feder-cr/git-ai/releases/tag/v0.3.0",
+      "note": "Storage core migration incompatible with v0.2.x; exact-tree verification gates model-generated conflict resolutions."
+    },
+    "Tongyi-MAI/OpenGCUA": {
+      "tag": "v0.1.2",
+      "published_at": "2026-10-19T11:16:27Z",
+      "url": "https://github.com/Tongyi-MAI/OpenGCUA/releases/tag/v0.1.2",
+      "note": "Research preview; preliminary macOS harness and SDK; evaluation claims author-reported."
+    },
+    "reason-machines/reason-network": {
+      "tag": "v0.12.1",
+      "published_at": "2026-10-20T23:35:48Z",
+      "url": "https://github.com/reason-machines/reason-network/releases/tag/v0.12.1",
+      "note": "Windows relay test and message/presence parsing hardening; network design from official README."
+    },
+    "Leonxlnx/earshot": {
+      "tag": "v0.2.0",
+      "published_at": "2026-10-16T22:38:23Z",
+      "url": "https://github.com/Leonxlnx/earshot/releases/tag/v0.2.0",
+      "note": "README references newer 0.3 capabilities, but releases/latest is still v0.2.0."
+    }
+  },
+  "notes": "All GitHub Stars/Forks are point-in-time REST counts, not 24h growth. Benchmarks and claims are author-reported, not independently reproduced. git-ai SPDX is NOASSERTION despite README MIT claim. Harness2 README states unrestricted executor network access and disabled Codex sandbox. Snapshot time reflects the REST batch completion around 00:11 UTC; individual calls occurred over the preceding seconds."
+}

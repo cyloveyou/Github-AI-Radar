@@ -43,3 +43,9 @@ HyperFrames 将 HTML/CSS 与可寻址动画时间轴渲染为 MP4，提供跨 Co
 Cursor 官方 plugins 仓库以 `.cursor-plugin/plugin.json` 为插件声明入口，形成 Skills、连接器与工作流的分发层。官方目录不等于第三方插件权限已独立审计。
 
 Sources: https://github.com/heygen-com/hyperframes ; https://github.com/heygen-com/hyperframes/releases/tag/v0.8.155 ; https://github.com/cursor/plugins
+
+## 2026-10-21 — Audio as a measurable feedback channel for generated artifacts
+
+earshot v0.2.0 exposes CPU-local audio description, match, timeline, spectrogram/level metrics, synthesis recipes and reference-based iteration through CLI/Python/MCP. In combination with video-artifact agents such as HyperFrames, the loop becomes **render → hear/measure → locate defect → regenerate → verify**. Author-reported listening and CLAP results need independent tests; README 0.3 claims are not the latest tagged release.
+
+Source: https://github.com/Leonxlnx/earshot/releases/tag/v0.2.0

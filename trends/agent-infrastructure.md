@@ -114,3 +114,13 @@ Perplexity SPACE combines Firecracker microVMs with async sandbox lifecycle, dat
 Magpie v0.1.1294 exposes a local cross-harness model gateway as an Ollama-compatible endpoint, following v0.1.1293's arbitrary Git-sourced Skills support. This complements Otari's provider allowlisting: policy says which provider may run; routing says how models and protocols are connected. Test credentials, subscription authorization and tool-call fidelity independently.
 
 Sources: https://github.com/perplexityai/SPACE ; https://github.com/perplexityai/SPACE/commit/c17d28284d10 ; https://github.com/yetone/magpie/releases/tag/v0.1.1294
+
+## 2026-10-21 — Recursive harness optimization, concurrent source control, and P2P agent messaging
+
+Google Research Harness² makes the **harness itself** the optimization target: task-local Propose–Probe–Compose contrasts candidate configurations and task-to-task evidence updates a persistent improvement harness, without changing model weights. This differs from skill-only self-learning. Its executor is not sandboxed by default and network access must be constrained before trusted evaluation.
+
+gitai v0.3.0 makes **multi-agent source control a server-side concurrency and verification problem**: compare-and-swap landing, changeset log, storage checkpoints, and explicit resolution proposals. Model-generated conflict resolutions can auto-land only after exact-tree tests pass. Storage migration is breaking and multi-host claims remain unverified.
+
+Reason Network v0.12.1 adds a different layer: **cross-host/team P2P agent presence and messaging with human approval**, rather than task scheduling. Trust, membership revocation and offline message integrity deserve separate audits.
+
+Sources: https://github.com/google-research/harness2 ; https://github.com/feder-cr/git-ai/releases/tag/v0.3.0 ; https://github.com/reason-machines/reason-network/releases/tag/v0.12.1

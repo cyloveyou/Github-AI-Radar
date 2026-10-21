@@ -14,3 +14,11 @@ ESP32 iPhone Agent's 2026-10-15 main-branch redesign replaces a runtime computer
 Scout separates browser actions, screenshot interpretation, planning and extraction into configurable model roles; it can use cloud, local Chromium or CDP browsers. Its GitHub repository is an upstream mirror and has no release; claimed page reach is self-measured. Evaluate action replay, browser credentials, and cloud-vs-local privacy boundaries.
 
 Sources: https://github.com/onehumanbeing/esp32-iphone-agent/commit/f911d841c0f6 ; https://github.com/outcrawlai/scout
+
+## 2026-10-21 — Programmatic GUI actions and cross-device Computer Use
+
+OpenGCUA v0.1.2 is an early research preview combining accessibility trees, app APIs, shell and GUI actions; a code-action agent expresses repeated interface operations as programs. Its public deliverables include OSWorld integration examples, model trajectories, preliminary macOS harness and cross-device SDK. The author's OSWorld-v2 partial-score gains are not independent full-task success rates.
+
+This differs from ESP32 iPhone Agent's physical HID approach and Scout's browser-specialized model loop: **one agent chooses the interface abstraction**, rather than committing to one input modality. Evaluate authorization, code execution boundaries and human takeover.
+
+Source: https://github.com/Tongyi-MAI/OpenGCUA/releases/tag/v0.1.2
