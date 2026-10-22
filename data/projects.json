@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-21",
+  "updated_at": "2026-10-22",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -661,9 +661,10 @@
         "subagent-recovery"
       ],
       "first_seen": "2026-10-14",
-      "last_reported": "2026-10-14",
+      "last_reported": "2026-10-22",
       "reports": [
-        "daily/2026/10/2026-10-14.md"
+        "daily/2026/10/2026-10-14.md",
+        "daily/2026/10/2026-10-22.md"
       ],
       "status": "watching"
     },
@@ -1048,6 +1049,51 @@
       "last_reported": "2026-10-21",
       "reports": [
         "daily/2026/10/2026-10-21.md"
+      ],
+      "status": "watching"
+    },
+    "vercel-labs/durable-harness": {
+      "name": "durable-harness",
+      "repo_url": "https://github.com/vercel-labs/durable-harness",
+      "categories": [
+        "agent-runtime",
+        "durable-execution",
+        "coding-agent"
+      ],
+      "first_seen": "2026-10-22",
+      "last_reported": "2026-10-22",
+      "reports": [
+        "daily/2026/10/2026-10-22.md"
+      ],
+      "status": "watching"
+    },
+    "browser-use/rl-env-use": {
+      "name": "rl-env-use",
+      "repo_url": "https://github.com/browser-use/rl-env-use",
+      "categories": [
+        "browser-agent",
+        "rl-environment",
+        "evaluation"
+      ],
+      "first_seen": "2026-10-22",
+      "last_reported": "2026-10-22",
+      "reports": [
+        "daily/2026/10/2026-10-22.md"
+      ],
+      "status": "watching"
+    },
+    "uclanlp/OpenVLHarness": {
+      "name": "OpenVLHarness",
+      "repo_url": "https://github.com/uclanlp/OpenVLHarness",
+      "categories": [
+        "multimodal-agent",
+        "visual-reasoning",
+        "memory"
+      ],
+      "first_seen": "2026-10-22",
+      "last_reported": "2026-10-22",
+      "reports": [
+        "daily/2026/10/2026-10-22.md"
       ],
       "status": "watching"
     }

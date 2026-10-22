@@ -22,3 +22,9 @@ OpenGCUA v0.1.2 is an early research preview combining accessibility trees, app 
 This differs from ESP32 iPhone Agent's physical HID approach and Scout's browser-specialized model loop: **one agent chooses the interface abstraction**, rather than committing to one input modality. Evaluate authorization, code execution boundaries and human takeover.
 
 Source: https://github.com/Tongyi-MAI/OpenGCUA/releases/tag/v0.1.2
+
+## 2026-10-22 — Browser agents as generators of verified RL tasks
+
+Browser Use rl-env-use turns real web cases and later outcomes into code-checkable gold answers, filters ambiguous/leaky/saturated tasks, and exports RL environments with prompt hillclimbing. It is **task/evaluation environment generation**, not another GUI control method. The trial forecasting numbers and Qwen improvements are author-reported, with a high 0.75 constant-probability baseline; independent validation must check temporal leakage, calibration and gold-answer construction.
+
+Source: https://github.com/browser-use/rl-env-use

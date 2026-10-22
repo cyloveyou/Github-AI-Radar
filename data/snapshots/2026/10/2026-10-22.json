@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-22",
+  "observation_utc": "2026-10-22T00:01:13Z",
+  "source": "Official GitHub REST repository and releases endpoints, official README and project documentation",
+  "projects": {
+    "vercel-labs/durable-harness": {
+      "stars": 143,
+      "forks": 8,
+      "created_at": "2026-10-16T04:54:47Z",
+      "pushed_at": "2026-10-19T18:43:32Z",
+      "license": "Apache-2.0"
+    },
+    "browser-use/rl-env-use": {
+      "stars": 102,
+      "forks": 4,
+      "created_at": "2026-10-21T04:31:55Z",
+      "pushed_at": "2026-10-21T04:32:02Z",
+      "license": "MIT"
+    },
+    "uclanlp/OpenVLHarness": {
+      "stars": 165,
+      "forks": 3,
+      "created_at": "2026-10-15T06:01:30Z",
+      "pushed_at": "2026-10-20T12:45:47Z",
+      "license": "MIT"
+    },
+    "thedotmack/claude-mem": {
+      "stars": 102153,
+      "forks": 8999,
+      "created_at": "2025-08-31T20:50:03Z",
+      "pushed_at": "2026-10-21T21:25:26Z",
+      "license": "Apache-2.0"
+    }
+  },
+  "release_verification": {
+    "vercel-labs/durable-harness": {
+      "tag": null,
+      "note": "No formal GitHub release at observation time."
+    },
+    "browser-use/rl-env-use": {
+      "tag": null,
+      "note": "No formal GitHub release at observation time."
+    },
+    "uclanlp/OpenVLHarness": {
+      "tag": null,
+      "note": "No formal GitHub release at observation time."
+    },
+    "thedotmack/claude-mem": {
+      "tag": "v15.0.1",
+      "published_at": "2026-10-20T22:40:29Z",
+      "url": "https://github.com/thedotmack/claude-mem/releases/tag/v15.0.1",
+      "also_reviewed": "v15.0.0 published 2026-10-20T21:52:33Z; v15.0.1 fixes project scope."
+    }
+  },
+  "notes": "Point-in-time counts, not daily growth. Benchmark and recovery claims are author-reported; independent tests not performed. No formal release for three newly tracked projects."
+}

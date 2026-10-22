@@ -63,3 +63,11 @@ Sources: https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.92 ; https:
 Headroom v0.41.0 brings context compression to an agent-facing proxy, MCP, local cache and per-agent cost attribution. The later HTTP/WebSocket Responses hook integrates Codex-like streaming request paths. Compared with Context Mode's output sandbox and retrieval, the differentiator is a reversible compression gateway with observability. Vendor-reported token savings and answer preservation require independent task-level testing.
 
 Sources: https://github.com/headroomlabs-ai/headroom/releases/tag/v0.41.0 ; https://github.com/headroomlabs-ai/headroom/commit/fbf7bc3278c1
+
+## 2026-10-22 — Smart recall and multimodal evidence memory
+
+claude-mem v15.0.0 changes the default retrieval contract to **compact index search → contextual timeline → selected observation detail**, replacing the old guided/auto search interface. v15.0.1 fixes project-alias scope consistency across all three steps. This is a meaningful memory retrieval protocol change, not a repeat of v13.39's post-compaction subagent restoration.
+
+OpenVLHarness makes boxes, masks, depth maps, images and web references addressable across visual-tool steps, while a separate Python coding context performs numerical operations over retained evidence. Unlike text-only context compression, this is **structured multimodal working memory with reusable intermediate measurements**. Claimed benchmark gains are author-reported.
+
+Sources: https://github.com/thedotmack/claude-mem/releases/tag/v15.0.0 ; https://github.com/thedotmack/claude-mem/releases/tag/v15.0.1 ; https://github.com/uclanlp/OpenVLHarness

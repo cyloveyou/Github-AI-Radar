@@ -124,3 +124,9 @@ gitai v0.3.0 makes **multi-agent source control a server-side concurrency and ve
 Reason Network v0.12.1 adds a different layer: **cross-host/team P2P agent presence and messaging with human approval**, rather than task scheduling. Trust, membership revocation and offline message integrity deserve separate audits.
 
 Sources: https://github.com/google-research/harness2 ; https://github.com/feder-cr/git-ai/releases/tag/v0.3.0 ; https://github.com/reason-machines/reason-network/releases/tag/v0.12.1
+
+## 2026-10-22 — Durable execution is more than chat-history recovery
+
+Vercel durable-harness uses Workflow SDK World to persist each agent session, in-flight turn, model call and tool call as a workflow event log. The design targets crash recovery across machines without re-executing non-repeatable tool effects. Claude Code/Codex execute in per-session sandboxes, with virtual workspaces for other harnesses. Unlike OpenRig's team seat recovery or Substrate's snapshot fidelity, this is **event-sourced tool execution with explicit replay/idempotency boundaries**. Experimental 0.0.x; crash-injection, replay safety and exactly-once effects have not been independently verified.
+
+Source: https://github.com/vercel-labs/durable-harness ; https://vercel.com/docs/agent-harnesses
