@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-23",
+  "observation_utc": "2026-10-23T00:29:30Z",
+  "source": "Official GitHub REST repository and releases endpoints, official README and release notes",
+  "projects": {
+    "agent-substrate/substrate": {
+      "stars": 5733,
+      "forks": 620,
+      "created_at": "2026-05-13T19:02:38Z",
+      "pushed_at": "2026-10-23T00:00:02Z",
+      "license": "Apache-2.0"
+    },
+    "Graphicle-AI/graphicle": {
+      "stars": 342,
+      "forks": 27,
+      "created_at": "2026-10-14T12:25:36Z",
+      "pushed_at": "2026-10-22T00:27:10Z",
+      "license": "Apache-2.0"
+    },
+    "scphq/scp": {
+      "stars": 69,
+      "forks": 1,
+      "created_at": "2026-10-18T07:54:57Z",
+      "pushed_at": "2026-10-23T00:25:55Z",
+      "license": "Apache-2.0"
+    },
+    "ctoldigital/axuse": {
+      "stars": 279,
+      "forks": 16,
+      "created_at": "2026-10-14T19:55:37Z",
+      "pushed_at": "2026-10-22T04:40:30Z",
+      "license": "NOASSERTION"
+    },
+    "feder-cr/git-ai": {
+      "stars": 966,
+      "forks": 92,
+      "created_at": "2026-10-15T13:12:02Z",
+      "pushed_at": "2026-10-22T22:32:53Z",
+      "license": "NOASSERTION"
+    }
+  },
+  "release_verification": {
+    "agent-substrate/substrate": {
+      "tag": "v0.6.0",
+      "published_at": "2026-10-22T17:25:33Z",
+      "url": "https://github.com/agent-substrate/substrate/releases/tag/v0.6.0"
+    },
+    "Graphicle-AI/graphicle": {
+      "tag": "v0.1.4",
+      "published_at": "2026-10-22T01:29:49Z",
+      "url": "https://github.com/Graphicle-AI/graphicle/releases/tag/v0.1.4"
+    },
+    "scphq/scp": {
+      "tag": "@scp-dev/core@0.10.1",
+      "published_at": "2026-10-22T20:45:53Z",
+      "url": "https://github.com/scphq/scp/releases/tag/%40scp-dev/core%400.10.1"
+    },
+    "ctoldigital/axuse": {
+      "tag": null,
+      "note": "No formal GitHub release at observation time."
+    },
+    "feder-cr/git-ai": {
+      "tag": "v0.3.1",
+      "published_at": "2026-10-22T22:32:54Z",
+      "url": "https://github.com/feder-cr/git-ai/releases/tag/v0.3.1"
+    }
+  },
+  "notes": "Metadata sampled over several minutes on 2026-10-23 UTC; observation_utc is approximate, not an atomic simultaneous sample. REST counts are not daily growth. git-ai stars/forks fell versus Oct 21 snapshot, cause unverified. Author benchmarks not independently reproduced."
+}

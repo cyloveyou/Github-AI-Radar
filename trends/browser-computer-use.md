@@ -28,3 +28,9 @@ Source: https://github.com/Tongyi-MAI/OpenGCUA/releases/tag/v0.1.2
 Browser Use rl-env-use turns real web cases and later outcomes into code-checkable gold answers, filters ambiguous/leaky/saturated tasks, and exports RL environments with prompt hillclimbing. It is **task/evaluation environment generation**, not another GUI control method. The trial forecasting numbers and Qwen improvements are author-reported, with a high 0.75 constant-probability baseline; independent validation must check temporal leakage, calibration and gold-answer construction.
 
 Source: https://github.com/browser-use/rl-env-use
+
+## 2026-10-23 — Accessibility-first, cross-harness Computer Use
+
+axuse uses CDP and DOM/accessibility trees with stable element references and diffed snapshots as a single MCP tool surface for multiple coding-agent harnesses. Unlike OpenGCUA's broad GUI/API/Shell routing, it prioritizes **structured UI semantics over screenshot loops**. Windows desktop support, opt-in macOS TCC access and X11/XWayland Linux support are project-reported; there is no tagged release. Validate browser-bridge permissions, prompt-injection containment and comparable task success/token/latency against screenshot baselines.
+
+Source: https://github.com/ctoldigital/axuse

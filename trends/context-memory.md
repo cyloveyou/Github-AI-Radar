@@ -71,3 +71,11 @@ claude-mem v15.0.0 changes the default retrieval contract to **compact index sea
 OpenVLHarness makes boxes, masks, depth maps, images and web references addressable across visual-tool steps, while a separate Python coding context performs numerical operations over retained evidence. Unlike text-only context compression, this is **structured multimodal working memory with reusable intermediate measurements**. Claimed benchmark gains are author-reported.
 
 Sources: https://github.com/thedotmack/claude-mem/releases/tag/v15.0.0 ; https://github.com/thedotmack/claude-mem/releases/tag/v15.0.1 ; https://github.com/uclanlp/OpenVLHarness
+
+## 2026-10-23 — Code evidence and approved memory converge in a local agent data plane
+
+Graphicle v0.1.4 packages AST-derived code graph, project docs, agent-session memory, MCP, CLI and local SQLite into one Rust program. Retrieved context is returned with file/line citations and bounded token budgets; proposed long-term memories require approval. The design complements Graphify's graph fidelity work, but is a separate project, not its official successor. Its claimed 3.0–22.7x speedup is author-reported and needs controlled replication.
+
+Graphify v0.9.94 strengthens source trust: URL ingestion rejects malformed hosts/ports and credential-bearing URLs, and text capture avoids writing through dangling symlinks; MCP node lookup avoids near-match hallucinations. Together these highlight **evidence provenance → safe ingestion → exact node lookup → governed memory write**.
+
+Sources: https://github.com/Graphicle-AI/graphicle ; https://github.com/Graphicle-AI/graphicle/releases/tag/v0.1.4 ; https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.94

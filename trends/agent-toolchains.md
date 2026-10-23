@@ -49,3 +49,9 @@ Sources: https://github.com/heygen-com/hyperframes ; https://github.com/heygen-c
 earshot v0.2.0 exposes CPU-local audio description, match, timeline, spectrogram/level metrics, synthesis recipes and reference-based iteration through CLI/Python/MCP. In combination with video-artifact agents such as HyperFrames, the loop becomes **render → hear/measure → locate defect → regenerate → verify**. Author-reported listening and CLAP results need independent tests; README 0.3 claims are not the latest tagged release.
 
 Source: https://github.com/Leonxlnx/earshot/releases/tag/v0.2.0
+
+## 2026-10-23 — Multi-agent source-control verification publishes residual error rates
+
+gitai v0.3.1 fixes exact local-branch resolution in its landing logic and publishes residual errors for AI-generated conflict resolutions: Go 7.7%, Python 3.2%, TypeScript 4.1% under project-specific verification. Some Python/TypeScript judgments use an AI reference rather than human gold labels. This extends the Oct 21 compare-and-swap/exact-tree approach: **automated landing must report what its tests miss**. No cross-language success rate or independent benchmark can be inferred.
+
+Source: https://github.com/feder-cr/git-ai/releases/tag/v0.3.1

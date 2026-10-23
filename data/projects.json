@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-22",
+  "updated_at": "2026-10-23",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -771,9 +771,10 @@
         "actor-identity"
       ],
       "first_seen": "2026-10-17",
-      "last_reported": "2026-10-17",
+      "last_reported": "2026-10-23",
       "reports": [
-        "daily/2026/10/2026-10-17.md"
+        "daily/2026/10/2026-10-17.md",
+        "daily/2026/10/2026-10-23.md"
       ],
       "status": "watching"
     },
@@ -1001,9 +1002,10 @@
         "concurrency"
       ],
       "first_seen": "2026-10-21",
-      "last_reported": "2026-10-21",
+      "last_reported": "2026-10-23",
       "reports": [
-        "daily/2026/10/2026-10-21.md"
+        "daily/2026/10/2026-10-21.md",
+        "daily/2026/10/2026-10-23.md"
       ],
       "status": "watching"
     },
@@ -1094,6 +1096,55 @@
       "last_reported": "2026-10-22",
       "reports": [
         "daily/2026/10/2026-10-22.md"
+      ],
+      "status": "watching"
+    },
+    "Graphicle-AI/graphicle": {
+      "name": "Graphicle",
+      "repo_url": "https://github.com/Graphicle-AI/graphicle",
+      "categories": [
+        "coding-agent",
+        "rag",
+        "code-knowledge-graph",
+        "memory",
+        "local-first"
+      ],
+      "first_seen": "2026-10-23",
+      "last_reported": "2026-10-23",
+      "reports": [
+        "daily/2026/10/2026-10-23.md"
+      ],
+      "status": "watching"
+    },
+    "scphq/scp": {
+      "name": "SCP",
+      "repo_url": "https://github.com/scphq/scp",
+      "categories": [
+        "multi-agent",
+        "harness",
+        "agent-communication",
+        "protocol"
+      ],
+      "first_seen": "2026-10-23",
+      "last_reported": "2026-10-23",
+      "reports": [
+        "daily/2026/10/2026-10-23.md"
+      ],
+      "status": "watching"
+    },
+    "ctoldigital/axuse": {
+      "name": "axuse",
+      "repo_url": "https://github.com/ctoldigital/axuse",
+      "categories": [
+        "browser-agent",
+        "computer-use",
+        "mcp",
+        "accessibility"
+      ],
+      "first_seen": "2026-10-23",
+      "last_reported": "2026-10-23",
+      "reports": [
+        "daily/2026/10/2026-10-23.md"
       ],
       "status": "watching"
     }

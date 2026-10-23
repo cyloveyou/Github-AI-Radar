@@ -130,3 +130,11 @@ Sources: https://github.com/google-research/harness2 ; https://github.com/feder-
 Vercel durable-harness uses Workflow SDK World to persist each agent session, in-flight turn, model call and tool call as a workflow event log. The design targets crash recovery across machines without re-executing non-repeatable tool effects. Claude Code/Codex execute in per-session sandboxes, with virtual workspaces for other harnesses. Unlike OpenRig's team seat recovery or Substrate's snapshot fidelity, this is **event-sourced tool execution with explicit replay/idempotency boundaries**. Experimental 0.0.x; crash-injection, replay safety and exactly-once effects have not been independently verified.
 
 Source: https://github.com/vercel-labs/durable-harness ; https://vercel.com/docs/agent-harnesses
+
+## 2026-10-23 — Mandatory sandbox resource budgets and protocol-level agent messaging
+
+Substrate v0.6.0 makes CPU/memory limits mandatory for Actors, verifies image layers by diffID before caching, separates per-Actor snapshots and uses dedicated GCS snapshot identities. Compared with v0.5.0's versioned SandboxConfig and Actor JWT, the boundary advances to **enforced resource budgets → artifact integrity → snapshot/credential isolation → authenticated ingress**. This is a breaking upgrade; no independent tenant-isolation test is implied.
+
+SCP (@scp-dev/core@0.10.1) proposes a spec-led message layer for Claude/Codex/OpenCode/pi: harness hooks/MCP, per-machine brokers, relay and optional mesh, turn-level delivery and hibernated-session wakeup. It differs from Reason Network's P2P presence layer by explicitly defining delivery hooks and bindings. It is not yet a proven interoperable standard; test duplicate delivery, revocation and crash recovery.
+
+Sources: https://github.com/agent-substrate/substrate/releases/tag/v0.6.0 ; https://github.com/scphq/scp ; https://scp.dev/spec
