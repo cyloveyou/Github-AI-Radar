@@ -10,8 +10,8 @@
 
 ![Status](https://img.shields.io/badge/status-active-success)
 <!-- RADAR_BADGES_START -->
-![Tracked](https://img.shields.io/badge/tracked_projects-76-blue)
-![Reports](https://img.shields.io/badge/daily_reports-28-blueviolet)
+![Tracked](https://img.shields.io/badge/tracked_projects-79-blue)
+![Reports](https://img.shields.io/badge/daily_reports-29-blueviolet)
 <!-- RADAR_BADGES_END -->
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -43,6 +43,11 @@ GitHub AI Radar 持续观察 GitHub 上**当前热门和快速上升的 AI 开�
 
 | Date | Project / Signal | Area | Why it matters |
 |---|---|---|---|
+| **10-24** | **Open Math Harness v0.41.0** | Scientific Harness · Formal Verification | 能力内核、并行数学探索和 Lean 证明检查；完整交互运行时仍依赖平台 |
+| **10-24** | **OPAL** | Coding Agent · ML Training | 训练过程中由 Agent 重写 PyTorch 优化器；生成代码不在沙箱中 |
+| **10-24** | **VVV v0.1.1** | Agent Tools · Video Artifacts | 可编辑 Remotion 模板、质检与跨 Agent 成果包 |
+| **10-24** | **gitai v0.4.0** | Multi-Agent Source Control | 精确分支解析、服务端 Agent 权限边界与操作员建库 |
+| **10-24** | **SCP Broker 0.9.0** | Agent Runtime · Session Recovery | 一次性唤醒票据与休眠 Endpoint 身份恢复 |
 | **10-20** | **Perplexity SPACE** | Agent Sandbox · Firecracker | 微虚拟机生命周期、异步执行、warm pools 与网络策略；10 月 20 日提交级加固 |
 | **10-20** | **Headroom v0.41.0** | Context · Compression · Proxy | 跨协议请求压缩、可恢复缓存与按 Agent 费用归因 |
 | **10-20** | **ESP32 iPhone Agent** | Computer Use · iOS | ESP32-S3 AirPlay/USB HID + 同机 iPhone Agent；主分支新架构，尚非新 Release |
@@ -163,11 +168,11 @@ Literature / Data / Task
 <!-- RADAR_STATS_START -->
 | Metric | Current |
 |---|---:|
-| Tracked projects | **76** |
-| Triggered daily reports | **28** |
+| Tracked projects | **79** |
+| Triggered daily reports | **29** |
 | Trend notes | **7** |
 | Weekly reviews | **1** |
-| Historical PDF reports | **26** |
+| Historical PDF reports | **27** |
 | First observation | **2026-09-17** |
 <!-- RADAR_STATS_END -->
 

@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-24",
+  "observation_utc": "2026-10-23T23:50:00Z",
+  "source": "Official GitHub REST /repos/{owner}/{repo} and /releases/tags/{tag}, project README",
+  "projects": {
+    "openmathmodel/open-math-harness": {
+      "stars": 126,
+      "forks": 12,
+      "created_at": "2026-10-22T08:17:44Z",
+      "pushed_at": "2026-10-23T22:56:42Z",
+      "license": "Apache-2.0"
+    },
+    "xingjian-bai/opal": {
+      "stars": 184,
+      "forks": 8,
+      "created_at": "2026-10-21T14:17:50Z",
+      "pushed_at": "2026-10-23T21:55:48Z",
+      "license": "MIT"
+    },
+    "actionow-ai/vvv": {
+      "stars": 247,
+      "forks": 69,
+      "created_at": "2026-10-22T07:29:54Z",
+      "pushed_at": "2026-10-23T10:14:45Z",
+      "license": "MIT"
+    },
+    "feder-cr/git-ai": {
+      "stars": 980,
+      "forks": 96,
+      "created_at": "2026-10-15T13:12:02Z",
+      "pushed_at": "2026-10-23T11:12:35Z",
+      "license": "NOASSERTION"
+    },
+    "scphq/scp": {
+      "stars": 69,
+      "forks": 1,
+      "created_at": "2026-10-18T07:54:57Z",
+      "pushed_at": "2026-10-23T21:04:45Z",
+      "license": "Apache-2.0"
+    }
+  },
+  "release_verification": {
+    "openmathmodel/open-math-harness": {
+      "tag": "v0.41.0",
+      "published_at": "2026-10-23T04:54:43Z",
+      "url": "https://github.com/openmathmodel/open-math-harness/releases/tag/v0.41.0"
+    },
+    "xingjian-bai/opal": {
+      "tag": "v0.3.7",
+      "published_at": "2026-10-22T22:48:10Z",
+      "url": "https://github.com/xingjian-bai/opal/releases/tag/v0.3.7"
+    },
+    "actionow-ai/vvv": {
+      "tag": "v0.1.1",
+      "published_at": "2026-10-23T10:16:34Z",
+      "url": "https://github.com/actionow-ai/vvv/releases/tag/v0.1.1"
+    },
+    "feder-cr/git-ai": {
+      "tag": "v0.4.0",
+      "published_at": "2026-10-23T09:16:47Z",
+      "url": "https://github.com/feder-cr/git-ai/releases/tag/v0.4.0"
+    },
+    "scphq/scp": {
+      "tag": "@scp-dev/broker@0.9.0",
+      "published_at": "2026-10-23T21:04:58Z",
+      "url": "https://github.com/scphq/scp/releases/tag/%40scp-dev/broker%400.9.0"
+    }
+  },
+  "notes": "Counts were retrieved over several minutes near 2026-10-23 23:50 UTC, not a simultaneous atomic sample. GitHub stars are not daily growth. Performance, safety and durability claims are author-reported and not independently reproduced. git-ai license API returned NOASSERTION despite README stating MIT."
+}

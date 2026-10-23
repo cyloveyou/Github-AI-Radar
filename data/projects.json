@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-23",
+  "updated_at": "2026-10-24",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -1002,10 +1002,11 @@
         "concurrency"
       ],
       "first_seen": "2026-10-21",
-      "last_reported": "2026-10-23",
+      "last_reported": "2026-10-24",
       "reports": [
         "daily/2026/10/2026-10-21.md",
-        "daily/2026/10/2026-10-23.md"
+        "daily/2026/10/2026-10-23.md",
+        "daily/2026/10/2026-10-24.md"
       ],
       "status": "watching"
     },
@@ -1126,9 +1127,10 @@
         "protocol"
       ],
       "first_seen": "2026-10-23",
-      "last_reported": "2026-10-23",
+      "last_reported": "2026-10-24",
       "reports": [
-        "daily/2026/10/2026-10-23.md"
+        "daily/2026/10/2026-10-23.md",
+        "daily/2026/10/2026-10-24.md"
       ],
       "status": "watching"
     },
@@ -1145,6 +1147,52 @@
       "last_reported": "2026-10-23",
       "reports": [
         "daily/2026/10/2026-10-23.md"
+      ],
+      "status": "watching"
+    },
+    "openmathmodel/open-math-harness": {
+      "name": "Open Math Harness",
+      "repo_url": "https://github.com/openmathmodel/open-math-harness",
+      "categories": [
+        "research-agent",
+        "agent-harness",
+        "formal-verification",
+        "sandbox"
+      ],
+      "first_seen": "2026-10-24",
+      "last_reported": "2026-10-24",
+      "reports": [
+        "daily/2026/10/2026-10-24.md"
+      ],
+      "status": "watching"
+    },
+    "xingjian-bai/opal": {
+      "name": "OPAL",
+      "repo_url": "https://github.com/xingjian-bai/opal",
+      "categories": [
+        "coding-agent",
+        "ml-training",
+        "adaptive-optimization"
+      ],
+      "first_seen": "2026-10-24",
+      "last_reported": "2026-10-24",
+      "reports": [
+        "daily/2026/10/2026-10-24.md"
+      ],
+      "status": "watching"
+    },
+    "actionow-ai/vvv": {
+      "name": "VVV",
+      "repo_url": "https://github.com/actionow-ai/vvv",
+      "categories": [
+        "coding-agent",
+        "video-artifact",
+        "agent-skills"
+      ],
+      "first_seen": "2026-10-24",
+      "last_reported": "2026-10-24",
+      "reports": [
+        "daily/2026/10/2026-10-24.md"
       ],
       "status": "watching"
     }

@@ -55,3 +55,11 @@ Source: https://github.com/Leonxlnx/earshot/releases/tag/v0.2.0
 gitai v0.3.1 fixes exact local-branch resolution in its landing logic and publishes residual errors for AI-generated conflict resolutions: Go 7.7%, Python 3.2%, TypeScript 4.1% under project-specific verification. Some Python/TypeScript judgments use an AI reference rather than human gold labels. This extends the Oct 21 compare-and-swap/exact-tree approach: **automated landing must report what its tests miss**. No cross-language success rate or independent benchmark can be inferred.
 
 Source: https://github.com/feder-cr/git-ai/releases/tag/v0.3.1
+
+## 2026-10-24 — Reusable media artifact packages and least-privilege source control
+
+VVV v0.1.1 packages editable Remotion video templates, inputs, media license metadata and render evidence into portable `.vvv` projects. Its `doctor → describe/validate → sample → check → deliver` workflow lets multiple Coding Agents share a media artifact instead of regenerating it from scratch. Compared with HyperFrames' HTML/CSS-to-MP4 rendering, this emphasizes **template reuse, media provenance and cross-agent handoff**; quality and token savings remain author claims.
+
+gitai 0.4.0 makes source-control boundaries explicit: operator-only repository creation, exact branch names, no agent access to internal refs, and reduced reliance on Git's ambiguous revision parsing. The workflow becomes **agent proposal → exact-tree verification → server-side authorization → auditable landing**. These are different validation layers and neither replaces independent testing.
+
+Sources: https://github.com/actionow-ai/vvv/releases/tag/v0.1.1 ; https://github.com/feder-cr/git-ai/releases/tag/v0.4.0

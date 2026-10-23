@@ -138,3 +138,11 @@ Substrate v0.6.0 makes CPU/memory limits mandatory for Actors, verifies image la
 SCP (@scp-dev/core@0.10.1) proposes a spec-led message layer for Claude/Codex/OpenCode/pi: harness hooks/MCP, per-machine brokers, relay and optional mesh, turn-level delivery and hibernated-session wakeup. It differs from Reason Network's P2P presence layer by explicitly defining delivery hooks and bindings. It is not yet a proven interoperable standard; test duplicate delivery, revocation and crash recovery.
 
 Sources: https://github.com/agent-substrate/substrate/releases/tag/v0.6.0 ; https://github.com/scphq/scp ; https://scp.dev/spec
+
+## 2026-10-24 — One-time wake claims and server-side agent reference boundaries
+
+SCP Broker 0.9.0 turns dormant worker recovery into a **revive record → one-time wake ticket → original endpoint reclaim** flow; the worker can keep its mail, groups and address after a stop/remove. Background Claude workers can be stopped after 600 seconds of inactivity under restricted conditions, and resumed when addressed. This makes session identity and delivery state explicit, but does not independently establish exactly-once semantics.
+
+gitai 0.4.0 applies exact branch resolution across operation RPCs and prohibits agent writes to internal refs at the server layer. Operator-only repository creation separates infrastructure authority from task agents. Together, the changes illustrate **cross-harness lifecycle identity** and **server-enforced source-control authority** as complementary control-plane invariants.
+
+Sources: https://github.com/scphq/scp/releases/tag/%40scp-dev/broker%400.9.0 ; https://github.com/feder-cr/git-ai/releases/tag/v0.4.0
