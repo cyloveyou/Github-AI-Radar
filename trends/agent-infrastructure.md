@@ -146,3 +146,12 @@ SCP Broker 0.9.0 turns dormant worker recovery into a **revive record → one-ti
 gitai 0.4.0 applies exact branch resolution across operation RPCs and prohibits agent writes to internal refs at the server layer. Operator-only repository creation separates infrastructure authority from task agents. Together, the changes illustrate **cross-harness lifecycle identity** and **server-enforced source-control authority** as complementary control-plane invariants.
 
 Sources: https://github.com/scphq/scp/releases/tag/%40scp-dev/broker%400.9.0 ; https://github.com/feder-cr/git-ai/releases/tag/v0.4.0
+
+
+## 2026-10-25 — Portable sandbox enforcement and human-aware durable teams
+
+NVIDIA OpenShell v0.1.5 publishes a versioned Sandbox Protocol for independently implemented backends, makes supervisor policy push optional (vendor says ~100 ms versus ~10 s polling), adds OCSF authentication-denial events and OTLP export, and requires Kubernetes annotation/label allowlists. Unlike the September announcement of out-of-agent enforcement, this release makes **backend compatibility, policy propagation and audit export** concrete upgrade surfaces. The project reappeared on GitHub Trending's daily page (rolling 893 stars-today display); this is not a verified calendar-day Star delta.
+
+Anthropic Sandbox Runtime v0.0.81 hardens Windows process-tree isolation with a write-restricted token, AppContainer egress fencing, safer stdin pipe handling and explicit loopback installation. This is a Windows-only update, not a new macOS/Linux security claim. OpenRig v0.7.0 adds human quiet hours and away modes, partial team restoration and clean agent environment inheritance. Together they suggest **sandbox policy + portable backend + human availability + partial recovery** are distinct production-runtime requirements.
+
+Sources: https://github.com/NVIDIA/OpenShell/releases/tag/v0.1.5 ; https://github.com/anthropics/sandbox-runtime/releases/tag/v0.0.81 ; https://github.com/mvschwarz/openrig/releases/tag/v0.7.0

@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-25",
+  "observation_utc": "2026-10-24T23:58:26Z",
+  "source": "Official GitHub REST /repos/{owner}/{repo}, /releases/tags/{tag}; GitHub Trending daily HTML; official README",
+  "projects": {
+    "NVIDIA/OpenShell": {
+      "stars": 19468,
+      "forks": 1930,
+      "created_at": "2026-02-24T22:52:22Z",
+      "pushed_at": "2026-10-24T23:55:12Z",
+      "license": "Apache-2.0"
+    },
+    "paperclipai/paperclip": {
+      "stars": 106958,
+      "forks": 17765,
+      "created_at": "2026-03-02T15:01:51Z",
+      "pushed_at": "2026-10-24T23:51:53Z",
+      "license": "MIT"
+    },
+    "mvschwarz/openrig": {
+      "stars": 8168,
+      "forks": 665,
+      "created_at": "2026-04-01T06:22:40Z",
+      "pushed_at": "2026-10-24T23:54:43Z",
+      "license": "Apache-2.0"
+    },
+    "anthropics/sandbox-runtime": {
+      "stars": 6466,
+      "forks": 567,
+      "created_at": "2025-10-20T02:52:10Z",
+      "pushed_at": "2026-10-24T22:26:33Z",
+      "license": "Apache-2.0"
+    },
+    "makecindy/cindy": {
+      "stars": 4084,
+      "forks": 584,
+      "created_at": "2026-07-22T17:49:34Z",
+      "pushed_at": "2026-10-24T23:53:11Z",
+      "license": "Apache-2.0"
+    }
+  },
+  "release_verification": {
+    "NVIDIA/OpenShell": {
+      "tag": "v0.1.5",
+      "published_at": "2026-10-20T17:28:32Z",
+      "url": "https://github.com/NVIDIA/OpenShell/releases/tag/v0.1.5"
+    },
+    "paperclipai/paperclip": {
+      "tag": "v2026.1023.0",
+      "published_at": "2026-10-24T00:03:59Z",
+      "url": "https://github.com/paperclipai/paperclip/releases/tag/v2026.1023.0"
+    },
+    "mvschwarz/openrig": {
+      "tag": "v0.7.0",
+      "published_at": "2026-10-23T14:12:22Z",
+      "url": "https://github.com/mvschwarz/openrig/releases/tag/v0.7.0"
+    },
+    "anthropics/sandbox-runtime": {
+      "tag": "v0.0.81",
+      "published_at": "2026-10-20T01:01:41Z",
+      "url": "https://github.com/anthropics/sandbox-runtime/releases/tag/v0.0.81"
+    },
+    "makecindy/cindy": {
+      "tag": "v0.1.115",
+      "published_at": "2026-10-23T02:46:16Z",
+      "url": "https://github.com/makecindy/cindy/releases/tag/v0.1.115"
+    }
+  },
+  "trending_daily_observation": {
+    "source_url": "https://github.com/trending?since=daily",
+    "observed_utc_approx": "2026-10-24T23:54:00Z",
+    "stars_today_display": {
+      "NVIDIA/OpenShell": 893,
+      "makecindy/cindy": 471
+    },
+    "note": "Rolling GitHub Trending page display, not a historical REST count and not independently reconstructed daily star delta."
+  },
+  "historical_comparison": {
+    "NVIDIA/OpenShell": {
+      "previous_snapshot": "data/snapshots/2026/09/2026-09-29.json",
+      "previous_stars": 9397,
+      "current_stars": 19468,
+      "difference_between_samples": 10071,
+      "note": "Non-daily interval; not a daily growth claim."
+    }
+  },
+  "notes": "Counts sampled over several requests, not atomic. Release contents and claims from first-party materials; no independent performance/security reproduction. anthropics/sandbox-runtime v0.0.81 is Windows-only; makecindy/cindy source covers client, not hosted backend."
+}

@@ -21,3 +21,12 @@ Sources:
 XERJ v1.0.0-rc.96 公开了“wrong-and-confident detection”真实 watcher 路径测试未达标：0.2449，而门槛为 ≤0.05。它不是合格率提升，而是**可审计的失败证据**，与前一期语料签名结合说明：来源签名无法替代错误结论检测。应继续跟踪门槛修复、复测协议和第三方复现。
 
 Source: https://github.com/xerj-org/xerj/releases/tag/v1.0.0-rc.96
+
+
+## 2026-10-25 — Private tasks, break-glass and budget fail-closed
+
+Paperclip v2026.1023.0 adds private task/project ACLs that apply to search, transcripts, attachments and plugin reads; an agent's rights are intersected with the responsible user's rights. Even Owners/Admins must explicitly request break-glass access, which writes an audit record. Unpriced model usage now blocks budget-constrained runs by default until resolved. This advances October 12's delegated MCP authority toward **resource-level confidentiality → auditable emergency override → conservative accounting**.
+
+**Upgrade risk:** The Operator preset expands from 1 grant to 14, including agent and tool management; teams must review role assignments rather than assume the old least-privilege preset. No independent cross-plugin penetration testing has been performed.
+
+Source: https://github.com/paperclipai/paperclip/releases/tag/v2026.1023.0

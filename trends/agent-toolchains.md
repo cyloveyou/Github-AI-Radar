@@ -63,3 +63,10 @@ VVV v0.1.1 packages editable Remotion video templates, inputs, media license met
 gitai 0.4.0 makes source-control boundaries explicit: operator-only repository creation, exact branch names, no agent access to internal refs, and reduced reliance on Git's ambiguous revision parsing. The workflow becomes **agent proposal → exact-tree verification → server-side authorization → auditable landing**. These are different validation layers and neither replaces independent testing.
 
 Sources: https://github.com/actionow-ai/vvv/releases/tag/v0.1.1 ; https://github.com/feder-cr/git-ai/releases/tag/v0.4.0
+
+
+## 2026-10-25 — Consumer multi-harness desktop clients expose the open-source boundary
+
+Cindy v0.1.115 combines a public Electron/Expo client, Claude Code/Codex harnesses, shared local memory/skills and group-agent UI. GitHub Trending's rolling daily display showed 471 stars today. Unlike OpenRig's daemon-first team runtime or Orca's developer workspace, Cindy positions multi-harness execution as an end-user desktop/mobile workflow. The repository explicitly excludes the hosted backend, and Skip Sign-In offers only a subset of local capabilities. **Open-source client ≠ fully open-source service**, and feature descriptions are not independent interoperability benchmarks.
+
+Sources: https://github.com/makecindy/cindy ; https://github.com/makecindy/cindy/releases/tag/v0.1.115

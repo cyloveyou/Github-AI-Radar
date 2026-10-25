@@ -10,8 +10,8 @@
 
 ![Status](https://img.shields.io/badge/status-active-success)
 <!-- RADAR_BADGES_START -->
-![Tracked](https://img.shields.io/badge/tracked_projects-79-blue)
-![Reports](https://img.shields.io/badge/daily_reports-29-blueviolet)
+![Tracked](https://img.shields.io/badge/tracked_projects-81-blue)
+![Reports](https://img.shields.io/badge/daily_reports-30-blueviolet)
 <!-- RADAR_BADGES_END -->
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -43,6 +43,11 @@ GitHub AI Radar 持续观察 GitHub 上**当前热门和快速上升的 AI 开�
 
 | Date | Project / Signal | Area | Why it matters |
 |---|---|---|---|
+| **10-25** | **NVIDIA OpenShell v0.1.5** | Sandbox · Runtime · Audit | 版本化 Sandbox Protocol、可选策略 Push、OCSF 审计；二次上榜而非新项目 |
+| **10-25** | **Paperclip v2026.1023.0** | Control Plane · Privacy | 私有任务权限、Break-glass 审计、未计价预算默认阻断；Operator 权限升级须审查 |
+| **10-25** | **OpenRig v0.7.0** | Multi-Agent · Recovery | 人类 Quiet Hours、部分 Seat 恢复、干净启动环境与交付不确定性 |
+| **10-25** | **Anthropic Sandbox Runtime v0.0.81** | OS Sandbox · Windows | Windows 受限令牌、AppContainer 出站与 stdin 端点修复；仅 Windows 更新 |
+| **10-25** | **Cindy v0.1.115** | Multi-Harness · Desktop Agent | 跨 Harness 桌面客户端热度上升；开源范围不包含托管后端 |
 | **10-24** | **Open Math Harness v0.41.0** | Scientific Harness · Formal Verification | 能力内核、并行数学探索和 Lean 证明检查；完整交互运行时仍依赖平台 |
 | **10-24** | **OPAL** | Coding Agent · ML Training | 训练过程中由 Agent 重写 PyTorch 优化器；生成代码不在沙箱中 |
 | **10-24** | **VVV v0.1.1** | Agent Tools · Video Artifacts | 可编辑 Remotion 模板、质检与跨 Agent 成果包 |
@@ -168,11 +173,11 @@ Literature / Data / Task
 <!-- RADAR_STATS_START -->
 | Metric | Current |
 |---|---:|
-| Tracked projects | **79** |
-| Triggered daily reports | **29** |
+| Tracked projects | **81** |
+| Triggered daily reports | **30** |
 | Trend notes | **7** |
 | Weekly reviews | **1** |
-| Historical PDF reports | **27** |
+| Historical PDF reports | **28** |
 | First observation | **2026-09-17** |
 <!-- RADAR_STATS_END -->
 

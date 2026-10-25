@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-24",
+  "updated_at": "2026-10-25",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -373,9 +373,10 @@
         "agent-safety"
       ],
       "first_seen": "2026-09-29",
-      "last_reported": "2026-09-29",
+      "last_reported": "2026-10-25",
       "reports": [
-        "daily/2026/09/2026-09-29.md"
+        "daily/2026/09/2026-09-29.md",
+        "daily/2026/10/2026-10-25.md"
       ],
       "status": "watching"
     },
@@ -516,10 +517,11 @@
         "browser-use"
       ],
       "first_seen": "2026-10-09",
-      "last_reported": "2026-10-15",
+      "last_reported": "2026-10-25",
       "reports": [
         "daily/2026/10/2026-10-09.md",
-        "daily/2026/10/2026-10-15.md"
+        "daily/2026/10/2026-10-15.md",
+        "daily/2026/10/2026-10-25.md"
       ],
       "status": "watching"
     },
@@ -597,9 +599,10 @@
         "control-plane"
       ],
       "first_seen": "2026-10-13",
-      "last_reported": "2026-10-13",
+      "last_reported": "2026-10-25",
       "reports": [
-        "daily/2026/10/2026-10-13.md"
+        "daily/2026/10/2026-10-13.md",
+        "daily/2026/10/2026-10-25.md"
       ],
       "status": "watching"
     },
@@ -1193,6 +1196,37 @@
       "last_reported": "2026-10-24",
       "reports": [
         "daily/2026/10/2026-10-24.md"
+      ],
+      "status": "watching"
+    },
+    "anthropics/sandbox-runtime": {
+      "name": "sandbox-runtime",
+      "repo_url": "https://github.com/anthropics/sandbox-runtime",
+      "categories": [
+        "sandbox",
+        "runtime-security",
+        "agent-tools"
+      ],
+      "first_seen": "2026-10-25",
+      "last_reported": "2026-10-25",
+      "reports": [
+        "daily/2026/10/2026-10-25.md"
+      ],
+      "status": "watching"
+    },
+    "makecindy/cindy": {
+      "name": "cindy",
+      "repo_url": "https://github.com/makecindy/cindy",
+      "categories": [
+        "coding-agent",
+        "multi-harness",
+        "automation",
+        "computer-use"
+      ],
+      "first_seen": "2026-10-25",
+      "last_reported": "2026-10-25",
+      "reports": [
+        "daily/2026/10/2026-10-25.md"
       ],
       "status": "watching"
     }
