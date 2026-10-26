@@ -10,8 +10,8 @@
 
 ![Status](https://img.shields.io/badge/status-active-success)
 <!-- RADAR_BADGES_START -->
-![Tracked](https://img.shields.io/badge/tracked_projects-81-blue)
-![Reports](https://img.shields.io/badge/daily_reports-30-blueviolet)
+![Tracked](https://img.shields.io/badge/tracked_projects-84-blue)
+![Reports](https://img.shields.io/badge/daily_reports-31-blueviolet)
 <!-- RADAR_BADGES_END -->
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -43,6 +43,11 @@ GitHub AI Radar 持续观察 GitHub 上**当前热门和快速上升的 AI 开�
 
 | Date | Project / Signal | Area | Why it matters |
 |---|---|---|---|
+| **10-26** | **Hallmark** | Coding Agent · Design Skills | 三层设计门槛、八宽度浏览器检查与重设计保真；首次收录 |
+| **10-26** | **Impeccable** | Coding Agent · Browser Audit | 24 命令、62 确定性规则、CDP 实时检查；首次收录 |
+| **10-26** | **Experiential** | Model Gateway · Agent Routing | 统一模型 API、身份/预算控制与轨迹反馈路由；首次收录 |
+| **10-26** | **OpenRig v0.7.1–0.7.2** | Multi-Harness · Control Plane | 每席位权限/账户、跨 Harness 交接与升级回退风险 |
+| **10-26** | **Ruflo v3.63.0** | Managed Agents · Runtime | 预算上限、白名单控制、签名建议学习；云端路径尚未实测 |
 | **10-25** | **NVIDIA OpenShell v0.1.5** | Sandbox · Runtime · Audit | 版本化 Sandbox Protocol、可选策略 Push、OCSF 审计；二次上榜而非新项目 |
 | **10-25** | **Paperclip v2026.1023.0** | Control Plane · Privacy | 私有任务权限、Break-glass 审计、未计价预算默认阻断；Operator 权限升级须审查 |
 | **10-25** | **OpenRig v0.7.0** | Multi-Agent · Recovery | 人类 Quiet Hours、部分 Seat 恢复、干净启动环境与交付不确定性 |
@@ -173,11 +178,11 @@ Literature / Data / Task
 <!-- RADAR_STATS_START -->
 | Metric | Current |
 |---|---:|
-| Tracked projects | **81** |
-| Triggered daily reports | **30** |
+| Tracked projects | **84** |
+| Triggered daily reports | **31** |
 | Trend notes | **7** |
 | Weekly reviews | **1** |
-| Historical PDF reports | **28** |
+| Historical PDF reports | **29** |
 | First observation | **2026-09-17** |
 <!-- RADAR_STATS_END -->
 

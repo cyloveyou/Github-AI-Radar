@@ -70,3 +70,11 @@ Sources: https://github.com/actionow-ai/vvv/releases/tag/v0.1.1 ; https://github
 Cindy v0.1.115 combines a public Electron/Expo client, Claude Code/Codex harnesses, shared local memory/skills and group-agent UI. GitHub Trending's rolling daily display showed 471 stars today. Unlike OpenRig's daemon-first team runtime or Orca's developer workspace, Cindy positions multi-harness execution as an end-user desktop/mobile workflow. The repository explicitly excludes the hosted backend, and Skip Sign-In offers only a subset of local capabilities. **Open-source client ≠ fully open-source service**, and feature descriptions are not independent interoperability benchmarks.
 
 Sources: https://github.com/makecindy/cindy ; https://github.com/makecindy/cindy/releases/tag/v0.1.115
+
+## 2026-10-26 — Frontend design Skills gain deterministic acceptance gates
+
+Hallmark combines a non-negotiable design floor, overrideable anti-template checks and browser rendering across eight viewport widths; its audit/redesign path tries to preserve existing links, fields and handlers. Impeccable combines project-level PRODUCT.md context, 24 commands, 62 deterministic checks and CDP-based live desktop/browser inspection. Both are currently trending, but neither GitHub Stars nor author-provided examples prove superior design quality.
+
+**Shift:** generative design Skill → executable viewport/a11y checks → regression evidence → human review. Evaluate the same pages against accessibility, interaction preservation and blind human ratings; keep deterministic and subjective tests separate.
+
+Sources: https://github.com/Nutlope/hallmark ; https://github.com/pbakaus/impeccable ; https://github.com/pbakaus/impeccable/releases/tag/skill-v4.7.0

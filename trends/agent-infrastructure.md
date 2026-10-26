@@ -155,3 +155,13 @@ NVIDIA OpenShell v0.1.5 publishes a versioned Sandbox Protocol for independently
 Anthropic Sandbox Runtime v0.0.81 hardens Windows process-tree isolation with a write-restricted token, AppContainer egress fencing, safer stdin pipe handling and explicit loopback installation. This is a Windows-only update, not a new macOS/Linux security claim. OpenRig v0.7.0 adds human quiet hours and away modes, partial team restoration and clean agent environment inheritance. Together they suggest **sandbox policy + portable backend + human availability + partial recovery** are distinct production-runtime requirements.
 
 Sources: https://github.com/NVIDIA/OpenShell/releases/tag/v0.1.5 ; https://github.com/anthropics/sandbox-runtime/releases/tag/v0.0.81 ; https://github.com/mvschwarz/openrig/releases/tag/v0.7.0
+
+## 2026-10-26 — Per-seat identity and bounded managed-agent controls
+
+OpenRig v0.7.1/0.7.2 adds per-seat terminal intervention and typing guards, dedicated Claude/Codex credential homes, and handover-acknowledged runtime switching. Existing seats keep the former full-control preset; upgrades and downgrades require explicit permission review, especially for Claude tool rules and Linux D-Bus access. This extends Oct 25's quiet-hours/recovery story to **per-seat identity, least privilege and controlled harness replacement**.
+
+Ruflo v3.63.0 adds opt-in managed-agent MCP capabilities, explicit budgetCents, host-gated per-session control/interrupt, and signed advisory-learning records. Official notes say the Anthropic Managed Agents beta path has **not** been live-tested; evidence is only partly bound to execution, so the signed record is not proof of correct behavior.
+
+**Shift:** team scheduling → identity + policy + budget + verifiable control action + recoverable handoff. Test interrupted switches, revoked accounts, budget exhaustion and tampered verification records.
+
+Sources: https://github.com/mvschwarz/openrig/releases/tag/v0.7.1 ; https://github.com/mvschwarz/openrig/releases/tag/v0.7.2 ; https://github.com/ruvnet/ruflo/releases/tag/v3.63.0

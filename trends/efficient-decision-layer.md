@@ -40,3 +40,11 @@ System-1 Decision Model
 - **2026-10-03:** `strands-labs/strands-decider` + Cloudflare Clef/Clef-flash — System-1 decision model becomes an explicit agent architecture layer.
 
 后续重点观察：benchmark 是否稳定、是否出现跨 harness 的 decision API、是否与 sandbox policy / runtime enforcement 直接结合。
+
+## 2026-10-26 — Routing optimization moves into the model gateway
+
+Experiential offers an OpenAI-compatible local gateway and a separate hosted service, with model/provider routing, per-user/agent budget and access constraints, and trace-driven router optimization. This complements the decision-model route (Strands Decider / Clef): a decision policy can be implemented at the traffic gateway rather than inside every Agent. The Oct 25 GitHub v0.7.220 record was restored from an existing PyPI release and is **not** evidence of a fresh algorithm launch.
+
+**Next test:** fixed request set, identical provider costs and quality labels, per-agent budget enforcement, trace opt-in/out and actual data egress. “Zero markup” and optimization gains are project claims, not verified results.
+
+Sources: https://github.com/experientiallabs/experiential ; https://github.com/experientiallabs/experiential/releases/tag/v0.7.220

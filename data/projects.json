@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-25",
+  "updated_at": "2026-10-26",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -599,10 +599,11 @@
         "control-plane"
       ],
       "first_seen": "2026-10-13",
-      "last_reported": "2026-10-25",
+      "last_reported": "2026-10-26",
       "reports": [
         "daily/2026/10/2026-10-13.md",
-        "daily/2026/10/2026-10-25.md"
+        "daily/2026/10/2026-10-25.md",
+        "daily/2026/10/2026-10-26.md"
       ],
       "status": "watching"
     },
@@ -837,9 +838,10 @@
         "runtime-policy"
       ],
       "first_seen": "2026-10-19",
-      "last_reported": "2026-10-19",
+      "last_reported": "2026-10-26",
       "reports": [
-        "daily/2026/10/2026-10-19.md"
+        "daily/2026/10/2026-10-19.md",
+        "daily/2026/10/2026-10-26.md"
       ],
       "status": "watching"
     },
@@ -1227,6 +1229,54 @@
       "last_reported": "2026-10-25",
       "reports": [
         "daily/2026/10/2026-10-25.md"
+      ],
+      "status": "watching"
+    },
+    "Nutlope/hallmark": {
+      "name": "Hallmark",
+      "repo_url": "https://github.com/Nutlope/hallmark",
+      "categories": [
+        "coding-agent",
+        "agent-skills",
+        "frontend-design",
+        "artifact-validation"
+      ],
+      "first_seen": "2026-10-26",
+      "last_reported": "2026-10-26",
+      "reports": [
+        "daily/2026/10/2026-10-26.md"
+      ],
+      "status": "watching"
+    },
+    "pbakaus/impeccable": {
+      "name": "Impeccable",
+      "repo_url": "https://github.com/pbakaus/impeccable",
+      "categories": [
+        "coding-agent",
+        "agent-skills",
+        "frontend-design",
+        "browser-audit"
+      ],
+      "first_seen": "2026-10-26",
+      "last_reported": "2026-10-26",
+      "reports": [
+        "daily/2026/10/2026-10-26.md"
+      ],
+      "status": "watching"
+    },
+    "experientiallabs/experiential": {
+      "name": "Experiential",
+      "repo_url": "https://github.com/experientiallabs/experiential",
+      "categories": [
+        "ai-tools",
+        "model-gateway",
+        "agent-routing",
+        "cost-control"
+      ],
+      "first_seen": "2026-10-26",
+      "last_reported": "2026-10-26",
+      "reports": [
+        "daily/2026/10/2026-10-26.md"
       ],
       "status": "watching"
     }

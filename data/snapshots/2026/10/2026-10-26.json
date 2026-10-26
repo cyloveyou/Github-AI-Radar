@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-26",
+  "observation_utc": "2026-10-26T00:12:23Z",
+  "source": "Official GitHub REST /repos/{owner}/{repo} and /releases; GitHub Trending daily HTML; official README",
+  "projects": {
+    "Nutlope/hallmark": {
+      "stars": 33719,
+      "forks": 1761,
+      "created_at": "2026-04-27T20:47:10Z",
+      "pushed_at": "2026-10-22T17:20:32Z",
+      "license": "MIT"
+    },
+    "pbakaus/impeccable": {
+      "stars": 87672,
+      "forks": 5242,
+      "created_at": "2025-11-16T01:52:04Z",
+      "pushed_at": "2026-10-25T18:04:24Z",
+      "license": "Apache-2.0"
+    },
+    "experientiallabs/experiential": {
+      "stars": 12840,
+      "forks": 263,
+      "created_at": "2026-06-24T22:40:57Z",
+      "pushed_at": "2026-10-25T17:19:23Z",
+      "license": "Apache-2.0"
+    },
+    "mvschwarz/openrig": {
+      "stars": 8192,
+      "forks": 672,
+      "created_at": "2026-04-01T06:22:40Z",
+      "pushed_at": "2026-10-26T00:01:34Z",
+      "license": "Apache-2.0"
+    },
+    "ruvnet/ruflo": {
+      "stars": 79279,
+      "forks": 9305,
+      "created_at": "2025-06-02T21:24:20Z",
+      "pushed_at": "2026-10-25T23:12:50Z",
+      "license": "MIT"
+    },
+    "cloudflare/security-audit-skill": {
+      "stars": 46848,
+      "forks": 2903,
+      "created_at": "2026-06-18T14:08:44Z",
+      "pushed_at": "2026-09-14T19:29:02Z",
+      "license": "MIT"
+    },
+    "JetBrains/thinkrail": {
+      "stars": 1702,
+      "forks": 102,
+      "created_at": "2026-07-08T07:40:43Z",
+      "pushed_at": "2026-10-25T22:50:30Z",
+      "license": "Apache-2.0"
+    },
+    "debpalash/VoiceStudio": {
+      "stars": 86772,
+      "forks": 9605,
+      "created_at": "2026-04-09T21:40:26Z",
+      "pushed_at": "2026-10-26T00:10:50Z",
+      "license": "AGPL-3.0"
+    }
+  },
+  "release_verification": {
+    "pbakaus/impeccable": [
+      {
+        "tag": "engine-v0.1.17",
+        "published_at": "2026-10-23T23:26:28Z",
+        "url": "https://github.com/pbakaus/impeccable/releases/tag/engine-v0.1.17"
+      },
+      {
+        "tag": "skill-v4.7.0",
+        "published_at": "2026-10-19T17:52:59Z",
+        "url": "https://github.com/pbakaus/impeccable/releases/tag/skill-v4.7.0"
+      }
+    ],
+    "experientiallabs/experiential": [
+      {
+        "tag": "v0.7.220",
+        "published_at": "2026-10-25T16:39:49Z",
+        "url": "https://github.com/experientiallabs/experiential/releases/tag/v0.7.220"
+      }
+    ],
+    "mvschwarz/openrig": [
+      {
+        "tag": "v0.7.2",
+        "published_at": "2026-10-25T22:18:04Z",
+        "url": "https://github.com/mvschwarz/openrig/releases/tag/v0.7.2"
+      },
+      {
+        "tag": "v0.7.1",
+        "published_at": "2026-10-25T07:29:54Z",
+        "url": "https://github.com/mvschwarz/openrig/releases/tag/v0.7.1"
+      }
+    ],
+    "ruvnet/ruflo": [
+      {
+        "tag": "v3.63.0",
+        "published_at": "2026-10-25T03:15:55Z",
+        "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.63.0"
+      }
+    ]
+  },
+  "trending_daily_observation": {
+    "source_url": "https://github.com/trending?since=daily",
+    "observed_utc_approx": "2026-10-26T00:12:23Z",
+    "stars_today_display": {
+      "Nutlope/hallmark": 1317,
+      "pbakaus/impeccable": 1092,
+      "experientiallabs/experiential": 1117,
+      "cloudflare/security-audit-skill": 2878,
+      "debpalash/VoiceStudio": 1592
+    },
+    "note": "Rolling GitHub Trending page display; not a reconstructed calendar-day star delta. Values observed earlier in the same scan."
+  },
+  "historical_comparison": {
+    "mvschwarz/openrig": {
+      "previous_snapshot": "data/snapshots/2026/10/2026-10-25.json",
+      "previous_stars": 8168,
+      "current_stars": 8192,
+      "difference_between_samples": 24,
+      "note": "Two observation dates; not an exact calendar-day star count."
+    },
+    "debpalash/VoiceStudio": {
+      "previous_snapshot": "data/snapshots/2026/10/2026-10-16.json",
+      "previous_stars": 69024,
+      "current_stars": 86772,
+      "difference_between_samples": 17748,
+      "note": "Approximately 10-day interval; not daily growth."
+    }
+  },
+  "notes": "Counts sampled sequentially during the morning scan, not atomically. Release contents and technical claims come from first-party materials; no independent benchmark or security reproduction. Experiential v0.7.220 only restores a release record. Cloudflare code last pushed 2026-09-14, so its new attention is not a fresh release."
+}
