@@ -34,3 +34,12 @@ Source: https://github.com/browser-use/rl-env-use
 axuse uses CDP and DOM/accessibility trees with stable element references and diffed snapshots as a single MCP tool surface for multiple coding-agent harnesses. Unlike OpenGCUA's broad GUI/API/Shell routing, it prioritizes **structured UI semantics over screenshot loops**. Windows desktop support, opt-in macOS TCC access and X11/XWayland Linux support are project-reported; there is no tagged release. Validate browser-bridge permissions, prompt-injection containment and comparable task success/token/latency against screenshot baselines.
 
 Source: https://github.com/ctoldigital/axuse
+
+
+## 2026-10-27 — Logged-in web access becomes a managed session capability
+
+Agent Reach v1.6.0 uses a dedicated background browser for authenticated platforms and consolidates multi-platform search/read routes. Its README explicitly says a site's Chrome login session can be copied into the dedicated browser, which is a **credential/session-handling boundary**, not proof of complete isolation. Browser automation quality therefore needs three separate checks: capability availability, session/permission provenance, and reliable diagnosis when platform anti-bot rules change.
+
+Use low-privilege accounts and verify cookie storage, revocation and platform-specific success rates. Release and README describe intended behavior, not independent security tests.
+
+Sources: https://github.com/Panniantong/Agent-Reach/releases/tag/v1.6.0 ; https://github.com/Panniantong/Agent-Reach

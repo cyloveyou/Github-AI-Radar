@@ -30,3 +30,12 @@ Paperclip v2026.1023.0 adds private task/project ACLs that apply to search, tran
 **Upgrade risk:** The Operator preset expands from 1 grant to 14, including agent and tool management; teams must review role assignments rather than assume the old least-privilege preset. No independent cross-plugin penetration testing has been performed.
 
 Source: https://github.com/paperclipai/paperclip/releases/tag/v2026.1023.0
+
+
+## 2026-10-27 — Skills supply-chain gates need coverage and false-positive accounting
+
+NVIDIA SkillSpector v2.13.1 repairs false incomplete-analysis and false hidden-instruction findings, bounds tool-misuse context, and strengthens report/baseline output safety. The project advertises 71 detection patterns across 17 categories, scanning repository/URL/archive/file inputs with optional LLM analysis and baseline suppression. This extends previous behavioral auditing to **pre-install Skill artifact inspection**.
+
+**Boundary:** A passing static scan does not establish runtime safety; vendor-reported dataset risk prevalence is not an independently representative ecosystem estimate. Evaluate attack recall, benign-skill false positives, remote dependency coverage and whether suppressed findings remain traceable.
+
+Sources: https://github.com/NVIDIA/SkillSpector ; https://github.com/NVIDIA/SkillSpector/releases/tag/v2.13.1

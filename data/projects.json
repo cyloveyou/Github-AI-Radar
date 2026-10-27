@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-26",
+  "updated_at": "2026-10-27",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -1277,6 +1277,85 @@
       "last_reported": "2026-10-26",
       "reports": [
         "daily/2026/10/2026-10-26.md"
+      ],
+      "status": "watching"
+    },
+    "JetBrains/thinkrail": {
+      "name": "ThinkRail",
+      "repo_url": "https://github.com/JetBrains/thinkrail",
+      "categories": [
+        "coding-agent",
+        "agent-ide",
+        "worktree",
+        "persistent-specs"
+      ],
+      "first_seen": "2026-10-27",
+      "last_reported": "2026-10-27",
+      "reports": [
+        "daily/2026/10/2026-10-27.md"
+      ],
+      "status": "watching"
+    },
+    "NVIDIA/SkillSpector": {
+      "name": "SkillSpector",
+      "repo_url": "https://github.com/NVIDIA/SkillSpector",
+      "categories": [
+        "agent-security",
+        "agent-skills",
+        "supply-chain-audit"
+      ],
+      "first_seen": "2026-10-27",
+      "last_reported": "2026-10-27",
+      "reports": [
+        "daily/2026/10/2026-10-27.md"
+      ],
+      "status": "watching"
+    },
+    "HarnessRouter/harnessrouter": {
+      "name": "HarnessRouter",
+      "repo_url": "https://github.com/HarnessRouter/harnessrouter",
+      "categories": [
+        "agent-harness",
+        "agent-runtime",
+        "unified-protocol",
+        "control-plane"
+      ],
+      "first_seen": "2026-10-27",
+      "last_reported": "2026-10-27",
+      "reports": [
+        "daily/2026/10/2026-10-27.md"
+      ],
+      "status": "watching"
+    },
+    "Panniantong/Agent-Reach": {
+      "name": "Agent Reach",
+      "repo_url": "https://github.com/Panniantong/Agent-Reach",
+      "categories": [
+        "browser-agent",
+        "content-retrieval",
+        "agent-tools",
+        "session-management"
+      ],
+      "first_seen": "2026-10-27",
+      "last_reported": "2026-10-27",
+      "reports": [
+        "daily/2026/10/2026-10-27.md"
+      ],
+      "status": "watching"
+    },
+    "omnigent-ai/omnigent": {
+      "name": "Omnigent",
+      "repo_url": "https://github.com/omnigent-ai/omnigent",
+      "categories": [
+        "meta-harness",
+        "agent-runtime",
+        "mcp-gateway",
+        "control-plane"
+      ],
+      "first_seen": "2026-10-27",
+      "last_reported": "2026-10-27",
+      "reports": [
+        "daily/2026/10/2026-10-27.md"
       ],
       "status": "watching"
     }

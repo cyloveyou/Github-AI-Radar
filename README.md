@@ -10,8 +10,8 @@
 
 ![Status](https://img.shields.io/badge/status-active-success)
 <!-- RADAR_BADGES_START -->
-![Tracked](https://img.shields.io/badge/tracked_projects-84-blue)
-![Reports](https://img.shields.io/badge/daily_reports-31-blueviolet)
+![Tracked](https://img.shields.io/badge/tracked_projects-89-blue)
+![Reports](https://img.shields.io/badge/daily_reports-32-blueviolet)
 <!-- RADAR_BADGES_END -->
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -43,6 +43,11 @@ GitHub AI Radar 持续观察 GitHub 上**当前热门和快速上升的 AI 开�
 
 | Date | Project / Signal | Area | Why it matters |
 |---|---|---|---|
+| **10-27** | **JetBrains ThinkRail** | Coding Agent · IDE · Worktree | 相邻 REST 快照 +1,178 Stars；pi + SPEC.md 持久规范与 PR/CI 流程，首次收录 |
+| **10-27** | **NVIDIA SkillSpector v2.13.1** | Agent Skills · Security Audit | 71 检测模式/17 类风险；误报、覆盖缺口与报告输出安全修复，首次收录 |
+| **10-27** | **HarnessRouter v0.37.1–0.37.3** | Multi-Harness · Unified API | 工具流式可观测、MCP 路径修复与 Skill 误执行风险修复，首次收录 |
+| **10-27** | **Agent Reach v1.6.0** | Browser Agent · Session | 专用登录浏览器、平台能力路由与会话迁移风险，首次收录 |
+| **10-27** | **Omnigent v0.19.0** | Meta-Harness · Control Plane | MCP Registry/Gateway 策略、Git SSH 凭据代理及离线恢复，首次收录 |
 | **10-26** | **Hallmark** | Coding Agent · Design Skills | 三层设计门槛、八宽度浏览器检查与重设计保真；首次收录 |
 | **10-26** | **Impeccable** | Coding Agent · Browser Audit | 24 命令、62 确定性规则、CDP 实时检查；首次收录 |
 | **10-26** | **Experiential** | Model Gateway · Agent Routing | 统一模型 API、身份/预算控制与轨迹反馈路由；首次收录 |
@@ -178,11 +183,11 @@ Literature / Data / Task
 <!-- RADAR_STATS_START -->
 | Metric | Current |
 |---|---:|
-| Tracked projects | **84** |
-| Triggered daily reports | **31** |
+| Tracked projects | **89** |
+| Triggered daily reports | **32** |
 | Trend notes | **7** |
 | Weekly reviews | **1** |
-| Historical PDF reports | **29** |
+| Historical PDF reports | **30** |
 | First observation | **2026-09-17** |
 <!-- RADAR_STATS_END -->
 

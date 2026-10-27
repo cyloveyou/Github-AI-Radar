@@ -165,3 +165,12 @@ Ruflo v3.63.0 adds opt-in managed-agent MCP capabilities, explicit budgetCents, 
 **Shift:** team scheduling → identity + policy + budget + verifiable control action + recoverable handoff. Test interrupted switches, revoked accounts, budget exhaustion and tampered verification records.
 
 Sources: https://github.com/mvschwarz/openrig/releases/tag/v0.7.1 ; https://github.com/mvschwarz/openrig/releases/tag/v0.7.2 ; https://github.com/ruvnet/ruflo/releases/tag/v3.63.0
+
+
+## 2026-10-27 — Meta-harness policies, live tool streams and IDE-grounded project state
+
+HarnessRouter v0.37.1/0.37.3 makes multi-harness execution observable at the individual tool-call level and fixes MCP endpoint path rewriting that broke hosted browser tools. Its Community Edition uses distinct OS users/workspaces, not per-session containers; default admin credentials must be changed. Omnigent v0.19.0 provides a different control-plane layer: server-mediated MCP registry/gateway policies, approved Git SSH access without exposing the key to the agent, and offline message/tunnel recovery. The distinction is **unified execution API and event stream** versus **cross-harness policy, collaboration and credential mediation**; both need adversarial authorization tests.
+
+JetBrains ThinkRail's Oct 26–27 REST samples increased from 1,702 to 2,880 Stars (two snapshots, not calendar-day growth), highlighting a parallel route: pi Coding Agent integrated with worktree isolation, PR/CI reviews and persistent `SPEC.md` project knowledge. A Git worktree is not a security sandbox, and a living spec is not verified memory accuracy.
+
+Sources: https://github.com/HarnessRouter/harnessrouter/releases/tag/v0.37.1 ; https://github.com/HarnessRouter/harnessrouter/releases/tag/v0.37.3 ; https://github.com/omnigent-ai/omnigent/releases/tag/v0.19.0 ; https://github.com/JetBrains/thinkrail
