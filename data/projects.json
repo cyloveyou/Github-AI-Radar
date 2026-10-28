@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-27",
+  "updated_at": "2026-10-28",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -1356,6 +1356,87 @@
       "last_reported": "2026-10-27",
       "reports": [
         "daily/2026/10/2026-10-27.md"
+      ],
+      "status": "watching"
+    },
+    "agentgateway/agentgateway": {
+      "name": "agentgateway",
+      "repo_url": "https://github.com/agentgateway/agentgateway",
+      "categories": [
+        "agent-gateway",
+        "mcp-gateway",
+        "model-routing",
+        "guardrails",
+        "control-plane"
+      ],
+      "first_seen": "2026-10-28",
+      "last_reported": "2026-10-28",
+      "reports": [
+        "daily/2026/10/2026-10-28.md"
+      ],
+      "status": "watching"
+    },
+    "Gaurav-Gosain/tuios": {
+      "name": "tuios",
+      "repo_url": "https://github.com/Gaurav-Gosain/tuios",
+      "categories": [
+        "coding-agent",
+        "terminal-workspace",
+        "multi-device",
+        "security"
+      ],
+      "first_seen": "2026-10-28",
+      "last_reported": "2026-10-28",
+      "reports": [
+        "daily/2026/10/2026-10-28.md"
+      ],
+      "status": "watching"
+    },
+    "HKUDS/AutoSwarm": {
+      "name": "AutoSwarm",
+      "repo_url": "https://github.com/HKUDS/AutoSwarm",
+      "categories": [
+        "multi-agent",
+        "agent-harness",
+        "shared-context",
+        "orchestration"
+      ],
+      "first_seen": "2026-10-28",
+      "last_reported": "2026-10-28",
+      "reports": [
+        "daily/2026/10/2026-10-28.md"
+      ],
+      "status": "watching"
+    },
+    "NVIDIA/auto-ontology": {
+      "name": "Auto Ontology",
+      "repo_url": "https://github.com/NVIDIA/auto-ontology",
+      "categories": [
+        "rag",
+        "knowledge-graph",
+        "semantic-layer",
+        "mcp"
+      ],
+      "first_seen": "2026-10-28",
+      "last_reported": "2026-10-28",
+      "reports": [
+        "daily/2026/10/2026-10-28.md"
+      ],
+      "status": "watching"
+    },
+    "zeronsh/zeron": {
+      "name": "Zeron",
+      "repo_url": "https://github.com/zeronsh/zeron",
+      "categories": [
+        "coding-agent",
+        "multi-harness",
+        "headless-runtime",
+        "control-plane"
+      ],
+      "first_seen": "2026-10-28",
+      "last_reported": "2026-10-28",
+      "reports": [
+        "daily/2026/10/2026-10-28.md"
       ],
       "status": "watching"
     }

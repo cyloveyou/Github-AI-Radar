@@ -1,0 +1,146 @@
+{
+  "date": "2026-10-28",
+  "observation_utc": "2026-10-28T00:06:30Z",
+  "source": "Official GitHub REST /repos/{owner}/{repo}, /releases/latest and /releases/tags/{tag}; official README and LICENSE; GitHub Trending daily HTML",
+  "projects": {
+    "agentgateway/agentgateway": {
+      "stars": 5683,
+      "forks": 1003,
+      "created_at": "2025-03-18T20:55:22Z",
+      "pushed_at": "2026-10-27T23:21:55Z",
+      "license": "Apache-2.0"
+    },
+    "Gaurav-Gosain/tuios": {
+      "stars": 6150,
+      "forks": 285,
+      "created_at": "2025-09-06T18:13:51Z",
+      "pushed_at": "2026-10-27T18:38:55Z",
+      "license": "MIT"
+    },
+    "HKUDS/AutoSwarm": {
+      "stars": 2033,
+      "forks": 368,
+      "created_at": "2026-07-01T10:17:37Z",
+      "pushed_at": "2026-10-27T12:38:24Z",
+      "license": "MIT"
+    },
+    "NVIDIA/auto-ontology": {
+      "stars": 340,
+      "forks": 44,
+      "created_at": "2026-04-27T21:45:56Z",
+      "pushed_at": "2026-10-27T23:46:06Z",
+      "license": "Apache-2.0"
+    },
+    "zeronsh/zeron": {
+      "stars": 3402,
+      "forks": 350,
+      "created_at": "2026-07-20T15:04:04Z",
+      "pushed_at": "2026-10-27T23:37:11Z",
+      "license": "MIT"
+    },
+    "fabio-rovai/open-ontologies": {
+      "stars": 1802,
+      "forks": 225,
+      "created_at": "2026-03-09T09:08:58Z",
+      "pushed_at": "2026-10-26T13:46:03Z",
+      "license": "MIT",
+      "tracked": false
+    },
+    "superdesigndev/treg": {
+      "stars": 6389,
+      "forks": 547,
+      "created_at": "2026-07-15T13:38:07Z",
+      "pushed_at": "2026-10-27T17:59:30Z",
+      "license": "Apache-2.0 with additional hosted-service restriction (non-OSI)",
+      "tracked": false
+    },
+    "multica-ai/multica": {
+      "stars": 54010,
+      "forks": 7107,
+      "created_at": "2026-01-13T17:59:46Z",
+      "pushed_at": "2026-10-27T10:28:54Z",
+      "license": "Custom Multica License (hosted/embedded restriction; non-OSI)",
+      "tracked": false
+    }
+  },
+  "release_verification": {
+    "agentgateway/agentgateway": [
+      {
+        "tag": "v1.7.0",
+        "published_at": "2026-10-27T17:18:28Z",
+        "url": "https://github.com/agentgateway/agentgateway/releases/tag/v1.7.0"
+      }
+    ],
+    "Gaurav-Gosain/tuios": [
+      {
+        "tag": "v0.11.1",
+        "published_at": "2026-10-26T13:17:44Z",
+        "url": "https://github.com/Gaurav-Gosain/tuios/releases/tag/v0.11.1",
+        "advisories": [
+          "GHSA-5q2q-f2hv-wf4h",
+          "GHSA-qcx6-vr32-xr8q",
+          "GHSA-5cvj-c8rj-c749"
+        ]
+      }
+    ],
+    "HKUDS/AutoSwarm": [],
+    "NVIDIA/auto-ontology": [],
+    "zeronsh/zeron": [
+      {
+        "tag": "v0.2.127",
+        "published_at": "2026-10-27T18:58:16Z",
+        "url": "https://github.com/zeronsh/zeron/releases/tag/v0.2.127"
+      }
+    ],
+    "fabio-rovai/open-ontologies": [
+      {
+        "tag": "v2.1.0",
+        "published_at": "2026-10-23T22:38:07Z",
+        "url": "https://github.com/fabio-rovai/open-ontologies/releases/tag/v2.1.0"
+      }
+    ],
+    "multica-ai/multica": [
+      {
+        "tag": "v0.7.1",
+        "published_at": "2026-10-27T09:50:19Z",
+        "url": "https://github.com/multica-ai/multica/releases/tag/v0.7.1"
+      }
+    ]
+  },
+  "trending_daily_observation": {
+    "source_url": "https://github.com/trending?since=daily",
+    "observed_utc_approx": "2026-10-28T00:01:00Z",
+    "stars_today_display": {
+      "agentgateway/agentgateway": 24,
+      "Gaurav-Gosain/tuios": 50,
+      "HKUDS/AutoSwarm": 33,
+      "NVIDIA/auto-ontology": 80,
+      "zeronsh/zeron": 30,
+      "elayadesign/ai-design-skills": 1395,
+      "nightly-labs/openbot": 777,
+      "JetBrains/thinkrail": 1204,
+      "Nutlope/hallmark": 2830
+    },
+    "note": "Rolling GitHub Trending display; not calendar-day net stars. Some values from language-specific pages."
+  },
+  "historical_comparison": {
+    "previous_daily": "daily/2026/10/2026-10-27.md",
+    "previous_tracked_projects": 89,
+    "tracked_new_today": 5,
+    "prior_topics": [
+      "unified harness API",
+      "MCP registry",
+      "coding agent IDE",
+      "skills supply-chain"
+    ],
+    "today_distinct_topics": [
+      "MCP ToolOutput guardrail policy and session encryption",
+      "three high-severity terminal-agent boundary fixes",
+      "shared cross-agent context",
+      "enterprise ontology grounding",
+      "native cross-device agent control"
+    ],
+    "star_growth_claims": "None; no adjacent historical snapshot for these five repos."
+  },
+  "notes": "Source-available repos with field-of-use restrictions are observed but excluded from tracked open-source project count. All release/benchmark claims are first-party and not independently reproduced."
+}

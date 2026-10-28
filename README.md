@@ -10,8 +10,8 @@
 
 ![Status](https://img.shields.io/badge/status-active-success)
 <!-- RADAR_BADGES_START -->
-![Tracked](https://img.shields.io/badge/tracked_projects-89-blue)
-![Reports](https://img.shields.io/badge/daily_reports-32-blueviolet)
+![Tracked](https://img.shields.io/badge/tracked_projects-94-blue)
+![Reports](https://img.shields.io/badge/daily_reports-33-blueviolet)
 <!-- RADAR_BADGES_END -->
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -183,11 +183,11 @@ Literature / Data / Task
 <!-- RADAR_STATS_START -->
 | Metric | Current |
 |---|---:|
-| Tracked projects | **89** |
-| Triggered daily reports | **32** |
+| Tracked projects | **94** |
+| Triggered daily reports | **33** |
 | Trend notes | **7** |
 | Weekly reviews | **1** |
-| Historical PDF reports | **30** |
+| Historical PDF reports | **31** |
 | First observation | **2026-09-17** |
 <!-- RADAR_STATS_END -->
 

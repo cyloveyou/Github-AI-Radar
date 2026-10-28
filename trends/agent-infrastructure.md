@@ -174,3 +174,11 @@ HarnessRouter v0.37.1/0.37.3 makes multi-harness execution observable at the ind
 JetBrains ThinkRail's Oct 26–27 REST samples increased from 1,702 to 2,880 Stars (two snapshots, not calendar-day growth), highlighting a parallel route: pi Coding Agent integrated with worktree isolation, PR/CI reviews and persistent `SPEC.md` project knowledge. A Git worktree is not a security sandbox, and a living spec is not verified memory accuracy.
 
 Sources: https://github.com/HarnessRouter/harnessrouter/releases/tag/v0.37.1 ; https://github.com/HarnessRouter/harnessrouter/releases/tag/v0.37.3 ; https://github.com/omnigent-ai/omnigent/releases/tag/v0.19.0 ; https://github.com/JetBrains/thinkrail
+
+## 2026-10-28 — MCP gateway becomes an executable policy and cost boundary
+
+agentgateway v1.7.0 adds model capability catalogs, service-tier cost accounting, per-session observability, CEL-based MCP request/response guardrails, default ToolOutput inspection, encrypted standalone MCP session identifiers and SSRF restrictions for dynamic backends. This differs from HarnessRouter's unified execution API and Omnigent's multi-harness coordination: it enforces policy **at the shared model/tool network boundary**. The upgrade can change behavior (guard rejections, session re-establishment, local backend access), so migration tests are essential.
+
+Zeron v0.2.127 represents the client/control counterpart: native multi-harness desktop and Linux headless sessions, with optional remote sync and subagent visibility. Its README says account-linked devices can read/write one another's workspaces. **Local-first is not equivalent to least privilege after remote sync is enabled.**
+
+Sources: https://github.com/agentgateway/agentgateway/releases/tag/v1.7.0 ; https://github.com/zeronsh/zeron/releases/tag/v0.2.127

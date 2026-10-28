@@ -78,3 +78,11 @@ Hallmark combines a non-negotiable design floor, overrideable anti-template chec
 **Shift:** generative design Skill → executable viewport/a11y checks → regression evidence → human review. Evaluate the same pages against accessibility, interaction preservation and blind human ratings; keep deterministic and subjective tests separate.
 
 Sources: https://github.com/Nutlope/hallmark ; https://github.com/pbakaus/impeccable ; https://github.com/pbakaus/impeccable/releases/tag/skill-v4.7.0
+
+## 2026-10-28 — Multi-agent tooling meets security fixes and licensing boundaries
+
+tuios v0.11.1's three High-severity fixes demonstrate why terminal-agent workspaces need explicit capability enforcement and sandbox-safe Git subprocesses. Zeron adds native headless and cross-device multi-harness control, but its sync model explicitly trusts devices in the same account. These are materially different from ThinkRail's IDE/worktree-first workflow.
+
+Treg and Multica attracted attention in Trending, but their LICENSE files add third-party hosted/embedded-service restrictions to Apache-style terms. They are **source-available, not OSI open source**; keep them on a watchlist rather than inflate the open-source tracked-project count. Distinguish release recency, repository creation date and GitHub Trending's rolling Stars display.
+
+Sources: https://github.com/Gaurav-Gosain/tuios/releases/tag/v0.11.1 ; https://github.com/zeronsh/zeron ; https://github.com/superdesigndev/treg/blob/main/LICENSE ; https://github.com/multica-ai/multica/blob/main/LICENSE

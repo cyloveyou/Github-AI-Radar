@@ -39,3 +39,11 @@ NVIDIA SkillSpector v2.13.1 repairs false incomplete-analysis and false hidden-i
 **Boundary:** A passing static scan does not establish runtime safety; vendor-reported dataset risk prevalence is not an independently representative ecosystem estimate. Evaluate attack recall, benign-skill false positives, remote dependency coverage and whether suppressed findings remain traceable.
 
 Sources: https://github.com/NVIDIA/SkillSpector ; https://github.com/NVIDIA/SkillSpector/releases/tag/v2.13.1
+
+## 2026-10-28 — Three high-severity tuios advisories reveal daemon trust-boundary failures
+
+tuios v0.11.1 repairs three officially disclosed High advisories: cross-device read/write via low-privilege stash/screenshot paths (GHSA-5q2q-f2hv-wf4h), repository-controlled Git hooks/filter/textconv executing outside the Agent pane sandbox (GHSA-qcx6-vr32-xr8q), and terminal output reaching shell prompt input (GHSA-5cvj-c8rj-c749). The fix requires a **daemon restart after updating**, per the official release.
+
+This supplies concrete exploit classes for Agent control-plane regression suites: authorization of remote capabilities, sandbox-aware subprocess Git invocation, and separation of untrusted terminal text from command input. agentgateway v1.7.0's ToolOutput guardrails and MCP CEL policy cover different, network-level boundaries; neither alone substitutes for endpoint/daemon hardening.
+
+Sources: https://github.com/Gaurav-Gosain/tuios/releases/tag/v0.11.1 ; https://github.com/agentgateway/agentgateway/releases/tag/v1.7.0

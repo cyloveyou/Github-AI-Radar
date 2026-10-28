@@ -79,3 +79,11 @@ Graphicle v0.1.4 packages AST-derived code graph, project docs, agent-session me
 Graphify v0.9.94 strengthens source trust: URL ingestion rejects malformed hosts/ports and credential-bearing URLs, and text capture avoids writing through dangling symlinks; MCP node lookup avoids near-match hallucinations. Together these highlight **evidence provenance → safe ingestion → exact node lookup → governed memory write**.
 
 Sources: https://github.com/Graphicle-AI/graphicle ; https://github.com/Graphicle-AI/graphicle/releases/tag/v0.1.4 ; https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.94
+
+## 2026-10-28 — Shared agent context and governed enterprise semantics
+
+HKUDS AutoSwarm combines capability-based agent selection with cross-agent context/memory and task coordination. NVIDIA Auto Ontology targets a different knowledge plane: discover enterprise ontologies from metadata, ground entity/metric definitions, and expose semantic context through MCP/CLI/API with user-scoped access. Compared with Graphify/Graphicle's code-graph evidence and claude-mem's session recall, these projects emphasize **shared task state** and **business-semantic correctness** respectively.
+
+Both are newly tracked but not newly created on October 28; no independently verified benchmark gains or cross-harness success rates are available. Prioritize tests for context leakage, task replay, tenant-scoped retrieval, entity-link precision and metric consistency.
+
+Sources: https://github.com/HKUDS/AutoSwarm ; https://github.com/NVIDIA/auto-ontology
