@@ -182,3 +182,9 @@ agentgateway v1.7.0 adds model capability catalogs, service-tier cost accounting
 Zeron v0.2.127 represents the client/control counterpart: native multi-harness desktop and Linux headless sessions, with optional remote sync and subagent visibility. Its README says account-linked devices can read/write one another's workspaces. **Local-first is not equivalent to least privilege after remote sync is enabled.**
 
 Sources: https://github.com/agentgateway/agentgateway/releases/tag/v1.7.0 ; https://github.com/zeronsh/zeron/releases/tag/v0.2.127
+
+## 2026-10-29 — Hook authority and cross-device automation move into the harness boundary
+
+HKUDS DeepCode's 2026-10-28 main-branch news adds preset `disallowed-tools`, approval for edits to hook-loaded files (except Full Access), and unpinned npx/uvx MCP package warnings. This is a more concrete harness-side authority boundary than a natural-language instruction, but warnings are not automatic supply-chain enforcement. Cindy v0.1.119 adds per-routine cross-device model selection and fallback, which makes device identity, duplicate execution and permission inheritance testable requirements. ThinkRail's 10/28 nightly makes Web access an extension whose switch also covers its Skills.
+
+Sources: https://github.com/HKUDS/DeepCode ; https://github.com/makecindy/cindy/releases/tag/v0.1.119 ; https://github.com/JetBrains/thinkrail/releases/tag/v0.3.0-nightly.9

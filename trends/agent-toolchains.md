@@ -86,3 +86,9 @@ tuios v0.11.1's three High-severity fixes demonstrate why terminal-agent workspa
 Treg and Multica attracted attention in Trending, but their LICENSE files add third-party hosted/embedded-service restrictions to Apache-style terms. They are **source-available, not OSI open source**; keep them on a watchlist rather than inflate the open-source tracked-project count. Distinguish release recency, repository creation date and GitHub Trending's rolling Stars display.
 
 Sources: https://github.com/Gaurav-Gosain/tuios/releases/tag/v0.11.1 ; https://github.com/zeronsh/zeron ; https://github.com/superdesigndev/treg/blob/main/LICENSE ; https://github.com/multica-ai/multica/blob/main/LICENSE
+
+## 2026-10-29 — Agent workflows package permissions and specialized outputs
+
+DeepCode main-branch preset tool denials and hook-file approval tighten the execution contract inside a coding harness. DeepTutor v1.7.0 separates core Chat/CLI/SDK from optional Web modules and adds source-aware, editable notebooks plus bounded WASM video-frame execution. Together they illustrate two distinct maturity tracks: coding-agent permissions and domain-agent deliverable modularity. Do not confuse a README branch update with a tagged stable release.
+
+Sources: https://github.com/HKUDS/DeepCode ; https://github.com/HKUDS/DeepTutor/releases/tag/v1.7.0

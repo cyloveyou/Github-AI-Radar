@@ -10,8 +10,8 @@
 
 ![Status](https://img.shields.io/badge/status-active-success)
 <!-- RADAR_BADGES_START -->
-![Tracked](https://img.shields.io/badge/tracked_projects-94-blue)
-![Reports](https://img.shields.io/badge/daily_reports-33-blueviolet)
+![Tracked](https://img.shields.io/badge/tracked_projects-97-blue)
+![Reports](https://img.shields.io/badge/daily_reports-34-blueviolet)
 <!-- RADAR_BADGES_END -->
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -43,6 +43,11 @@ GitHub AI Radar 持续观察 GitHub 上**当前热门和快速上升的 AI 开�
 
 | Date | Project / Signal | Area | Why it matters |
 |---|---|---|---|
+| **10-29** | **ThinkRail +2,130 since 10-27 snapshot** | Coding Agent · IDE | Nightly Web extension and secondary growth; unequal observation interval, not 24h net growth |
+| **10-29** | **agent-browser v0.40.0** | Browser Agent · Sandbox · Security | Origin-scoped state restore fixes token exposure; one MCP per Vercel Sandbox; eve breaking change |
+| **10-29** | **DeepCode 10-28 main branch** | Harness · MCP · Permissions | Preset tool denylist, hook-file approval, unpinned MCP package warnings; not a new tagged release |
+| **10-29** | **Cindy v0.1.119** | Automation · Cross-device | Per-routine remote model selection, fallback and plugin submission checks |
+| **10-29** | **DeepTutor v1.7.0** | Education Agent · Modular SDK | Core/full package split, editable notebooks and bounded WASM video lessons |
 | **10-27** | **JetBrains ThinkRail** | Coding Agent · IDE · Worktree | 相邻 REST 快照 +1,178 Stars；pi + SPEC.md 持久规范与 PR/CI 流程，首次收录 |
 | **10-27** | **NVIDIA SkillSpector v2.13.1** | Agent Skills · Security Audit | 71 检测模式/17 类风险；误报、覆盖缺口与报告输出安全修复，首次收录 |
 | **10-27** | **HarnessRouter v0.37.1–0.37.3** | Multi-Harness · Unified API | 工具流式可观测、MCP 路径修复与 Skill 误执行风险修复，首次收录 |
@@ -183,11 +188,11 @@ Literature / Data / Task
 <!-- RADAR_STATS_START -->
 | Metric | Current |
 |---|---:|
-| Tracked projects | **94** |
-| Triggered daily reports | **33** |
+| Tracked projects | **97** |
+| Triggered daily reports | **34** |
 | Trend notes | **7** |
 | Weekly reviews | **1** |
-| Historical PDF reports | **31** |
+| Historical PDF reports | **32** |
 | First observation | **2026-09-17** |
 <!-- RADAR_STATS_END -->
 

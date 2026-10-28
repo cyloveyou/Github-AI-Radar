@@ -43,3 +43,9 @@ Agent Reach v1.6.0 uses a dedicated background browser for authenticated platfor
 Use low-privilege accounts and verify cookie storage, revocation and platform-specific success rates. Release and README describe intended behavior, not independent security tests.
 
 Sources: https://github.com/Panniantong/Agent-Reach/releases/tag/v1.6.0 ; https://github.com/Panniantong/Agent-Reach
+
+## 2026-10-29 — Browser session state is a security boundary inside sandboxes
+
+Vercel agent-browser v0.40.0 runs one persistent MCP server per Vercel Sandbox, but the more consequential fix is origin-scoped `state load`: saved tokens must not become page-script-visible or be restored under a different origin after redirect. The release also fixes Windows daemon cross-session confusion and changes eve extension compatibility. This is a concrete Browser Agent session isolation problem, not merely better clicking accuracy. Reproduce origin/redirect storage tests and session namespace isolation before treating the fix as independently validated.
+
+Source: https://github.com/vercel-labs/agent-browser/releases/tag/v0.40.0

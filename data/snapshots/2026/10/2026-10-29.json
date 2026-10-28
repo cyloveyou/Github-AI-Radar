@@ -1,0 +1,145 @@
+{
+  "date": "2026-10-29",
+  "observation_utc": "2026-10-28T23:53:08Z",
+  "source": "GitHub official REST /repos/{owner}/{repo}; GitHub official releases and README; GitHub Trending daily HTML",
+  "projects": {
+    "JetBrains/thinkrail": {
+      "stars": 5010,
+      "forks": 259,
+      "created_at": "2026-07-08T07:40:43Z",
+      "pushed_at": "2026-10-28T20:06:59Z",
+      "license": "Apache-2.0"
+    },
+    "vercel-labs/agent-browser": {
+      "stars": 44776,
+      "forks": 3068,
+      "created_at": "2026-01-11T05:38:15Z",
+      "pushed_at": "2026-10-28T23:52:28Z",
+      "license": "Apache-2.0"
+    },
+    "HKUDS/DeepCode": {
+      "stars": 16764,
+      "forks": 2181,
+      "created_at": "2025-05-14T05:23:02Z",
+      "pushed_at": "2026-10-28T05:01:21Z",
+      "license": "MIT"
+    },
+    "makecindy/cindy": {
+      "stars": 8074,
+      "forks": 943,
+      "created_at": "2026-07-22T17:49:34Z",
+      "pushed_at": "2026-10-28T23:46:34Z",
+      "license": "Apache-2.0"
+    },
+    "HKUDS/DeepTutor": {
+      "stars": 47923,
+      "forks": 5947,
+      "created_at": "2025-12-28T15:35:54Z",
+      "pushed_at": "2026-10-28T18:01:08Z",
+      "license": "Apache-2.0"
+    },
+    "NVIDIA/SkillSpector": {
+      "stars": 23065,
+      "forks": 1996,
+      "created_at": "2026-03-21T00:28:43Z",
+      "pushed_at": "2026-10-28T16:07:58Z",
+      "license": "Apache-2.0"
+    },
+    "thedotmack/claude-mem": {
+      "stars": 104030,
+      "forks": 9180,
+      "created_at": "2025-08-31T20:50:03Z",
+      "pushed_at": "2026-10-28T23:44:44Z",
+      "license": "Apache-2.0"
+    },
+    "trymirai/uzu": {
+      "stars": 2997,
+      "forks": 183,
+      "created_at": "2025-06-23T21:55:11Z",
+      "pushed_at": "2026-10-28T18:21:25Z",
+      "license": "MIT"
+    }
+  },
+  "release_verification": {
+    "JetBrains/thinkrail": [
+      {
+        "tag": "v0.3.0-nightly.9",
+        "published_at": "2026-10-28T11:57:49Z",
+        "url": "https://github.com/JetBrains/thinkrail/releases/tag/v0.3.0-nightly.9",
+        "pr": "https://github.com/JetBrains/thinkrail/pull/965"
+      }
+    ],
+    "vercel-labs/agent-browser": [
+      {
+        "tag": "v0.40.0",
+        "published_at": "2026-10-27T21:32:17Z",
+        "url": "https://github.com/vercel-labs/agent-browser/releases/tag/v0.40.0"
+      }
+    ],
+    "HKUDS/DeepCode": [
+      {
+        "tag": "main branch 2026-10-28 README news",
+        "published_at": null,
+        "url": "https://github.com/HKUDS/DeepCode",
+        "prs": [
+          "https://github.com/HKUDS/DeepCode/pull/271",
+          "https://github.com/HKUDS/DeepCode/pull/275",
+          "https://github.com/HKUDS/DeepCode/pull/283"
+        ],
+        "latest_tag": "v2.3.1 (2026-10-12; not this update)"
+      }
+    ],
+    "makecindy/cindy": [
+      {
+        "tag": "v0.1.119",
+        "published_at": "2026-10-28T03:20:15Z",
+        "url": "https://github.com/makecindy/cindy/releases/tag/v0.1.119"
+      }
+    ],
+    "HKUDS/DeepTutor": [
+      {
+        "tag": "v1.7.0",
+        "published_at": "2026-10-28T14:13:12Z",
+        "url": "https://github.com/HKUDS/DeepTutor/releases/tag/v1.7.0"
+      }
+    ],
+    "NVIDIA/SkillSpector": [
+      {
+        "tag": "v2.13.2",
+        "published_at": "2026-10-28T14:19:21Z",
+        "url": "https://github.com/NVIDIA/SkillSpector/releases/tag/v2.13.2"
+      }
+    ],
+    "thedotmack/claude-mem": [
+      {
+        "tag": "v15.4.0",
+        "published_at": "2026-10-28T03:38:07Z",
+        "url": "https://github.com/thedotmack/claude-mem/releases/tag/v15.4.0"
+      }
+    ]
+  },
+  "trending_daily_observation": {
+    "source_url": "https://github.com/trending?since=daily",
+    "observation_utc_approx": "2026-10-28T23:53:08Z",
+    "stars_today_display": {
+      "JetBrains/thinkrail": 1075,
+      "HKUDS/DeepTutor": 2376,
+      "makecindy/cindy": 740,
+      "vercel-labs/agent-browser": 66,
+      "NVIDIA/SkillSpector": 267,
+      "thedotmack/claude-mem": 320,
+      "trymirai/uzu": 360
+    },
+    "note": "Values transcribed from rolling GitHub Trending daily HTML around 2026-10-28 23:50 UTC; not calendar-day net changes."
+  },
+  "historical_comparison": {
+    "previous_daily": "daily/2026/10/2026-10-28.md",
+    "previous_tracked_projects": 94,
+    "tracked_new_today": 3,
+    "thinkrail_previous_snapshot_date": "2026-10-27",
+    "thinkrail_previous_stars": 2880,
+    "thinkrail_current_stars": 5010,
+    "thinkrail_change_since_previous_snapshot": 2130,
+    "note": "Nonuniform sampling interval; no exact 24-hour growth inferred."
+  }
+}

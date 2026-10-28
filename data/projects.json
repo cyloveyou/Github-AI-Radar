@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-28",
+  "updated_at": "2026-10-29",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -1226,9 +1226,10 @@
         "computer-use"
       ],
       "first_seen": "2026-10-25",
-      "last_reported": "2026-10-25",
+      "last_reported": "2026-10-29",
       "reports": [
-        "daily/2026/10/2026-10-25.md"
+        "daily/2026/10/2026-10-25.md",
+        "daily/2026/10/2026-10-29.md"
       ],
       "status": "watching"
     },
@@ -1290,9 +1291,10 @@
         "persistent-specs"
       ],
       "first_seen": "2026-10-27",
-      "last_reported": "2026-10-27",
+      "last_reported": "2026-10-29",
       "reports": [
-        "daily/2026/10/2026-10-27.md"
+        "daily/2026/10/2026-10-27.md",
+        "daily/2026/10/2026-10-29.md"
       ],
       "status": "watching"
     },
@@ -1437,6 +1439,54 @@
       "last_reported": "2026-10-28",
       "reports": [
         "daily/2026/10/2026-10-28.md"
+      ],
+      "status": "watching"
+    },
+    "vercel-labs/agent-browser": {
+      "name": "agent-browser",
+      "repo_url": "https://github.com/vercel-labs/agent-browser",
+      "categories": [
+        "browser-agent",
+        "mcp",
+        "sandbox",
+        "session-security"
+      ],
+      "first_seen": "2026-10-29",
+      "last_reported": "2026-10-29",
+      "reports": [
+        "daily/2026/10/2026-10-29.md"
+      ],
+      "status": "watching"
+    },
+    "HKUDS/DeepCode": {
+      "name": "DeepCode",
+      "repo_url": "https://github.com/HKUDS/DeepCode",
+      "categories": [
+        "coding-agent",
+        "harness",
+        "mcp",
+        "permission"
+      ],
+      "first_seen": "2026-10-29",
+      "last_reported": "2026-10-29",
+      "reports": [
+        "daily/2026/10/2026-10-29.md"
+      ],
+      "status": "watching"
+    },
+    "HKUDS/DeepTutor": {
+      "name": "DeepTutor",
+      "repo_url": "https://github.com/HKUDS/DeepTutor",
+      "categories": [
+        "education-agent",
+        "research-agent",
+        "modular-runtime",
+        "rag"
+      ],
+      "first_seen": "2026-10-29",
+      "last_reported": "2026-10-29",
+      "reports": [
+        "daily/2026/10/2026-10-29.md"
       ],
       "status": "watching"
     }
