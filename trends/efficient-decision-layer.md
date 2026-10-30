@@ -48,3 +48,9 @@ Experiential offers an OpenAI-compatible local gateway and a separate hosted ser
 **Next test:** fixed request set, identical provider costs and quality labels, per-agent budget enforcement, trace opt-in/out and actual data egress. “Zero markup” and optimization gains are project claims, not verified results.
 
 Sources: https://github.com/experientiallabs/experiential ; https://github.com/experientiallabs/experiential/releases/tag/v0.7.220
+
+## 2026-10-30 — Hardware-adaptive local inference joins Agent runtime economics
+
+Magnitude's inference engine tunes kernels per model/hardware and exposes local model serving for Coding Agents. Its 2026-10-29 CLI 0.2.14 adds hardware-specific speed ordering, download resilience and a project-reported ~13% lower per-token CPU decode time for one Q4 Qwen3.5 4B/M4 Pro configuration. This is an inference execution layer, not a new reasoning algorithm; benchmark on identical hardware, quantization, context and model output before accepting broad 2x claims.
+
+Sources: https://github.com/magnitudedev/magnitude ; https://github.com/magnitudedev/magnitude/releases/tag/%40magnitudedev%2Fcli%400.2.14

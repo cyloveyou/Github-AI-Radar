@@ -10,8 +10,8 @@
 
 ![Status](https://img.shields.io/badge/status-active-success)
 <!-- RADAR_BADGES_START -->
-![Tracked](https://img.shields.io/badge/tracked_projects-97-blue)
-![Reports](https://img.shields.io/badge/daily_reports-34-blueviolet)
+![Tracked](https://img.shields.io/badge/tracked_projects-102-blue)
+![Reports](https://img.shields.io/badge/daily_reports-35-blueviolet)
 <!-- RADAR_BADGES_END -->
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -43,6 +43,11 @@ GitHub AI Radar 持续观察 GitHub 上**当前热门和快速上升的 AI 开�
 
 | Date | Project / Signal | Area | Why it matters |
 |---|---|---|---|
+| **10-30** | **OpenMausBot v0.1.132–133** | Desktop Agent · Automation | Model failover, per-bot MCP isolation and Windows tool-cap fixes; first tracked |
+| **10-30** | **CopilotKit OpenBot** | AG-UI · Computer Use · Audit | MIT self-hosted beta coworker template with per-agent browser/files and action records; first tracked |
+| **10-30** | **Hydro Infinity** | Agent Runtime · Concurrency | Event-driven agent hibernation and RAP tool callbacks; first tracked |
+| **10-30** | **OpenViking v0.5.2.1** | RAG · Memory · Privacy | viking:// context filesystem; hotfix temporarily disables new secret autodetection; first tracked |
+| **10-30** | **Magnitude CLI 0.2.14** | Local Models · Inference | Hardware-tuned kernels and GGUF CPU decode improvements; project benchmarks unverified |
 | **10-29** | **ThinkRail +2,130 since 10-27 snapshot** | Coding Agent · IDE | Nightly Web extension and secondary growth; unequal observation interval, not 24h net growth |
 | **10-29** | **agent-browser v0.40.0** | Browser Agent · Sandbox · Security | Origin-scoped state restore fixes token exposure; one MCP per Vercel Sandbox; eve breaking change |
 | **10-29** | **DeepCode 10-28 main branch** | Harness · MCP · Permissions | Preset tool denylist, hook-file approval, unpinned MCP package warnings; not a new tagged release |
@@ -188,11 +193,11 @@ Literature / Data / Task
 <!-- RADAR_STATS_START -->
 | Metric | Current |
 |---|---:|
-| Tracked projects | **97** |
-| Triggered daily reports | **34** |
+| Tracked projects | **102** |
+| Triggered daily reports | **35** |
 | Trend notes | **7** |
 | Weekly reviews | **1** |
-| Historical PDF reports | **32** |
+| Historical PDF reports | **33** |
 | First observation | **2026-09-17** |
 <!-- RADAR_STATS_END -->
 

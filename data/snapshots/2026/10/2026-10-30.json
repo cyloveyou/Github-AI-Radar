@@ -1,0 +1,532 @@
+{
+  "date": "2026-10-30",
+  "observation_utc": "2026-10-30T00:09:47Z",
+  "source": "GitHub official REST repository API and releases API; GitHub official README; GitHub Trending daily HTML (rolling)",
+  "projects": {
+    "milind-soni/OpenMausBot": {
+      "stars": 7458,
+      "forks": 1112,
+      "created_at": "2026-08-11T18:58:55Z",
+      "pushed_at": "2026-10-29T23:40:40Z",
+      "license": "Apache-2.0"
+    },
+    "CopilotKit/OpenBot": {
+      "stars": 8128,
+      "forks": 1047,
+      "created_at": "2026-08-17T00:44:59Z",
+      "pushed_at": "2026-10-29T20:07:51Z",
+      "license": "MIT"
+    },
+    "hydro-project/infinity": {
+      "stars": 375,
+      "forks": 35,
+      "created_at": "2026-04-13T19:00:10Z",
+      "pushed_at": "2026-10-29T22:57:26Z",
+      "license": "Apache-2.0"
+    },
+    "volcengine/OpenViking": {
+      "stars": 41150,
+      "forks": 3336,
+      "created_at": "2026-01-05T07:11:17Z",
+      "pushed_at": "2026-10-29T20:46:51Z",
+      "license": "AGPL-3.0"
+    },
+    "magnitudedev/magnitude": {
+      "stars": 7561,
+      "forks": 540,
+      "created_at": "2026-06-12T09:06:26Z",
+      "pushed_at": "2026-10-29T22:50:21Z",
+      "license": "Apache-2.0"
+    },
+    "JetBrains/thinkrail": {
+      "stars": 5988,
+      "forks": 323,
+      "created_at": "2026-07-08T07:40:43Z",
+      "pushed_at": "2026-10-29T22:08:45Z",
+      "license": "Apache-2.0"
+    },
+    "HKUDS/DeepTutor": {
+      "stars": 50005,
+      "forks": 6153,
+      "created_at": "2025-12-28T15:35:54Z",
+      "pushed_at": "2026-10-29T23:51:51Z",
+      "license": "Apache-2.0"
+    },
+    "pbakaus/impeccable": {
+      "stars": 95275,
+      "forks": 5616,
+      "created_at": "2025-11-16T01:52:04Z",
+      "pushed_at": "2026-10-29T18:41:45Z",
+      "license": "Apache-2.0"
+    },
+    "beenuar/AiSOC": {
+      "stars": 5137,
+      "forks": 540,
+      "created_at": "2026-05-02T03:30:19Z",
+      "pushed_at": "2026-10-29T23:58:07Z",
+      "license": "MIT"
+    }
+  },
+  "release_verification": {
+    "milind-soni/OpenMausBot": [
+      {
+        "tag": "v0.1.133",
+        "published_at": "2026-10-29T20:22:50Z",
+        "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.133"
+      },
+      {
+        "tag": "v0.1.132",
+        "published_at": "2026-10-29T07:12:32Z",
+        "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.132"
+      },
+      {
+        "tag": "v0.1.131",
+        "published_at": "2026-10-28T22:20:03Z",
+        "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.131"
+      },
+      {
+        "tag": "v0.1.130",
+        "published_at": "2026-10-27T21:43:58Z",
+        "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.130"
+      },
+      {
+        "tag": "v0.1.129",
+        "published_at": "2026-10-27T11:32:05Z",
+        "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.129"
+      },
+      {
+        "tag": "v0.1.128",
+        "published_at": "2026-10-27T08:34:25Z",
+        "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.128"
+      },
+      {
+        "tag": "v0.1.127",
+        "published_at": "2026-10-24T19:45:49Z",
+        "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.127"
+      },
+      {
+        "tag": "v0.1.126",
+        "published_at": "2026-10-24T12:03:56Z",
+        "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.126"
+      },
+      {
+        "tag": "v0.1.125",
+        "published_at": "2026-10-23T16:55:06Z",
+        "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.125"
+      },
+      {
+        "tag": "v0.1.124",
+        "published_at": "2026-10-23T10:34:23Z",
+        "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.124"
+      },
+      {
+        "tag": "v0.1.123",
+        "published_at": "2026-10-22T21:02:52Z",
+        "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.123"
+      },
+      {
+        "tag": "v0.1.122",
+        "published_at": "2026-10-22T13:34:41Z",
+        "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.122"
+      }
+    ],
+    "CopilotKit/OpenBot": [
+      {
+        "tag": "v0.2.0",
+        "published_at": "2026-10-12T15:19:49Z",
+        "url": "https://github.com/CopilotKit/OpenBot/releases/tag/v0.2.0"
+      },
+      {
+        "tag": "v0.1.2",
+        "published_at": "2026-10-07T12:36:21Z",
+        "url": "https://github.com/CopilotKit/OpenBot/releases/tag/v0.1.2"
+      },
+      {
+        "tag": "v0.1.1",
+        "published_at": "2026-10-06T21:08:30Z",
+        "url": "https://github.com/CopilotKit/OpenBot/releases/tag/v0.1.1"
+      },
+      {
+        "tag": "v0.1.0",
+        "published_at": "2026-10-03T00:45:44Z",
+        "url": "https://github.com/CopilotKit/OpenBot/releases/tag/v0.1.0"
+      },
+      {
+        "tag": "v0.0.15",
+        "published_at": "2026-09-22T04:21:36Z",
+        "url": "https://github.com/CopilotKit/OpenBot/releases/tag/v0.0.15"
+      },
+      {
+        "tag": "v0.0.14",
+        "published_at": "2026-09-21T16:24:50Z",
+        "url": "https://github.com/CopilotKit/OpenBot/releases/tag/v0.0.14"
+      },
+      {
+        "tag": "v0.0.13",
+        "published_at": "2026-09-18T19:26:31Z",
+        "url": "https://github.com/CopilotKit/OpenBot/releases/tag/v0.0.13"
+      },
+      {
+        "tag": "v0.0.12",
+        "published_at": "2026-09-15T19:00:59Z",
+        "url": "https://github.com/CopilotKit/OpenBot/releases/tag/v0.0.12"
+      },
+      {
+        "tag": "v0.0.11",
+        "published_at": "2026-09-14T18:58:31Z",
+        "url": "https://github.com/CopilotKit/OpenBot/releases/tag/v0.0.11"
+      },
+      {
+        "tag": "v0.0.10",
+        "published_at": "2026-09-13T17:52:41Z",
+        "url": "https://github.com/CopilotKit/OpenBot/releases/tag/v0.0.10"
+      },
+      {
+        "tag": "v0.0.9",
+        "published_at": "2026-09-11T22:05:40Z",
+        "url": "https://github.com/CopilotKit/OpenBot/releases/tag/v0.0.9"
+      },
+      {
+        "tag": "v0.0.8",
+        "published_at": "2026-09-06T20:03:19Z",
+        "url": "https://github.com/CopilotKit/OpenBot/releases/tag/v0.0.8"
+      }
+    ],
+    "hydro-project/infinity": [
+      {
+        "tag": "sandbox-remote-v0.2.0",
+        "published_at": "2026-10-22T17:26:16Z",
+        "url": "https://github.com/hydro-project/infinity/releases/tag/sandbox-remote-v0.2.0"
+      },
+      {
+        "tag": "sandbox-local-v0.2.0",
+        "published_at": "2026-10-22T17:26:15Z",
+        "url": "https://github.com/hydro-project/infinity/releases/tag/sandbox-local-v0.2.0"
+      },
+      {
+        "tag": "sandbox-core-v0.2.0",
+        "published_at": "2026-10-22T17:26:13Z",
+        "url": "https://github.com/hydro-project/infinity/releases/tag/sandbox-core-v0.2.0"
+      },
+      {
+        "tag": "rap-steering-server-v0.2.0",
+        "published_at": "2026-10-22T17:25:58Z",
+        "url": "https://github.com/hydro-project/infinity/releases/tag/rap-steering-server-v0.2.0"
+      },
+      {
+        "tag": "rap-protocol-v0.2.0",
+        "published_at": "2026-10-22T17:25:55Z",
+        "url": "https://github.com/hydro-project/infinity/releases/tag/rap-protocol-v0.2.0"
+      },
+      {
+        "tag": "rap-github-event-poller-v0.2.0",
+        "published_at": "2026-10-22T17:25:59Z",
+        "url": "https://github.com/hydro-project/infinity/releases/tag/rap-github-event-poller-v0.2.0"
+      },
+      {
+        "tag": "rap-client-v0.2.0",
+        "published_at": "2026-10-22T17:25:56Z",
+        "url": "https://github.com/hydro-project/infinity/releases/tag/rap-client-v0.2.0"
+      },
+      {
+        "tag": "infinity-rap-bridge-v0.2.0",
+        "published_at": "2026-10-22T17:26:08Z",
+        "url": "https://github.com/hydro-project/infinity/releases/tag/infinity-rap-bridge-v0.2.0"
+      },
+      {
+        "tag": "infinity-provider-rig-v0.2.0",
+        "published_at": "2026-10-22T17:26:04Z",
+        "url": "https://github.com/hydro-project/infinity/releases/tag/infinity-provider-rig-v0.2.0"
+      },
+      {
+        "tag": "infinity-provider-protocol-v0.2.0",
+        "published_at": "2026-10-22T17:26:02Z",
+        "url": "https://github.com/hydro-project/infinity/releases/tag/infinity-provider-protocol-v0.2.0"
+      },
+      {
+        "tag": "infinity-provider-bedrock-v0.2.0",
+        "published_at": "2026-10-22T17:26:03Z",
+        "url": "https://github.com/hydro-project/infinity/releases/tag/infinity-provider-bedrock-v0.2.0"
+      },
+      {
+        "tag": "infinity-protocol-v0.2.0",
+        "published_at": "2026-10-22T17:26:00Z",
+        "url": "https://github.com/hydro-project/infinity/releases/tag/infinity-protocol-v0.2.0"
+      }
+    ],
+    "volcengine/OpenViking": [
+      {
+        "tag": "v0.5.2.1",
+        "published_at": "2026-10-27T13:44:25Z",
+        "url": "https://github.com/volcengine/OpenViking/releases/tag/v0.5.2.1"
+      },
+      {
+        "tag": "v0.5.2",
+        "published_at": "2026-10-23T12:43:54Z",
+        "url": "https://github.com/volcengine/OpenViking/releases/tag/v0.5.2"
+      },
+      {
+        "tag": "python-sdk@0.1.17",
+        "published_at": "2026-10-26T03:25:33Z",
+        "url": "https://github.com/volcengine/OpenViking/releases/tag/python-sdk%400.1.17"
+      },
+      {
+        "tag": "v0.5.1.1",
+        "published_at": "2026-10-20T12:40:03Z",
+        "url": "https://github.com/volcengine/OpenViking/releases/tag/v0.5.1.1"
+      },
+      {
+        "tag": "v0.5.1",
+        "published_at": "2026-10-19T13:37:45Z",
+        "url": "https://github.com/volcengine/OpenViking/releases/tag/v0.5.1"
+      },
+      {
+        "tag": "python-sdk@0.1.16",
+        "published_at": "2026-10-19T13:38:00Z",
+        "url": "https://github.com/volcengine/OpenViking/releases/tag/python-sdk%400.1.16"
+      },
+      {
+        "tag": "cli@0.5.1",
+        "published_at": "2026-10-19T13:38:11Z",
+        "url": "https://github.com/volcengine/OpenViking/releases/tag/cli%400.5.1"
+      },
+      {
+        "tag": "python-sdk@0.1.15",
+        "published_at": "2026-10-13T08:02:46Z",
+        "url": "https://github.com/volcengine/OpenViking/releases/tag/python-sdk%400.1.15"
+      },
+      {
+        "tag": "v0.5.0",
+        "published_at": "2026-10-09T15:46:55Z",
+        "url": "https://github.com/volcengine/OpenViking/releases/tag/v0.5.0"
+      },
+      {
+        "tag": "python-sdk@0.1.14",
+        "published_at": "2026-10-09T15:47:03Z",
+        "url": "https://github.com/volcengine/OpenViking/releases/tag/python-sdk%400.1.14"
+      },
+      {
+        "tag": "v0.4.23",
+        "published_at": "2026-10-02T14:16:06Z",
+        "url": "https://github.com/volcengine/OpenViking/releases/tag/v0.4.23"
+      },
+      {
+        "tag": "sdk/go/v0.0.5",
+        "published_at": "2026-10-02T14:19:45Z",
+        "url": "https://github.com/volcengine/OpenViking/releases/tag/sdk/go/v0.0.5"
+      }
+    ],
+    "magnitudedev/magnitude": [
+      {
+        "tag": "@magnitudedev/cli@0.2.14",
+        "published_at": "2026-10-29T07:19:04Z",
+        "url": "https://github.com/magnitudedev/magnitude/releases/tag/%40magnitudedev/cli%400.2.14"
+      },
+      {
+        "tag": "@magnitudedev/cli@0.2.13",
+        "published_at": "2026-10-28T03:59:26Z",
+        "url": "https://github.com/magnitudedev/magnitude/releases/tag/%40magnitudedev/cli%400.2.13"
+      },
+      {
+        "tag": "@magnitudedev/cli@0.2.12",
+        "published_at": "2026-10-27T19:49:30Z",
+        "url": "https://github.com/magnitudedev/magnitude/releases/tag/%40magnitudedev/cli%400.2.12"
+      },
+      {
+        "tag": "@magnitudedev/cli@0.2.11",
+        "published_at": "2026-10-26T08:54:52Z",
+        "url": "https://github.com/magnitudedev/magnitude/releases/tag/%40magnitudedev/cli%400.2.11"
+      },
+      {
+        "tag": "@magnitudedev/cli@0.2.10",
+        "published_at": "2026-10-20T05:56:02Z",
+        "url": "https://github.com/magnitudedev/magnitude/releases/tag/%40magnitudedev/cli%400.2.10"
+      },
+      {
+        "tag": "@magnitudedev/cli@0.2.9",
+        "published_at": "2026-10-15T06:01:23Z",
+        "url": "https://github.com/magnitudedev/magnitude/releases/tag/%40magnitudedev/cli%400.2.9"
+      },
+      {
+        "tag": "desktop-update-acceptance/0637f5b4ad63ea925d7c6e2208a6a87c65ab4812/50.9.1",
+        "published_at": "2026-10-15T19:09:41Z",
+        "url": "https://github.com/magnitudedev/magnitude/releases/tag/desktop-update-acceptance/0637f5b4ad63ea925d7c6e2208a6a87c65ab4812/50.9.1"
+      },
+      {
+        "tag": "desktop-update-acceptance/0637f5b4ad63ea925d7c6e2208a6a87c65ab4812/50.9.0",
+        "published_at": "2026-10-15T18:58:40Z",
+        "url": "https://github.com/magnitudedev/magnitude/releases/tag/desktop-update-acceptance/0637f5b4ad63ea925d7c6e2208a6a87c65ab4812/50.9.0"
+      },
+      {
+        "tag": "desktop-update-acceptance/d8d3eedf0a5b2bfe68525ea1de33687920b770d8/50.8.12",
+        "published_at": "2026-10-14T15:44:37Z",
+        "url": "https://github.com/magnitudedev/magnitude/releases/tag/desktop-update-acceptance/d8d3eedf0a5b2bfe68525ea1de33687920b770d8/50.8.12"
+      },
+      {
+        "tag": "desktop-update-acceptance/d8d3eedf0a5b2bfe68525ea1de33687920b770d8/50.8.11",
+        "published_at": "2026-10-14T15:38:24Z",
+        "url": "https://github.com/magnitudedev/magnitude/releases/tag/desktop-update-acceptance/d8d3eedf0a5b2bfe68525ea1de33687920b770d8/50.8.11"
+      },
+      {
+        "tag": "desktop-update-acceptance/d8d3eedf0a5b2bfe68525ea1de33687920b770d8/50.8.10",
+        "published_at": "2026-10-14T15:38:20Z",
+        "url": "https://github.com/magnitudedev/magnitude/releases/tag/desktop-update-acceptance/d8d3eedf0a5b2bfe68525ea1de33687920b770d8/50.8.10"
+      },
+      {
+        "tag": "desktop-update-acceptance/a777d8553dfc6149c26709bd2ced19cf06f5da1f/50.8.2",
+        "published_at": "2026-10-14T01:00:37Z",
+        "url": "https://github.com/magnitudedev/magnitude/releases/tag/desktop-update-acceptance/a777d8553dfc6149c26709bd2ced19cf06f5da1f/50.8.2"
+      }
+    ],
+    "JetBrains/thinkrail": [
+      {
+        "tag": "v0.3.0",
+        "published_at": "2026-10-29T18:26:41Z",
+        "url": "https://github.com/JetBrains/thinkrail/releases/tag/v0.3.0"
+      },
+      {
+        "tag": "v0.3.0-nightly.11",
+        "published_at": "2026-10-29T17:00:01Z",
+        "url": "https://github.com/JetBrains/thinkrail/releases/tag/v0.3.0-nightly.11"
+      },
+      {
+        "tag": "v0.3.0-nightly.9",
+        "published_at": "2026-10-28T11:57:49Z",
+        "url": "https://github.com/JetBrains/thinkrail/releases/tag/v0.3.0-nightly.9"
+      },
+      {
+        "tag": "v0.3.0-nightly.8",
+        "published_at": "2026-10-28T06:52:07Z",
+        "url": "https://github.com/JetBrains/thinkrail/releases/tag/v0.3.0-nightly.8"
+      },
+      {
+        "tag": "v0.3.0-nightly.10",
+        "published_at": "2026-10-29T06:53:37Z",
+        "url": "https://github.com/JetBrains/thinkrail/releases/tag/v0.3.0-nightly.10"
+      },
+      {
+        "tag": "v0.3.0-nightly.7",
+        "published_at": "2026-10-27T11:11:43Z",
+        "url": "https://github.com/JetBrains/thinkrail/releases/tag/v0.3.0-nightly.7"
+      },
+      {
+        "tag": "v0.3.0-nightly.6",
+        "published_at": "2026-10-25T06:49:25Z",
+        "url": "https://github.com/JetBrains/thinkrail/releases/tag/v0.3.0-nightly.6"
+      },
+      {
+        "tag": "v0.3.0-nightly.5",
+        "published_at": "2026-10-23T07:51:45Z",
+        "url": "https://github.com/JetBrains/thinkrail/releases/tag/v0.3.0-nightly.5"
+      },
+      {
+        "tag": "v0.3.0-nightly.4",
+        "published_at": "2026-10-22T21:38:15Z",
+        "url": "https://github.com/JetBrains/thinkrail/releases/tag/v0.3.0-nightly.4"
+      },
+      {
+        "tag": "v0.3.0-nightly.3",
+        "published_at": "2026-10-21T06:53:22Z",
+        "url": "https://github.com/JetBrains/thinkrail/releases/tag/v0.3.0-nightly.3"
+      },
+      {
+        "tag": "v0.3.0-nightly.2",
+        "published_at": "2026-10-20T06:46:47Z",
+        "url": "https://github.com/JetBrains/thinkrail/releases/tag/v0.3.0-nightly.2"
+      },
+      {
+        "tag": "v0.3.0-nightly.1",
+        "published_at": "2026-10-19T06:54:56Z",
+        "url": "https://github.com/JetBrains/thinkrail/releases/tag/v0.3.0-nightly.1"
+      }
+    ],
+    "beenuar/AiSOC": [
+      {
+        "tag": "v20.2.1",
+        "published_at": "2026-10-28T15:51:52Z",
+        "url": "https://github.com/beenuar/AiSOC/releases/tag/v20.2.1"
+      },
+      {
+        "tag": "v20.2.0",
+        "published_at": "2026-10-28T07:22:09Z",
+        "url": "https://github.com/beenuar/AiSOC/releases/tag/v20.2.0"
+      },
+      {
+        "tag": "v20.1.0",
+        "published_at": "2026-10-22T09:32:28Z",
+        "url": "https://github.com/beenuar/AiSOC/releases/tag/v20.1.0"
+      },
+      {
+        "tag": "v20.0.0",
+        "published_at": "2026-10-21T19:22:33Z",
+        "url": "https://github.com/beenuar/AiSOC/releases/tag/v20.0.0"
+      },
+      {
+        "tag": "v19.0.0",
+        "published_at": "2026-10-12T17:38:32Z",
+        "url": "https://github.com/beenuar/AiSOC/releases/tag/v19.0.0"
+      },
+      {
+        "tag": "v18.0.0",
+        "published_at": "2026-10-09T10:47:27Z",
+        "url": "https://github.com/beenuar/AiSOC/releases/tag/v18.0.0"
+      },
+      {
+        "tag": "v17.1.0",
+        "published_at": "2026-10-07T10:15:43Z",
+        "url": "https://github.com/beenuar/AiSOC/releases/tag/v17.1.0"
+      },
+      {
+        "tag": "v17.0.0",
+        "published_at": "2026-10-05T05:01:31Z",
+        "url": "https://github.com/beenuar/AiSOC/releases/tag/v17.0.0"
+      },
+      {
+        "tag": "v16.0.1",
+        "published_at": "2026-10-04T06:40:19Z",
+        "url": "https://github.com/beenuar/AiSOC/releases/tag/v16.0.1"
+      },
+      {
+        "tag": "v16.0.0",
+        "published_at": "2026-10-04T00:37:12Z",
+        "url": "https://github.com/beenuar/AiSOC/releases/tag/v16.0.0"
+      },
+      {
+        "tag": "v15.1.0",
+        "published_at": "2026-10-03T12:50:18Z",
+        "url": "https://github.com/beenuar/AiSOC/releases/tag/v15.1.0"
+      },
+      {
+        "tag": "v15.0.0",
+        "published_at": "2026-10-01T19:14:43Z",
+        "url": "https://github.com/beenuar/AiSOC/releases/tag/v15.0.0"
+      }
+    ]
+  },
+  "trending_daily_observation": {
+    "source_url": "https://github.com/trending?since=daily",
+    "observation_utc_approx": "2026-10-30T00:09:47Z",
+    "stars_today_display": {
+      "milind-soni/OpenMausBot": 1199,
+      "CopilotKit/OpenBot": 247,
+      "hydro-project/infinity": 180,
+      "volcengine/OpenViking": 88,
+      "magnitudedev/magnitude": 141,
+      "JetBrains/thinkrail": 1117,
+      "HKUDS/DeepTutor": 1930,
+      "pbakaus/impeccable": 2870,
+      "beenuar/AiSOC": 320
+    },
+    "note": "GitHub rolling Trending display, not precise calendar-day star growth; collection from five language views is non-atomic."
+  },
+  "historical_comparison": {
+    "previous_daily": "daily/2026/10/2026-10-29.md",
+    "previous_tracked_projects": 97,
+    "new_tracked_projects": 5,
+    "current_tracked_projects": 102,
+    "thinkrail_previous_stars": 5010,
+    "thinkrail_current_stars": 5988,
+    "thinkrail_delta_between_observations": 978,
+    "note": "Observation times differ; do not interpret as exact 24h change."
+  }
+}

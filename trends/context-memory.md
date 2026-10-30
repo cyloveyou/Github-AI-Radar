@@ -87,3 +87,9 @@ HKUDS AutoSwarm combines capability-based agent selection with cross-agent conte
 Both are newly tracked but not newly created on October 28; no independently verified benchmark gains or cross-harness success rates are available. Prioritize tests for context leakage, task replay, tenant-scoped retrieval, entity-link precision and metric consistency.
 
 Sources: https://github.com/HKUDS/AutoSwarm ; https://github.com/NVIDIA/auto-ontology
+
+## 2026-10-30 — Filesystem-addressable Agent context and privacy regression trade-offs
+
+OpenViking unifies RAG knowledge, session memory and Skills under `viking://` paths with L0/L1/L2 summaries, scoped retrieval and editable records. Unlike a flat vector store, this makes source selection and memory edits inspectable. However v0.5.2.1 temporarily disabled automatic discovery/replacement of newly seen secrets to avoid false-positive redaction; already registered secret replacement remains. This is a concrete availability/privacy trade-off, not a blanket security improvement. Test leakage, path permissions, provenance and deletion propagation; account for AGPL-3.0 obligations.
+
+Sources: https://github.com/volcengine/OpenViking ; https://github.com/volcengine/OpenViking/releases/tag/v0.5.2.1

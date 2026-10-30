@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-29",
+  "updated_at": "2026-10-30",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -1487,6 +1487,87 @@
       "last_reported": "2026-10-29",
       "reports": [
         "daily/2026/10/2026-10-29.md"
+      ],
+      "status": "watching"
+    },
+    "milind-soni/OpenMausBot": {
+      "name": "OpenMausBot",
+      "repo_url": "https://github.com/milind-soni/OpenMausBot",
+      "categories": [
+        "desktop-agent",
+        "automation",
+        "multi-model",
+        "mcp",
+        "control-plane"
+      ],
+      "first_seen": "2026-10-30",
+      "last_reported": "2026-10-30",
+      "reports": [
+        "daily/2026/10/2026-10-30.md"
+      ],
+      "status": "watching"
+    },
+    "CopilotKit/OpenBot": {
+      "name": "OpenBot",
+      "repo_url": "https://github.com/CopilotKit/OpenBot",
+      "categories": [
+        "agent-runtime",
+        "computer-use",
+        "ag-ui",
+        "audit",
+        "sandbox"
+      ],
+      "first_seen": "2026-10-30",
+      "last_reported": "2026-10-30",
+      "reports": [
+        "daily/2026/10/2026-10-30.md"
+      ],
+      "status": "watching"
+    },
+    "hydro-project/infinity": {
+      "name": "Infinity",
+      "repo_url": "https://github.com/hydro-project/infinity",
+      "categories": [
+        "agent-runtime",
+        "concurrency",
+        "mcp",
+        "serverless"
+      ],
+      "first_seen": "2026-10-30",
+      "last_reported": "2026-10-30",
+      "reports": [
+        "daily/2026/10/2026-10-30.md"
+      ],
+      "status": "watching"
+    },
+    "volcengine/OpenViking": {
+      "name": "OpenViking",
+      "repo_url": "https://github.com/volcengine/OpenViking",
+      "categories": [
+        "context-engineering",
+        "memory",
+        "rag",
+        "skills"
+      ],
+      "first_seen": "2026-10-30",
+      "last_reported": "2026-10-30",
+      "reports": [
+        "daily/2026/10/2026-10-30.md"
+      ],
+      "status": "watching"
+    },
+    "magnitudedev/magnitude": {
+      "name": "Magnitude",
+      "repo_url": "https://github.com/magnitudedev/magnitude",
+      "categories": [
+        "local-model",
+        "inference",
+        "agent-tools"
+      ],
+      "first_seen": "2026-10-30",
+      "last_reported": "2026-10-30",
+      "reports": [
+        "daily/2026/10/2026-10-30.md"
       ],
       "status": "watching"
     }

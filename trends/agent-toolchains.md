@@ -92,3 +92,9 @@ Sources: https://github.com/Gaurav-Gosain/tuios/releases/tag/v0.11.1 ; https://g
 DeepCode main-branch preset tool denials and hook-file approval tighten the execution contract inside a coding harness. DeepTutor v1.7.0 separates core Chat/CLI/SDK from optional Web modules and adds source-aware, editable notebooks plus bounded WASM video-frame execution. Together they illustrate two distinct maturity tracks: coding-agent permissions and domain-agent deliverable modularity. Do not confuse a README branch update with a tagged stable release.
 
 Sources: https://github.com/HKUDS/DeepCode ; https://github.com/HKUDS/DeepTutor/releases/tag/v1.7.0
+
+## 2026-10-30 — Self-hosted coworker workspaces and multi-provider continuation
+
+OpenMausBot 0.1.132–133 makes unattended routines continue across explicitly configured model backups and scopes user-built MCP servers per bot; CopilotKit/OpenBot provides an AG-UI-based self-hosted coworker template with separate browser/files/tools and before/after action records. These differ from a generic chat UI because execution authority and continuity are explicit design objects. Neither project's claims have been independently security audited here.
+
+Sources: https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.132 ; https://github.com/CopilotKit/OpenBot
