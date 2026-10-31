@@ -10,8 +10,8 @@
 
 ![Status](https://img.shields.io/badge/status-active-success)
 <!-- RADAR_BADGES_START -->
-![Tracked](https://img.shields.io/badge/tracked_projects-102-blue)
-![Reports](https://img.shields.io/badge/daily_reports-35-blueviolet)
+![Tracked](https://img.shields.io/badge/tracked_projects-106-blue)
+![Reports](https://img.shields.io/badge/daily_reports-36-blueviolet)
 <!-- RADAR_BADGES_END -->
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -43,6 +43,11 @@ GitHub AI Radar 持续观察 GitHub 上**当前热门和快速上升的 AI 开�
 
 | Date | Project / Signal | Area | Why it matters |
 |---|---|---|---|
+| **10-31** | **Kiro Crew v0.11.0** | Agent Runtime · Automation | Conductor/Worker recovery, per-job limits and sandbox hardening; first tracked |
+| **10-31** | **claude-mem v15.7.0** | Memory · Provider Governance | Fixes unintended Codex background calls after rejected Claude responses |
+| **10-31** | **T3 Code** | Coding Agent · Control Plane | Mobile/web/desktop cross-harness control; 10-30 nightly distinct from stable release |
+| **10-31** | **Lightpanda 1.0.2** | Browser Runtime · Agent | Zig headless browser; page-history isolation and network guardrails; first tracked |
+| **10-31** | **MemPalace v3.11.0** | Memory · Multimodal | Verbatim retrieval, optional multimodal embeddings and index-model compatibility checks |
 | **10-30** | **OpenMausBot v0.1.132–133** | Desktop Agent · Automation | Model failover, per-bot MCP isolation and Windows tool-cap fixes; first tracked |
 | **10-30** | **CopilotKit OpenBot** | AG-UI · Computer Use · Audit | MIT self-hosted beta coworker template with per-agent browser/files and action records; first tracked |
 | **10-30** | **Hydro Infinity** | Agent Runtime · Concurrency | Event-driven agent hibernation and RAP tool callbacks; first tracked |
@@ -193,11 +198,11 @@ Literature / Data / Task
 <!-- RADAR_STATS_START -->
 | Metric | Current |
 |---|---:|
-| Tracked projects | **102** |
-| Triggered daily reports | **35** |
+| Tracked projects | **106** |
+| Triggered daily reports | **36** |
 | Trend notes | **7** |
 | Weekly reviews | **1** |
-| Historical PDF reports | **33** |
+| Historical PDF reports | **34** |
 | First observation | **2026-09-17** |
 <!-- RADAR_STATS_END -->
 

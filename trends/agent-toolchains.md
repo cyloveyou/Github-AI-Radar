@@ -98,3 +98,9 @@ Sources: https://github.com/HKUDS/DeepCode ; https://github.com/HKUDS/DeepTutor/
 OpenMausBot 0.1.132–133 makes unattended routines continue across explicitly configured model backups and scopes user-built MCP servers per bot; CopilotKit/OpenBot provides an AG-UI-based self-hosted coworker template with separate browser/files/tools and before/after action records. These differ from a generic chat UI because execution authority and continuity are explicit design objects. Neither project's claims have been independently security audited here.
 
 Sources: https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.132 ; https://github.com/CopilotKit/OpenBot
+
+## 2026-10-31 — Cross-harness remote control surfaces and account-boundary checks
+
+T3 Code exposes local Claude Code, Codex, Cursor, Grok Build, OpenCode and Antigravity through desktop, browser and mobile control surfaces. Its 2026-10-30 nightly adds local-commit review and Pi terminal session import; do not mistake nightly for stable release. In parallel, claude-mem's provider-fallback incident shows why a UI's selected harness is not a sufficient guarantee about hidden background process execution. Verify remote tunnel identity, worktree trust, session import and actual provider usage.
+
+Sources: https://github.com/pingdotgg/t3code ; https://github.com/pingdotgg/t3code/releases/tag/v0.1.6-nightly.20261030.3940 ; https://github.com/thedotmack/claude-mem/releases/tag/v15.7.0

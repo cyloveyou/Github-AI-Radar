@@ -49,3 +49,9 @@ Sources: https://github.com/Panniantong/Agent-Reach/releases/tag/v1.6.0 ; https:
 Vercel agent-browser v0.40.0 runs one persistent MCP server per Vercel Sandbox, but the more consequential fix is origin-scoped `state load`: saved tokens must not become page-script-visible or be restored under a different origin after redirect. The release also fixes Windows daemon cross-session confusion and changes eve extension compatibility. This is a concrete Browser Agent session isolation problem, not merely better clicking accuracy. Reproduce origin/redirect storage tests and session namespace isolation before treating the fix as independently validated.
 
 Source: https://github.com/vercel-labs/agent-browser/releases/tag/v0.40.0
+
+## 2026-10-31 — Browser runtime as a separate Agent execution substrate
+
+Lightpanda 1.0.2 (released 2026-10-23) extends private-network address blocking, isolates per-top-level-page navigation history and tightens no-cors behavior. It is a Zig headless browser implementation rather than an automation wrapper over Chromium, providing a distinct execution layer for Browser Agents. The project claims large resource savings versus Chromium on its own benchmark; verify on identical pages and workloads, along with CDP compatibility and SSRF controls. This is a newly tracked long-lived project, not a new repository or today's release.
+
+Sources: https://github.com/lightpanda-io/browser ; https://github.com/lightpanda-io/browser/releases/tag/1.0.2

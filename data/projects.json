@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-30",
+  "updated_at": "2026-10-31",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -665,10 +665,11 @@
         "subagent-recovery"
       ],
       "first_seen": "2026-10-14",
-      "last_reported": "2026-10-22",
+      "last_reported": "2026-10-31",
       "reports": [
         "daily/2026/10/2026-10-14.md",
-        "daily/2026/10/2026-10-22.md"
+        "daily/2026/10/2026-10-22.md",
+        "daily/2026/10/2026-10-31.md"
       ],
       "status": "watching"
     },
@@ -1568,6 +1569,71 @@
       "last_reported": "2026-10-30",
       "reports": [
         "daily/2026/10/2026-10-30.md"
+      ],
+      "status": "watching"
+    },
+    "kirodotdev/KiroCrew": {
+      "name": "Kiro Crew",
+      "repo_url": "https://github.com/kirodotdev/KiroCrew",
+      "categories": [
+        "agent-runtime",
+        "automation",
+        "coding-agent",
+        "multi-agent",
+        "recovery"
+      ],
+      "first_seen": "2026-10-31",
+      "last_reported": "2026-10-31",
+      "reports": [
+        "daily/2026/10/2026-10-31.md"
+      ],
+      "status": "watching"
+    },
+    "pingdotgg/t3code": {
+      "name": "T3 Code",
+      "repo_url": "https://github.com/pingdotgg/t3code",
+      "categories": [
+        "coding-agent",
+        "control-plane",
+        "remote-agent",
+        "multi-harness"
+      ],
+      "first_seen": "2026-10-31",
+      "last_reported": "2026-10-31",
+      "reports": [
+        "daily/2026/10/2026-10-31.md"
+      ],
+      "status": "watching"
+    },
+    "lightpanda-io/browser": {
+      "name": "Lightpanda",
+      "repo_url": "https://github.com/lightpanda-io/browser",
+      "categories": [
+        "browser-agent",
+        "browser-runtime",
+        "automation",
+        "sandbox"
+      ],
+      "first_seen": "2026-10-31",
+      "last_reported": "2026-10-31",
+      "reports": [
+        "daily/2026/10/2026-10-31.md"
+      ],
+      "status": "watching"
+    },
+    "MemPalace/mempalace": {
+      "name": "MemPalace",
+      "repo_url": "https://github.com/MemPalace/mempalace",
+      "categories": [
+        "memory",
+        "rag",
+        "multimodal",
+        "context-engineering"
+      ],
+      "first_seen": "2026-10-31",
+      "last_reported": "2026-10-31",
+      "reports": [
+        "daily/2026/10/2026-10-31.md"
       ],
       "status": "watching"
     }

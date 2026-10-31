@@ -93,3 +93,9 @@ Sources: https://github.com/HKUDS/AutoSwarm ; https://github.com/NVIDIA/auto-ont
 OpenViking unifies RAG knowledge, session memory and Skills under `viking://` paths with L0/L1/L2 summaries, scoped retrieval and editable records. Unlike a flat vector store, this makes source selection and memory edits inspectable. However v0.5.2.1 temporarily disabled automatic discovery/replacement of newly seen secrets to avoid false-positive redaction; already registered secret replacement remains. This is a concrete availability/privacy trade-off, not a blanket security improvement. Test leakage, path permissions, provenance and deletion propagation; account for AGPL-3.0 obligations.
 
 Sources: https://github.com/volcengine/OpenViking ; https://github.com/volcengine/OpenViking/releases/tag/v0.5.2.1
+
+## 2026-10-31 — Memory model pinning and unintended cross-provider background work
+
+MemPalace v3.11.0 records the embedding model that created an index, refuses silent model mismatch and adds opt-in multimodal embedding plus audit/repair, emphasizing verbatim retrieval and data-model compatibility. Separately, claude-mem v15.7.0 fixes a real provider fallback bug: a rejected Claude response could silently invoke Codex for My Work refresh even when Claude was explicitly selected. This moves memory governance beyond retrieval quality to provider selection, background spend, failure classification and auditability. The reported ~230 invocations in four days are maintainers' incident counts, not ecosystem prevalence.
+
+Sources: https://github.com/MemPalace/mempalace/releases/tag/v3.11.0 ; https://github.com/thedotmack/claude-mem/releases/tag/v15.7.0

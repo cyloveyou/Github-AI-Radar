@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-31",
+  "observation_utc": "2026-10-31T00:16:57Z",
+  "source": "GitHub official REST repository API; official README and release API verified during same run; GitHub Trending rolling daily HTML",
+  "projects": {
+    "kirodotdev/KiroCrew": {
+      "stars": 4671,
+      "forks": 914,
+      "created_at": "2026-07-16T21:21:54Z",
+      "pushed_at": "2026-10-31T00:15:57Z",
+      "license": "Apache-2.0"
+    },
+    "thedotmack/claude-mem": {
+      "stars": 106219,
+      "forks": 9351,
+      "created_at": "2025-08-31T20:50:03Z",
+      "pushed_at": "2026-10-30T23:34:58Z",
+      "license": "Apache-2.0"
+    },
+    "pingdotgg/t3code": {
+      "stars": 32729,
+      "forks": 8654,
+      "created_at": "2026-02-08T23:46:22Z",
+      "pushed_at": "2026-10-31T00:01:31Z",
+      "license": "MIT"
+    },
+    "lightpanda-io/browser": {
+      "stars": 38355,
+      "forks": 1872,
+      "created_at": "2023-02-07T15:19:34Z",
+      "pushed_at": "2026-10-31T00:11:28Z",
+      "license": "AGPL-3.0"
+    },
+    "MemPalace/mempalace": {
+      "stars": 60160,
+      "forks": 7622,
+      "created_at": "2026-04-05T01:12:07Z",
+      "pushed_at": "2026-10-30T07:54:58Z",
+      "license": "MIT"
+    }
+  },
+  "release_verification": {
+    "kirodotdev/KiroCrew": [
+      {
+        "tag": "v0.11.0",
+        "published_at": "2026-10-30T09:43:34Z",
+        "url": "https://github.com/kirodotdev/KiroCrew/releases/tag/v0.11.0",
+        "prerelease": false
+      }
+    ],
+    "thedotmack/claude-mem": [
+      {
+        "tag": "v15.7.0",
+        "published_at": "2026-10-30T18:18:54Z",
+        "url": "https://github.com/thedotmack/claude-mem/releases/tag/v15.7.0",
+        "prerelease": false
+      }
+    ],
+    "pingdotgg/t3code": [
+      {
+        "tag": "v0.1.5",
+        "published_at": "2026-10-29T13:08:50Z",
+        "url": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.5",
+        "prerelease": false
+      },
+      {
+        "tag": "v0.1.6-nightly.20261030.3940",
+        "published_at": "2026-10-30T19:11:42Z",
+        "url": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.6-nightly.20261030.3940",
+        "prerelease": true
+      }
+    ],
+    "lightpanda-io/browser": [
+      {
+        "tag": "1.0.2",
+        "published_at": "2026-10-23T09:01:02Z",
+        "url": "https://github.com/lightpanda-io/browser/releases/tag/1.0.2",
+        "prerelease": false
+      }
+    ],
+    "MemPalace/mempalace": [
+      {
+        "tag": "v3.11.0",
+        "published_at": "2026-10-14T05:25:57Z",
+        "url": "https://github.com/MemPalace/mempalace/releases/tag/v3.11.0",
+        "prerelease": false
+      }
+    ]
+  },
+  "trending_daily_observation": {
+    "source_url": "https://github.com/trending?since=daily",
+    "observation_utc_approx": "2026-10-31T00:16:57Z",
+    "stars_today_display": {
+      "kirodotdev/KiroCrew": 19,
+      "thedotmack/claude-mem": 1140,
+      "pingdotgg/t3code": 930,
+      "lightpanda-io/browser": 626,
+      "MemPalace/mempalace": 258
+    },
+    "note": "Rolling display, not calendar-day net stars; five language views collected non-atomically."
+  },
+  "historical_comparison": {
+    "previous_daily": "daily/2026/10/2026-10-30.md",
+    "previous_tracked_projects": 102,
+    "new_tracked_projects": 4,
+    "current_tracked_projects": 106,
+    "claude_mem_previous_snapshot": "2026-10-29",
+    "claude_mem_previous_stars": 104030,
+    "claude_mem_current_stars": 106219,
+    "claude_mem_delta_between_observations": 2189,
+    "note": "Unequal observation intervals; not a precise 24-hour change."
+  }
+}

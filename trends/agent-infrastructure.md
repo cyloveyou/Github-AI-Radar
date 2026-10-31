@@ -194,3 +194,9 @@ Sources: https://github.com/HKUDS/DeepCode ; https://github.com/makecindy/cindy/
 OpenMausBot v0.1.132 combines explicit fallback model ordering with per-bot MCP server startup and unattended reading of its own memory/skills; this expands the trust boundary to path ownership, provider switching and idempotent retries. CopilotKit/OpenBot separates agent browsers, files, logins and policy decisions, but remains a beta self-hosted template with a single-admin quickstart flag unsuitable for an exposed production service. Hydro Infinity's Rust runtime hibernates waiting agents as state and uses RAP callbacks without a continuously resident connection. The architecture needs independent duplicate-delivery, reordering and recovery tests; its 75k-on-Pi claim is unverified.
 
 Sources: https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.132 ; https://github.com/CopilotKit/OpenBot ; https://github.com/hydro-project/infinity
+
+## 2026-10-31 — Conductor/Worker recovery and governed persistent execution
+
+Kiro Crew v0.11.0 separates persistent Mate conductor context from worker execution sessions, can revive archived workers, and adds per-job run-time/failure pause limits. Its release also claims SSRF, metadata egress, inherited-fd and sandbox policy hardening. This is not proof of isolation; measure handoff idempotency, permission inheritance and failure recovery. Unlike Hydro Infinity's event-hibernation runtime, the focus is durable human/agent team identity and explicit task governance.
+
+Source: https://github.com/kirodotdev/KiroCrew/releases/tag/v0.11.0
