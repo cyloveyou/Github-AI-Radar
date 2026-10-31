@@ -54,3 +54,12 @@ Sources: https://github.com/experientiallabs/experiential ; https://github.com/e
 Magnitude's inference engine tunes kernels per model/hardware and exposes local model serving for Coding Agents. Its 2026-10-29 CLI 0.2.14 adds hardware-specific speed ordering, download resilience and a project-reported ~13% lower per-token CPU decode time for one Q4 Qwen3.5 4B/M4 Pro configuration. This is an inference execution layer, not a new reasoning algorithm; benchmark on identical hardware, quantization, context and model output before accepting broad 2x claims.
 
 Sources: https://github.com/magnitudedev/magnitude ; https://github.com/magnitudedev/magnitude/releases/tag/%40magnitudedev%2Fcli%400.2.14
+
+
+## 2026-11-01 — Finite-action decision models gain a replayable harness
+
+`osolmaz/switch` defines a typed Domain/State/Question/Transition interface: the model chooses among `bool`, `choice` or `score` answers, while application code generates legal tool actions. The resulting Trace records each state and decision, and Replay does not invoke a model. This makes the System-1/decision-model direction more concrete than a single routing classifier: **state machine + bounded action set + auditable trace** can drive document-review judges or other specialized workflows.
+
+The README explicitly says current Jev results are insufficient to replace strong chat models on some tasks. Proposed hundredfold cost reductions are unverified. Prioritize calibrated decision accuracy, token/latency/cost budgets and deterministic replay tests against general-agent baselines.
+
+Source: https://github.com/osolmaz/switch

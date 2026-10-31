@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-31",
+  "updated_at": "2026-11-01",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -1502,9 +1502,10 @@
         "control-plane"
       ],
       "first_seen": "2026-10-30",
-      "last_reported": "2026-10-30",
+      "last_reported": "2026-11-01",
       "reports": [
-        "daily/2026/10/2026-10-30.md"
+        "daily/2026/10/2026-10-30.md",
+        "daily/2026/11/2026-11-01.md"
       ],
       "status": "watching"
     },
@@ -1634,6 +1635,90 @@
       "last_reported": "2026-10-31",
       "reports": [
         "daily/2026/10/2026-10-31.md"
+      ],
+      "status": "watching"
+    },
+    "deepseek-ai/dsh-superagent-prototype": {
+      "name": "dsh-superagent prototype",
+      "repo_url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "categories": [
+        "coding-agent",
+        "proactive-agent",
+        "authorization",
+        "harness",
+        "control-plane"
+      ],
+      "first_seen": "2026-11-01",
+      "last_reported": "2026-11-01",
+      "reports": [
+        "daily/2026/11/2026-11-01.md"
+      ],
+      "status": "watching"
+    },
+    "rudderlabs/devbox": {
+      "name": "DevBox",
+      "repo_url": "https://github.com/rudderlabs/devbox",
+      "categories": [
+        "coding-agent",
+        "sandbox",
+        "credential-proxy",
+        "control-plane",
+        "automation"
+      ],
+      "first_seen": "2026-11-01",
+      "last_reported": "2026-11-01",
+      "reports": [
+        "daily/2026/11/2026-11-01.md"
+      ],
+      "status": "watching"
+    },
+    "osolmaz/switch": {
+      "name": "switch",
+      "repo_url": "https://github.com/osolmaz/switch",
+      "categories": [
+        "decision-model",
+        "agent-harness",
+        "trace-replay",
+        "efficient-decision-layer"
+      ],
+      "first_seen": "2026-11-01",
+      "last_reported": "2026-11-01",
+      "reports": [
+        "daily/2026/11/2026-11-01.md"
+      ],
+      "status": "watching"
+    },
+    "wangzan101/Mika": {
+      "name": "Mika",
+      "repo_url": "https://github.com/wangzan101/Mika",
+      "categories": [
+        "android-agent",
+        "computer-use",
+        "mobile",
+        "sandbox",
+        "automation"
+      ],
+      "first_seen": "2026-11-01",
+      "last_reported": "2026-11-01",
+      "reports": [
+        "daily/2026/11/2026-11-01.md"
+      ],
+      "status": "watching"
+    },
+    "Orkas-AI/Orkas": {
+      "name": "Orkas",
+      "repo_url": "https://github.com/Orkas-AI/Orkas",
+      "categories": [
+        "desktop-agent",
+        "multi-agent",
+        "coding-agent",
+        "automation",
+        "multi-harness"
+      ],
+      "first_seen": "2026-11-01",
+      "last_reported": "2026-11-01",
+      "reports": [
+        "daily/2026/11/2026-11-01.md"
       ],
       "status": "watching"
     }

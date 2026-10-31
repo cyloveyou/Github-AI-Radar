@@ -200,3 +200,12 @@ Sources: https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.132 ; http
 Kiro Crew v0.11.0 separates persistent Mate conductor context from worker execution sessions, can revive archived workers, and adds per-job run-time/failure pause limits. Its release also claims SSRF, metadata egress, inherited-fd and sandbox policy hardening. This is not proof of isolation; measure handoff idempotency, permission inheritance and failure recovery. Unlike Hydro Infinity's event-hibernation runtime, the focus is durable human/agent team identity and explicit task governance.
 
 Source: https://github.com/kirodotdev/KiroCrew/releases/tag/v0.11.0
+
+
+## 2026-11-01 — Proactive agent authorization and credential-isolated execution
+
+DeepSeek's new `dsh-superagent-prototype` separates admitted explicit requests, inferred rule-based candidates, context-only subscribed messages and versioned Ticket Mandates. The default `observe` mode logs what automation would accept without executing it. Crucially, its execution documentation also states that worker shell commands run as the operator's OS user without approval and that command-name blocks are **not a sandbox**. This distinction matters: an authorization gate is not equivalent to process isolation.
+
+RudderStack's DevBox takes the complementary execution approach: each engineering task gets an OpenSandbox container with placeholder credentials, while `iron-proxy` injects real tokens only on allowlisted egress routes. Its persisted task volume and inbox/event log support resumption. OpenMausBot 0.1.134–136 adds no-model event waiting, server-hosted bot migration and per-bot team ACLs. These illustrate **admission policy → isolated execution → durable task state → fine-grained shared authority**, but no independent penetration test was performed.
+
+Sources: https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/002-authorization.md ; https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/003-execution.md ; https://github.com/rudderlabs/devbox/blob/main/docs/architecture.md ; https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.136

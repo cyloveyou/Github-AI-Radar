@@ -1,0 +1,162 @@
+{
+  "date": "2026-11-01",
+  "observation_utc": "2026-10-31T23:57:37Z",
+  "observation_window_utc": "2026-10-31T23:52:00Z/2026-10-31T23:57:37Z",
+  "source": "Official GitHub REST repository/search API and repository HTML, official README/LICENSE/release documents, GitHub Trending rolling daily HTML. REST anonymous rate limit encountered after initial verification; values are non-atomic snapshots.",
+  "projects": {
+    "deepseek-ai/dsh-superagent-prototype": {
+      "stars": 2220,
+      "forks": 190,
+      "created_at": "2026-10-31T09:32:46Z",
+      "pushed_at": "2026-10-31T12:05:51Z",
+      "license": "MIT",
+      "metric_source": "official REST repository API"
+    },
+    "rudderlabs/devbox": {
+      "stars": 259,
+      "forks": 15,
+      "created_at": "2026-10-27",
+      "license": "MIT",
+      "metric_source": "official REST search plus GitHub repository page"
+    },
+    "osolmaz/switch": {
+      "stars": 383,
+      "forks": 27,
+      "created_at": "2026-10-25",
+      "license": "MIT",
+      "metric_source": "official REST search plus GitHub repository page"
+    },
+    "wangzan101/Mika": {
+      "stars": 2703,
+      "forks": 436,
+      "created_at": "2026-10-29",
+      "license": "Apache-2.0",
+      "metric_source": "official REST search plus GitHub repository page"
+    },
+    "Orkas-AI/Orkas": {
+      "stars": 6123,
+      "forks": 369,
+      "created_at": "2026-04-29T12:19:08Z",
+      "pushed_at": "2026-10-31T03:36:24Z",
+      "license": "MIT",
+      "metric_source": "official REST repository API"
+    },
+    "milind-soni/OpenMausBot": {
+      "stars": 9584,
+      "forks": 1327,
+      "created_at": "2026-08-11T18:58:55Z",
+      "pushed_at": "2026-10-31T23:27:11Z",
+      "license": "Apache-2.0",
+      "metric_source": "official REST repository API"
+    },
+    "herdrdev/herdr": {
+      "stars": 47133,
+      "forks": 3766,
+      "created_at": "2026-03-27T17:54:33Z",
+      "pushed_at": "2026-10-29T12:57:41Z",
+      "license": "Apache-2.0",
+      "metric_source": "official REST repository API",
+      "status": "watchlist_only"
+    },
+    "ccch1mneyyy/dsh-Go": {
+      "stars": 3586,
+      "created_at": "2026-10-25",
+      "license": "AGPL-3.0",
+      "metric_source": "official REST search; license confirmed in README",
+      "status": "watchlist_only"
+    }
+  },
+  "release_verification": {
+    "milind-soni/OpenMausBot": [
+      {
+        "tag": "v0.1.134",
+        "published_at": "2026-10-30T00:37:07Z",
+        "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.134",
+        "prerelease": false
+      },
+      {
+        "tag": "v0.1.135",
+        "published_at": "2026-10-31T07:51:30Z",
+        "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.135",
+        "prerelease": false
+      },
+      {
+        "tag": "v0.1.136",
+        "published_at": "2026-10-31T23:27:12Z",
+        "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.136",
+        "prerelease": false
+      }
+    ],
+    "Orkas-AI/Orkas": [
+      {
+        "tag": "v2026.10.27",
+        "published_at": "2026-10-27T15:37:15Z",
+        "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.10.27",
+        "prerelease": false
+      }
+    ],
+    "pingdotgg/t3code": [
+      {
+        "tag": "v0.1.6",
+        "published_at": "2026-10-31T10:52:24Z",
+        "url": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.6",
+        "prerelease": false,
+        "status": "already_tracked_not_core"
+      }
+    ]
+  },
+  "official_document_verification": {
+    "deepseek-ai/dsh-superagent-prototype": [
+      "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/002-authorization.md",
+      "https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/003-execution.md"
+    ],
+    "rudderlabs/devbox": [
+      "https://github.com/rudderlabs/devbox",
+      "https://github.com/rudderlabs/devbox/blob/main/docs/architecture.md"
+    ],
+    "osolmaz/switch": [
+      "https://github.com/osolmaz/switch"
+    ],
+    "wangzan101/Mika": [
+      "https://github.com/wangzan101/Mika"
+    ],
+    "Orkas-AI/Orkas": [
+      "https://github.com/Orkas-AI/Orkas"
+    ]
+  },
+  "trending_daily_observation": {
+    "source_url": "https://github.com/trending?since=daily",
+    "observation_utc_approx": "2026-10-31T23:53:00Z",
+    "stars_today_display": {
+      "Orkas-AI/Orkas": 1118,
+      "milind-soni/OpenMausBot": 1304,
+      "thedotmack/claude-mem": 1723,
+      "pingdotgg/t3code": 1148,
+      "lightpanda-io/browser": 929,
+      "herdrdev/herdr": 264
+    },
+    "note": "GitHub rolling daily display, not a precise 24h or calendar-day net growth. Five language views collected non-atomically."
+  },
+  "historical_comparison": {
+    "previous_daily": "daily/2026/10/2026-10-31.md",
+    "previous_tracked_projects": 106,
+    "new_tracked_projects": 5,
+    "current_tracked_projects": 111,
+    "new_repositories": [
+      "deepseek-ai/dsh-superagent-prototype",
+      "rudderlabs/devbox",
+      "osolmaz/switch",
+      "wangzan101/Mika",
+      "Orkas-AI/Orkas"
+    ],
+    "existing_major_update": [
+      "milind-soni/OpenMausBot"
+    ],
+    "watchlist_only": [
+      "herdrdev/herdr",
+      "ccch1mneyyy/dsh-Go"
+    ],
+    "note": "No precise daily star-growth claim; GitHub Trending rolling counts and official REST snapshots have different observation windows."
+  }
+}

@@ -104,3 +104,12 @@ Sources: https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.132 ; http
 T3 Code exposes local Claude Code, Codex, Cursor, Grok Build, OpenCode and Antigravity through desktop, browser and mobile control surfaces. Its 2026-10-30 nightly adds local-commit review and Pi terminal session import; do not mistake nightly for stable release. In parallel, claude-mem's provider-fallback incident shows why a UI's selected harness is not a sufficient guarantee about hidden background process execution. Verify remote tunnel identity, worktree trust, session import and actual provider usage.
 
 Sources: https://github.com/pingdotgg/t3code ; https://github.com/pingdotgg/t3code/releases/tag/v0.1.6-nightly.20261030.3940 ; https://github.com/thedotmack/claude-mem/releases/tag/v15.7.0
+
+
+## 2026-11-01 — Local specialist teams surge; avoid confusing roles with isolation
+
+`Orkas-AI/Orkas` reached a GitHub Trending rolling display of 1,118 stars today (not calendar-day growth). It provides a Commander, 16 built-in specialist roles, explicit `dispatch_to` / `hand_off_to` / anonymous `run_worker` task routing, local task lists and scheduled auto-advance, plus external Claude Code/Codex/OpenCode integrations. Unlike a new base model, this is an orchestration/control-plane interface for multiple agents and domain deliverables.
+
+Compare its actual task isolation and permission inheritance with Kiro Crew's persistent Conductor/Worker and Paperclip's project ACLs. Source MIT code and packaged commercial collaboration features must not be conflated. GitHub stars and project claims do not establish autonomous completion quality.
+
+Source: https://github.com/Orkas-AI/Orkas

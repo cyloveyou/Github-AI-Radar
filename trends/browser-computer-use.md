@@ -55,3 +55,12 @@ Source: https://github.com/vercel-labs/agent-browser/releases/tag/v0.40.0
 Lightpanda 1.0.2 (released 2026-10-23) extends private-network address blocking, isolates per-top-level-page navigation history and tightens no-cors behavior. It is a Zig headless browser implementation rather than an automation wrapper over Chromium, providing a distinct execution layer for Browser Agents. The project claims large resource savings versus Chromium on its own benchmark; verify on identical pages and workloads, along with CDP compatibility and SSRF controls. This is a newly tracked long-lived project, not a new repository or today's release.
 
 Sources: https://github.com/lightpanda-io/browser ; https://github.com/lightpanda-io/browser/releases/tag/1.0.2
+
+
+## 2026-11-01 — Android background virtual display as a computer-use substrate
+
+`wangzan101/Mika` (created 2026-10-29) runs Android App actions on a separate background virtual display after wireless-debugging pairing, leaving the user's foreground screen available. It also exposes a per-conversation ARM64 Linux sandbox and computer-to-phone CLI/MCP handoff. This is a different control substrate from Lightpanda's independent headless browser and OpenBot's desktop/cloud browser workspaces.
+
+Evaluate Android version/ROM compatibility, screen-content permission revocation, user takeover and payment gates. The project is local-first but external model API calls can still transmit data off-device. `ccch1mneyyy/dsh-Go` is a parallel mobile Harness candidate, not yet validated for isolation.
+
+Sources: https://github.com/wangzan101/Mika ; https://github.com/ccch1mneyyy/dsh-Go
