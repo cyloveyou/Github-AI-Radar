@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-07",
+  "observation_utc": "2026-11-07T00:33:07+00:00",
+  "source": "GitHub official REST API, official GitHub README/releases, GitHub Trending rolling daily HTML",
+  "projects": {
+    "NousResearch/hermes-agent": {
+      "stars": 261207,
+      "forks": 57821,
+      "created_at": "2025-07-22T22:22:28Z",
+      "pushed_at": "2026-11-07T00:32:03Z",
+      "license": "MIT",
+      "metric_source": "GitHub official REST API",
+      "latest_release": "v0.23.0",
+      "release_published_at": "2026-11-05T21:32:33Z"
+    },
+    "google/skills": {
+      "stars": 22832,
+      "forks": 1920,
+      "created_at": "2026-03-31T19:02:20Z",
+      "pushed_at": "2026-11-06T22:01:22Z",
+      "license": "Apache-2.0",
+      "metric_source": "GitHub official REST API"
+    },
+    "mattpocock/skills": {
+      "stars": 316708,
+      "forks": 26494,
+      "created_at": "2026-02-03T11:15:53Z",
+      "pushed_at": "2026-11-05T10:40:01Z",
+      "license": "MIT",
+      "metric_source": "GitHub official REST API"
+    },
+    "thedotmack/claude-mem": {
+      "stars": 114018,
+      "forks": 9892,
+      "created_at": "2025-08-31T20:50:03Z",
+      "pushed_at": "2026-11-06T22:43:49Z",
+      "license": "Apache-2.0",
+      "metric_source": "GitHub official REST API",
+      "latest_release": "v15.11.0",
+      "release_published_at": "2026-11-06T22:17:48Z"
+    },
+    "stablyai/orca": {
+      "stars": 117852,
+      "forks": 7471,
+      "created_at": "2026-03-17T03:28:57Z",
+      "pushed_at": "2026-11-07T00:32:40Z",
+      "license": "MIT",
+      "metric_source": "GitHub official REST API",
+      "latest_release": "v1.4.251",
+      "release_published_at": "2026-11-06T06:31:44Z"
+    },
+    "NVIDIA/auto-ontology": {
+      "stars": 9014,
+      "forks": 724,
+      "created_at": "2026-04-27T21:45:56Z",
+      "pushed_at": "2026-11-06T23:03:36Z",
+      "license": "Apache-2.0",
+      "metric_source": "GitHub official REST API"
+    }
+  },
+  "trending_rolling_stars_today": {
+    "google/skills": 534,
+    "mattpocock/skills": 2070,
+    "stablyai/orca": 1155,
+    "NVIDIA/auto-ontology": 2015
+  },
+  "metric_note": "Trending figures are rolling platform labels, not exact calendar-day growth. Official REST metrics are non-atomic observations."
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-01",
+  "updated_at": "2026-11-07",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -665,11 +665,12 @@
         "subagent-recovery"
       ],
       "first_seen": "2026-10-14",
-      "last_reported": "2026-10-31",
+      "last_reported": "2026-11-07",
       "reports": [
         "daily/2026/10/2026-10-14.md",
         "daily/2026/10/2026-10-22.md",
-        "daily/2026/10/2026-10-31.md"
+        "daily/2026/10/2026-10-31.md",
+        "daily/2026/11/2026-11-07.md"
       ],
       "status": "watching"
     },
@@ -793,9 +794,10 @@
         "automation"
       ],
       "first_seen": "2026-10-18",
-      "last_reported": "2026-10-18",
+      "last_reported": "2026-11-07",
       "reports": [
-        "daily/2026/10/2026-10-18.md"
+        "daily/2026/10/2026-10-18.md",
+        "daily/2026/11/2026-11-07.md"
       ],
       "status": "watching"
     },
@@ -1421,9 +1423,10 @@
         "mcp"
       ],
       "first_seen": "2026-10-28",
-      "last_reported": "2026-10-28",
+      "last_reported": "2026-11-07",
       "reports": [
-        "daily/2026/10/2026-10-28.md"
+        "daily/2026/10/2026-10-28.md",
+        "daily/2026/11/2026-11-07.md"
       ],
       "status": "watching"
     },
@@ -1719,6 +1722,52 @@
       "last_reported": "2026-11-01",
       "reports": [
         "daily/2026/11/2026-11-01.md"
+      ],
+      "status": "watching"
+    },
+    "NousResearch/hermes-agent": {
+      "name": "hermes-agent",
+      "repo_url": "https://github.com/NousResearch/hermes-agent",
+      "categories": [
+        "agent-runtime",
+        "gateway",
+        "control-plane",
+        "multi-harness"
+      ],
+      "first_seen": "2026-11-07",
+      "last_reported": "2026-11-07",
+      "reports": [
+        "daily/2026/11/2026-11-07.md"
+      ],
+      "status": "watching"
+    },
+    "google/skills": {
+      "name": "skills",
+      "repo_url": "https://github.com/google/skills",
+      "categories": [
+        "agent-skills",
+        "google-cloud",
+        "multi-harness"
+      ],
+      "first_seen": "2026-11-07",
+      "last_reported": "2026-11-07",
+      "reports": [
+        "daily/2026/11/2026-11-07.md"
+      ],
+      "status": "watching"
+    },
+    "mattpocock/skills": {
+      "name": "skills",
+      "repo_url": "https://github.com/mattpocock/skills",
+      "categories": [
+        "coding-agent",
+        "agent-skills",
+        "harness"
+      ],
+      "first_seen": "2026-11-07",
+      "last_reported": "2026-11-07",
+      "reports": [
+        "daily/2026/11/2026-11-07.md"
       ],
       "status": "watching"
     }

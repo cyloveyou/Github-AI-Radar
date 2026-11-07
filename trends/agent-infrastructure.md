@@ -209,3 +209,7 @@ DeepSeek's new `dsh-superagent-prototype` separates admitted explicit requests, 
 RudderStack's DevBox takes the complementary execution approach: each engineering task gets an OpenSandbox container with placeholder credentials, while `iron-proxy` injects real tokens only on allowlisted egress routes. Its persisted task volume and inbox/event log support resumption. OpenMausBot 0.1.134–136 adds no-model event waiting, server-hosted bot migration and per-bot team ACLs. These illustrate **admission policy → isolated execution → durable task state → fine-grained shared authority**, but no independent penetration test was performed.
 
 Sources: https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/002-authorization.md ; https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/003-execution.md ; https://github.com/rudderlabs/devbox/blob/main/docs/architecture.md ; https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.136
+
+### 2026-11-07 | Gateway session ownership
+
+Hermes Agent v0.23.0 centralizes session ownership across CLI, Desktop, editors, bots and cron. This is a concrete move from multi-surface UI toward one durable runtime/control plane. Source: https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.0 .

@@ -99,3 +99,7 @@ Sources: https://github.com/volcengine/OpenViking ; https://github.com/volcengin
 MemPalace v3.11.0 records the embedding model that created an index, refuses silent model mismatch and adds opt-in multimodal embedding plus audit/repair, emphasizing verbatim retrieval and data-model compatibility. Separately, claude-mem v15.7.0 fixes a real provider fallback bug: a rejected Claude response could silently invoke Codex for My Work refresh even when Claude was explicitly selected. This moves memory governance beyond retrieval quality to provider selection, background spend, failure classification and auditability. The reported ~230 invocations in four days are maintainers' incident counts, not ecosystem prevalence.
 
 Sources: https://github.com/MemPalace/mempalace/releases/tag/v3.11.0 ; https://github.com/thedotmack/claude-mem/releases/tag/v15.7.0
+
+### 2026-11-07 | Memory capture consent and source-specific observers
+
+claude-mem v15.10.0 adds a memory capture off switch and source-specific observer providers; verify onboarding consent and historical uploaded-data retention separately. Source: https://github.com/thedotmack/claude-mem/releases/tag/v15.10.0 .

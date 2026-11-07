@@ -113,3 +113,7 @@ Sources: https://github.com/pingdotgg/t3code ; https://github.com/pingdotgg/t3co
 Compare its actual task isolation and permission inheritance with Kiro Crew's persistent Conductor/Worker and Paperclip's project ACLs. Source MIT code and packaged commercial collaboration features must not be conflated. GitHub stars and project claims do not establish autonomous completion quality.
 
 Source: https://github.com/Orkas-AI/Orkas
+
+### 2026-11-07 | Composable cross-harness skills
+
+Google Skills and mattpocock/skills appeared in the current GitHub Trending sample. Their different vendor/workflow and engineering-skill distributions reinforce portable SKILL.md as an integration surface. Trending rolling counts are not exact daily deltas. Sources: https://github.com/google/skills ; https://github.com/mattpocock/skills .
