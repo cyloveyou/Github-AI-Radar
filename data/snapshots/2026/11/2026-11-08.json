@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-08",
+  "observation_utc": "2026-11-08T00:42:49+00:00",
+  "source": "GitHub official REST API and GitHub Trending rolling HTML",
+  "projects": {
+    "rivet-dev/rivet": {
+      "stars": 6785,
+      "latest_release": "v3.0.6",
+      "release_published_at": "2026-11-06",
+      "major_release": "v3.0.0",
+      "major_release_published_at": "2026-11-01"
+    },
+    "milind-soni/OpenMausBot": {
+      "stars": 16979,
+      "latest_release": "v0.1.148",
+      "release_published_at": "2026-11-07"
+    },
+    "awslabs/aidlc-workflows": {
+      "stars": 5931,
+      "latest_release": "v2.11.3",
+      "release_published_at": "2026-11-04"
+    }
+  },
+  "trending_rolling_stars_today": {
+    "milind-soni/OpenMausBot": 1955
+  },
+  "metric_note": "REST and Trending readings collected over several minutes prior to this snapshot record; timestamp is archive assembly time, not a synchronized API measurement."
+}

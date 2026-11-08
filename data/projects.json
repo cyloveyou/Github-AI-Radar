@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-07",
+  "updated_at": "2026-11-08",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -1505,10 +1505,11 @@
         "control-plane"
       ],
       "first_seen": "2026-10-30",
-      "last_reported": "2026-11-01",
+      "last_reported": "2026-11-08",
       "reports": [
         "daily/2026/10/2026-10-30.md",
-        "daily/2026/11/2026-11-01.md"
+        "daily/2026/11/2026-11-01.md",
+        "daily/2026/11/2026-11-08.md"
       ],
       "status": "watching"
     },
@@ -1768,6 +1769,37 @@
       "last_reported": "2026-11-07",
       "reports": [
         "daily/2026/11/2026-11-07.md"
+      ],
+      "status": "watching"
+    },
+    "rivet-dev/rivet": {
+      "name": "rivet",
+      "repo_url": "https://github.com/rivet-dev/rivet",
+      "categories": [
+        "agent-runtime",
+        "control-plane",
+        "orchestration"
+      ],
+      "first_seen": "2026-11-08",
+      "last_reported": "2026-11-08",
+      "reports": [
+        "daily/2026/11/2026-11-08.md"
+      ],
+      "status": "watching"
+    },
+    "awslabs/aidlc-workflows": {
+      "name": "aidlc-workflows",
+      "repo_url": "https://github.com/awslabs/aidlc-workflows",
+      "categories": [
+        "coding-agent",
+        "harness",
+        "security",
+        "workflow"
+      ],
+      "first_seen": "2026-11-08",
+      "last_reported": "2026-11-08",
+      "reports": [
+        "daily/2026/11/2026-11-08.md"
       ],
       "status": "watching"
     }

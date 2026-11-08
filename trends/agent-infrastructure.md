@@ -213,3 +213,9 @@ Sources: https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/
 ### 2026-11-07 | Gateway session ownership
 
 Hermes Agent v0.23.0 centralizes session ownership across CLI, Desktop, editors, bots and cron. This is a concrete move from multi-surface UI toward one durable runtime/control plane. Source: https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.0 .
+
+## 2026-11-08：Agent Runtime 与 Harness 审批边界
+
+- Rivet 3.0 preview 将 node pools、Control Plane、Cron、实时任务与租户数据库纳入统一编排；[官方发布](https://github.com/rivet-dev/rivet/releases/tag/v3.0.0)。
+- OpenMausBot v0.1.148 改进服务器配对、默认关闭远程入口与本地私有桌面；[官方发布](https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.148)。
+- AWS AI-DLC v2.11.3 修复捆绑运行时安全问题并强化审批流程；[官方发布](https://github.com/awslabs/aidlc-workflows/releases/tag/v2.11.3)。
