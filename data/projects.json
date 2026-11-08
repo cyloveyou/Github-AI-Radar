@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-08",
+  "updated_at": "2026-11-09",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -1800,6 +1800,64 @@
       "last_reported": "2026-11-08",
       "reports": [
         "daily/2026/11/2026-11-08.md"
+      ],
+      "status": "watching"
+    },
+    "KKKKhazix/agent-autoloop": {
+      "name": "Agent Autoloop",
+      "repo_url": "https://github.com/KKKKhazix/agent-autoloop",
+      "categories": [
+        "coding-agent",
+        "automation",
+        "agent-runtime"
+      ],
+      "first_seen": "2026-11-09",
+      "last_reported": "2026-11-09",
+      "reports": [
+        "daily/2026/11/2026-11-09.md"
+      ],
+      "status": "watching"
+    },
+    "DIYgod/pinky": {
+      "name": "Pinky",
+      "repo_url": "https://github.com/DIYgod/pinky",
+      "categories": [
+        "computer-use",
+        "mobile-agent",
+        "agent-approval"
+      ],
+      "first_seen": "2026-11-09",
+      "last_reported": "2026-11-09",
+      "reports": [
+        "daily/2026/11/2026-11-09.md"
+      ],
+      "status": "watching"
+    },
+    "lxe/phoneuse": {
+      "name": "phoneuse",
+      "repo_url": "https://github.com/lxe/phoneuse",
+      "categories": [
+        "computer-use",
+        "mobile-agent"
+      ],
+      "first_seen": "2026-11-09",
+      "last_reported": "2026-11-09",
+      "reports": [
+        "daily/2026/11/2026-11-09.md"
+      ],
+      "status": "watching"
+    },
+    "devvmhq/devvm": {
+      "name": "devvm",
+      "repo_url": "https://github.com/devvmhq/devvm",
+      "categories": [
+        "sandbox",
+        "coding-agent"
+      ],
+      "first_seen": "2026-11-09",
+      "last_reported": "2026-11-09",
+      "reports": [
+        "daily/2026/11/2026-11-09.md"
       ],
       "status": "watching"
     }

@@ -219,3 +219,9 @@ Hermes Agent v0.23.0 centralizes session ownership across CLI, Desktop, editors,
 - Rivet 3.0 preview 将 node pools、Control Plane、Cron、实时任务与租户数据库纳入统一编排；[官方发布](https://github.com/rivet-dev/rivet/releases/tag/v3.0.0)。
 - OpenMausBot v0.1.148 改进服务器配对、默认关闭远程入口与本地私有桌面；[官方发布](https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.148)。
 - AWS AI-DLC v2.11.3 修复捆绑运行时安全问题并强化审批流程；[官方发布](https://github.com/awslabs/aidlc-workflows/releases/tag/v2.11.3)。
+
+## 2026-11-09：后台事件循环与每项目 VM
+
+Agent Autoloop 将事件、CLI Agent、审批与交付流水线插件化；与 Hermes Gateway 的统一会话所有权不同，重点在等待恢复及事件幂等。devvm 的每项目 VM 侧重执行隔离，仍需审查挂载、网络出口与凭证边界。
+
+Sources: https://github.com/KKKKhazix/agent-autoloop ; https://github.com/devvmhq/devvm
