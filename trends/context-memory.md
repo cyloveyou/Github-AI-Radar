@@ -103,3 +103,7 @@ Sources: https://github.com/MemPalace/mempalace/releases/tag/v3.11.0 ; https://g
 ### 2026-11-07 | Memory capture consent and source-specific observers
 
 claude-mem v15.10.0 adds a memory capture off switch and source-specific observer providers; verify onboarding consent and historical uploaded-data retention separately. Source: https://github.com/thedotmack/claude-mem/releases/tag/v15.10.0 .
+
+## 2026-11-10 — 可追溯记忆与漂移一致性
+
+GBrain 的显式事实来源、纠错撤回、MCP 跨 Agent 共享和文件漂移修复，表明 Agent Memory 正从纯检索走向可审计状态管理。官方：https://github.com/garrytan/gbrain/releases/tag/v0.60.629.0 。

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-09",
+  "updated_at": "2026-11-10",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -1505,11 +1505,12 @@
         "control-plane"
       ],
       "first_seen": "2026-10-30",
-      "last_reported": "2026-11-08",
+      "last_reported": "2026-11-10",
       "reports": [
         "daily/2026/10/2026-10-30.md",
         "daily/2026/11/2026-11-01.md",
-        "daily/2026/11/2026-11-08.md"
+        "daily/2026/11/2026-11-08.md",
+        "daily/2026/11/2026-11-10.md"
       ],
       "status": "watching"
     },
@@ -1858,6 +1859,32 @@
       "last_reported": "2026-11-09",
       "reports": [
         "daily/2026/11/2026-11-09.md"
+      ],
+      "status": "watching"
+    },
+    "meta/astryx": {
+      "name": "Astryx",
+      "repo_url": "https://github.com/meta/astryx",
+      "categories": [
+        "agent-ready-design-system"
+      ],
+      "first_seen": "2026-11-10",
+      "last_reported": "2026-11-10",
+      "reports": [
+        "daily/2026/11/2026-11-10.md"
+      ],
+      "status": "watching"
+    },
+    "garrytan/gbrain": {
+      "name": "GBrain",
+      "repo_url": "https://github.com/garrytan/gbrain",
+      "categories": [
+        "agent-memory"
+      ],
+      "first_seen": "2026-11-10",
+      "last_reported": "2026-11-10",
+      "reports": [
+        "daily/2026/11/2026-11-10.md"
       ],
       "status": "watching"
     }

@@ -225,3 +225,7 @@ Hermes Agent v0.23.0 centralizes session ownership across CLI, Desktop, editors,
 Agent Autoloop 将事件、CLI Agent、审批与交付流水线插件化；与 Hermes Gateway 的统一会话所有权不同，重点在等待恢复及事件幂等。devvm 的每项目 VM 侧重执行隔离，仍需审查挂载、网络出口与凭证边界。
 
 Sources: https://github.com/KKKKhazix/agent-autoloop ; https://github.com/devvmhq/devvm
+
+## 2026-11-10 — Agent 可操作组件与密钥治理
+
+Meta Astryx 的 Agent-ready 设计系统显示 UI 组件正面向 Agent 可操作性演进；OpenMausBot v0.1.151 将 Vault/1Password 授权访问、记忆引用约束和冲突提示纳入统一 Agent 产品。官方：https://github.com/meta/astryx ; https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.151 。
