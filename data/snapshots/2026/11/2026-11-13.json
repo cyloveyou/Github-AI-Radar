@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-13",
+  "observation_utc": "2026-11-13T00:36:48.847605+00:00",
+  "source": "GitHub official REST /repos and /releases; primary release notes",
+  "projects": {
+    "browser-use/browser-use": {
+      "stars": 120851,
+      "created_at": "2024-10-31T16:00:56Z",
+      "pushed_at": "2026-11-12T23:09:38Z",
+      "html_url": "https://github.com/browser-use/browser-use",
+      "latest_release": "1.0.3",
+      "release_published_at": "2026-11-12T16:52:54Z"
+    },
+    "vercel-labs/agent-browser": {
+      "stars": 50327,
+      "created_at": "2026-01-11T05:38:15Z",
+      "pushed_at": "2026-11-13T00:17:08Z",
+      "html_url": "https://github.com/vercel-labs/agent-browser",
+      "latest_release": "v0.43.0",
+      "release_published_at": "2026-11-12T23:09:31Z"
+    },
+    "protoLabsAI/protoAgent": {
+      "stars": 17,
+      "created_at": "2026-04-17T16:45:59Z",
+      "pushed_at": "2026-11-13T00:36:12Z",
+      "html_url": "https://github.com/protoLabsAI/protoAgent",
+      "latest_release": "v0.237.0",
+      "release_published_at": "2026-11-12T17:21:36Z"
+    }
+  },
+  "metric_note": "Non-atomic instant stars; no exact daily growth inferred."
+}

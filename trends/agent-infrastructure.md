@@ -229,3 +229,7 @@ Sources: https://github.com/KKKKhazix/agent-autoloop ; https://github.com/devvmh
 ## 2026-11-10 — Agent 可操作组件与密钥治理
 
 Meta Astryx 的 Agent-ready 设计系统显示 UI 组件正面向 Agent 可操作性演进；OpenMausBot v0.1.151 将 Vault/1Password 授权访问、记忆引用约束和冲突提示纳入统一 Agent 产品。官方：https://github.com/meta/astryx ; https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.151 。
+
+## 2026-11-13 — Independent durable sessions for background agent jobs
+
+protoAgent v0.237.0 moves schedules, watches, waits and inbox work to separate durable job sessions, avoiding head-of-line blocking and tightening federation approval and device token scope. Low popularity (17 REST Stars), but useful runtime design signal; claims unverified in deployment. Source: https://github.com/protoLabsAI/protoAgent/releases/tag/v0.237.0

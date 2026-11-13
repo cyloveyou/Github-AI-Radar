@@ -70,3 +70,7 @@ Sources: https://github.com/wangzan101/Mika ; https://github.com/ccch1mneyyy/dsh
 Pinky 通过 MCP 与网关审批支持手机控制，phoneuse 通过 AirPlay 镜像与 Bluetooth HID 操作未改装 iPhone。前者强调敏感动作授权，后者仅在单套 Linux/iPhone 环境测试；均未经过独立安全审计。
 
 Sources: https://github.com/DIYgod/pinky ; https://github.com/lxe/phoneuse
+
+## 2026-11-13 — Browser agents cross a major API boundary
+
+Browser Use 1.x introduces explicit cloud/local Chrome modes, structured results, workspace downloads, and CLI-MCP. agent-browser 0.43 adds snapshot hints for ambiguous controls and a web guidance skill. The engineering question shifts from basic navigation to reproducible control identification, permission boundaries and migration compatibility. Sources: https://github.com/browser-use/browser-use/releases/tag/1.0.3 ; https://github.com/vercel-labs/agent-browser/releases/tag/v0.43.0

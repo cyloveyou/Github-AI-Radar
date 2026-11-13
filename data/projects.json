@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-10",
+  "updated_at": "2026-11-13",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -1456,9 +1456,10 @@
         "session-security"
       ],
       "first_seen": "2026-10-29",
-      "last_reported": "2026-10-29",
+      "last_reported": "2026-11-13",
       "reports": [
-        "daily/2026/10/2026-10-29.md"
+        "daily/2026/10/2026-10-29.md",
+        "daily/2026/11/2026-11-13.md"
       ],
       "status": "watching"
     },
@@ -1885,6 +1886,32 @@
       "last_reported": "2026-11-10",
       "reports": [
         "daily/2026/11/2026-11-10.md"
+      ],
+      "status": "watching"
+    },
+    "browser-use/browser-use": {
+      "name": "Browser Use",
+      "repo_url": "https://github.com/browser-use/browser-use",
+      "categories": [
+        "browser-computer-use"
+      ],
+      "first_seen": "2026-11-13",
+      "last_reported": "2026-11-13",
+      "reports": [
+        "daily/2026/11/2026-11-13.md"
+      ],
+      "status": "watching"
+    },
+    "protoLabsAI/protoAgent": {
+      "name": "protoAgent",
+      "repo_url": "https://github.com/protoLabsAI/protoAgent",
+      "categories": [
+        "agent-runtime"
+      ],
+      "first_seen": "2026-11-13",
+      "last_reported": "2026-11-13",
+      "reports": [
+        "daily/2026/11/2026-11-13.md"
       ],
       "status": "watching"
     }
