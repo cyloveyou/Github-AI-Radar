@@ -74,3 +74,9 @@ Sources: https://github.com/DIYgod/pinky ; https://github.com/lxe/phoneuse
 ## 2026-11-13 — Browser agents cross a major API boundary
 
 Browser Use 1.x introduces explicit cloud/local Chrome modes, structured results, workspace downloads, and CLI-MCP. agent-browser 0.43 adds snapshot hints for ambiguous controls and a web guidance skill. The engineering question shifts from basic navigation to reproducible control identification, permission boundaries and migration compatibility. Sources: https://github.com/browser-use/browser-use/releases/tag/1.0.3 ; https://github.com/vercel-labs/agent-browser/releases/tag/v0.43.0
+
+## 2026-11-16 — Browser Agent result judging and cache-aware cost control
+
+Browser Use 1.0.5 adds a model-based post-run judgement with structured failure reasons, prompt-injection and bot-block signals; 1.0.4 batches screenshot pruning to preserve prompt-cache effectiveness. Upstream reports 200-task BU Bench v2.1 score 76.1 vs 76.0 and cost $0.208 vs $0.434 per task compared with 1.0.3. These are self-reported, not independently replicated. Distinguish model-as-judge verdicts from ground truth, and compare task-level accuracy, token/cache cost and latency under fixed workloads.
+
+Sources: https://github.com/browser-use/browser-use/releases/tag/1.0.5 ; https://github.com/browser-use/browser-use/releases/tag/1.0.4

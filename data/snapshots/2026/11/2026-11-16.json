@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-16",
+  "observation_utc": "2026-11-16T00:20:07.538657+00:00",
+  "source": "GitHub official REST /repos and /releases",
+  "projects": {
+    "browser-use/browser-use": {
+      "stars": 121111,
+      "forks": 13541,
+      "created_at": "2024-10-31T16:00:56Z",
+      "pushed_at": "2026-11-16T00:19:47Z",
+      "html_url": "https://github.com/browser-use/browser-use",
+      "latest_release": "1.0.5",
+      "release_published_at": "2026-11-14T08:24:22Z",
+      "previous_release": "1.0.4",
+      "previous_release_published_at": "2026-11-13T20:50:13Z"
+    }
+  },
+  "metric_note": "Instant stars, not daily delta. Bench metrics are upstream-reported."
+}
