@@ -80,3 +80,7 @@ Browser Use 1.x introduces explicit cloud/local Chrome modes, structured results
 Browser Use 1.0.5 adds a model-based post-run judgement with structured failure reasons, prompt-injection and bot-block signals; 1.0.4 batches screenshot pruning to preserve prompt-cache effectiveness. Upstream reports 200-task BU Bench v2.1 score 76.1 vs 76.0 and cost $0.208 vs $0.434 per task compared with 1.0.3. These are self-reported, not independently replicated. Distinguish model-as-judge verdicts from ground truth, and compare task-level accuracy, token/cache cost and latency under fixed workloads.
 
 Sources: https://github.com/browser-use/browser-use/releases/tag/1.0.5 ; https://github.com/browser-use/browser-use/releases/tag/1.0.4
+
+## 2026-11-17 — Default model migration can reverse cost comparisons
+
+Browser Use 1.0.6 changes the implicit model from `bu-fast` to `bu-4.0`. Upstream lists $0.12/$0.60 versus $1.80/$9.00 per million input/output tokens (15x unit prices) and a short task costing $0.0014 versus $0.022. This is a configuration-breaking change for cost benchmarking, separate from the 1.0.4 screenshot cache optimization and 1.0.5 judge. Explicitly pin `llm='bu-fast'` to preserve the former default; compare task cost only under controlled workloads. Official release: https://github.com/browser-use/browser-use/releases/tag/1.0.6 . Figures are upstream-reported, not independently reproduced.
