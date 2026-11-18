@@ -233,3 +233,7 @@ Meta Astryx 的 Agent-ready 设计系统显示 UI 组件正面向 Agent 可操�
 ## 2026-11-13 — Independent durable sessions for background agent jobs
 
 protoAgent v0.237.0 moves schedules, watches, waits and inbox work to separate durable job sessions, avoiding head-of-line blocking and tightening federation approval and device token scope. Low popularity (17 REST Stars), but useful runtime design signal; claims unverified in deployment. Source: https://github.com/protoLabsAI/protoAgent/releases/tag/v0.237.0
+
+## 2026-11-18 — AG-UI bridges persistent agent runtimes and UI protocol
+
+AG-UI 1.0.5 fixes event ordering/snapshot compaction under concurrent tool calls; the new Cloudflare Agents SDK adapter exposes per-thread Durable Objects over SSE/WebSocket and maps human approvals to resumable interrupts. This extends Runtime/Control Plane with a protocol-level, replayable human-in-the-loop boundary. Test replay ordering, approval idempotency, stale-state protection and client compatibility before production adoption. [Official release](https://github.com/ag-ui-protocol/ag-ui/releases/tag/release%2F2026-11-17).

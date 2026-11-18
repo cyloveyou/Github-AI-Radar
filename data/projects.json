@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-17",
+  "updated_at": "2026-11-18",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -1914,6 +1914,21 @@
       "last_reported": "2026-11-13",
       "reports": [
         "daily/2026/11/2026-11-13.md"
+      ],
+      "status": "watching"
+    },
+    "ag-ui-protocol/ag-ui": {
+      "name": "AG-UI",
+      "repo_url": "https://github.com/ag-ui-protocol/ag-ui",
+      "categories": [
+        "agent-runtime",
+        "agent-ui-protocol",
+        "control-plane"
+      ],
+      "first_seen": "2026-11-18",
+      "last_reported": "2026-11-18",
+      "reports": [
+        "daily/2026/11/2026-11-18.md"
       ],
       "status": "watching"
     }
