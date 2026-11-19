@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-18",
+  "updated_at": "2026-11-19",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -1929,6 +1929,36 @@
       "last_reported": "2026-11-18",
       "reports": [
         "daily/2026/11/2026-11-18.md"
+      ],
+      "status": "watching"
+    },
+    "vercel-labs/ui": {
+      "name": "UI SDK",
+      "repo_url": "https://github.com/vercel-labs/ui",
+      "categories": [
+        "agent-ui",
+        "ai-tools",
+        "agent-toolchains"
+      ],
+      "first_seen": "2026-11-19",
+      "last_reported": "2026-11-19",
+      "reports": [
+        "daily/2026/11/2026-11-19.md"
+      ],
+      "status": "watching"
+    },
+    "vercel-labs/agent-desktop": {
+      "name": "agent-desktop",
+      "repo_url": "https://github.com/vercel-labs/agent-desktop",
+      "categories": [
+        "computer-use",
+        "agent-toolchains",
+        "desktop-automation"
+      ],
+      "first_seen": "2026-11-19",
+      "last_reported": "2026-11-19",
+      "reports": [
+        "daily/2026/11/2026-11-19.md"
       ],
       "status": "watching"
     }

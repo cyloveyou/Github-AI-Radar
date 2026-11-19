@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-19",
+  "observation_utc": "2026-11-19T00:28:11.363697+00:00",
+  "source": "GitHub official REST /repos; official GitHub releases",
+  "projects": {
+    "vercel-labs/ui": {
+      "created_at": "2026-10-26T17:39:27Z",
+      "pushed_at": "2026-11-18T20:32:19Z",
+      "html_url": "https://github.com/vercel-labs/ui",
+      "description": "A library of behaviors for agents to build the next generation of user interfaces.",
+      "stars": 5873,
+      "forks": 200
+    },
+    "vercel-labs/agent-desktop": {
+      "created_at": "2026-02-19T18:00:49Z",
+      "pushed_at": "2026-11-18T07:12:48Z",
+      "html_url": "https://github.com/vercel-labs/agent-desktop",
+      "description": "Computer use CLI for AI agents",
+      "stars": 25296,
+      "forks": 1891
+    }
+  },
+  "metric_note": "Instant stars and forks, not daily growth; release dates verified separately."
+}

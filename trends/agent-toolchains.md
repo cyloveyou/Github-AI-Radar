@@ -117,3 +117,7 @@ Source: https://github.com/Orkas-AI/Orkas
 ### 2026-11-07 | Composable cross-harness skills
 
 Google Skills and mattpocock/skills appeared in the current GitHub Trending sample. Their different vendor/workflow and engineering-skill distributions reinforce portable SKILL.md as an integration surface. Trending rolling counts are not exact daily deltas. Sources: https://github.com/google/skills ; https://github.com/mattpocock/skills .
+
+## 2026-11-19 — Agent-ready interaction behaviors across UI frameworks
+
+Vercel UI SDK beta offers headless focus, keyboard, selection, popup, drag-and-drop and ARIA behavior with adapters for multiple UI frameworks. Together with accessibility-tree desktop agents, this suggests a structured interaction contract rather than screenshot-only control; interoperability and accessibility outcomes are not independently benchmarked. Source: https://github.com/vercel-labs/ui
