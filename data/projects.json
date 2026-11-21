@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-19",
+  "updated_at": "2026-11-22",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -1896,11 +1896,12 @@
         "browser-computer-use"
       ],
       "first_seen": "2026-11-13",
-      "last_reported": "2026-11-17",
+      "last_reported": "2026-11-22",
       "reports": [
         "daily/2026/11/2026-11-13.md",
         "daily/2026/11/2026-11-16.md",
-        "daily/2026/11/2026-11-17.md"
+        "daily/2026/11/2026-11-17.md",
+        "daily/2026/11/2026-11-22.md"
       ],
       "status": "watching"
     },
@@ -1926,9 +1927,10 @@
         "control-plane"
       ],
       "first_seen": "2026-11-18",
-      "last_reported": "2026-11-18",
+      "last_reported": "2026-11-22",
       "reports": [
-        "daily/2026/11/2026-11-18.md"
+        "daily/2026/11/2026-11-18.md",
+        "daily/2026/11/2026-11-22.md"
       ],
       "status": "watching"
     },
@@ -1959,6 +1961,21 @@
       "last_reported": "2026-11-19",
       "reports": [
         "daily/2026/11/2026-11-19.md"
+      ],
+      "status": "watching"
+    },
+    "erkamyaman/rust-anything": {
+      "name": "rust-anything",
+      "repo_url": "https://github.com/erkamyaman/rust-anything",
+      "categories": [
+        "coding-agent",
+        "agent-tools",
+        "performance-validation"
+      ],
+      "first_seen": "2026-11-22",
+      "last_reported": "2026-11-22",
+      "reports": [
+        "daily/2026/11/2026-11-22.md"
       ],
       "status": "watching"
     }

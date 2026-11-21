@@ -121,3 +121,7 @@ Google Skills and mattpocock/skills appeared in the current GitHub Trending samp
 ## 2026-11-19 — Agent-ready interaction behaviors across UI frameworks
 
 Vercel UI SDK beta offers headless focus, keyboard, selection, popup, drag-and-drop and ARIA behavior with adapters for multiple UI frameworks. Together with accessibility-tree desktop agents, this suggests a structured interaction contract rather than screenshot-only control; interoperability and accessibility outcomes are not independently benchmarked. Source: https://github.com/vercel-labs/ui
+
+## 2026-11-22 — Agent-assisted Rust migration gated by differential tests
+
+Newly tracked rust-anything v3.1.0 profiles TS/JS/Python hot paths, delegates migration to a coding agent, and only enables the Rust unit after equivalence and end-to-end benchmark gates. New repository, 7,399+ instantaneous Stars at discovery; claims need independent replication. Source: https://github.com/erkamyaman/rust-anything/releases/tag/v3.1.0

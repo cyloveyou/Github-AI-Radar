@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-22",
+  "observation_utc": "2026-11-21T23:53:55.175082+00:00",
+  "source": "GitHub official REST /repos and /releases",
+  "projects": {
+    "ag-ui-protocol/ag-ui": {
+      "stars": 21011,
+      "forks": 2142,
+      "created_at": "2025-05-07T12:49:37Z",
+      "pushed_at": "2026-11-21T18:51:48Z",
+      "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+      "html_url": "https://github.com/ag-ui-protocol/ag-ui"
+    },
+    "browser-use/browser-use": {
+      "stars": 121681,
+      "forks": 13596,
+      "created_at": "2024-10-31T16:00:56Z",
+      "pushed_at": "2026-11-21T03:05:00Z",
+      "description": "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.",
+      "html_url": "https://github.com/browser-use/browser-use"
+    },
+    "erkamyaman/rust-anything": {
+      "stars": 7399,
+      "forks": 588,
+      "created_at": "2026-11-16T12:10:36Z",
+      "pushed_at": "2026-11-21T21:59:29Z",
+      "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+      "html_url": "https://github.com/erkamyaman/rust-anything"
+    }
+  },
+  "releases": {
+    "ag-ui-protocol/ag-ui": [
+      {
+        "tag": "release/2026-11-21",
+        "published_at": "2026-11-21T18:04:24Z",
+        "url": "https://github.com/ag-ui-protocol/ag-ui/releases/tag/release/2026-11-21"
+      },
+      {
+        "tag": "release/2026-11-17",
+        "published_at": "2026-11-17T16:18:41Z",
+        "url": "https://github.com/ag-ui-protocol/ag-ui/releases/tag/release/2026-11-17"
+      }
+    ],
+    "browser-use/browser-use": [
+      {
+        "tag": "1.0.8rc1",
+        "published_at": "2026-11-20T22:48:28Z",
+        "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.8rc1"
+      },
+      {
+        "tag": "1.0.7",
+        "published_at": "2026-11-20T20:01:20Z",
+        "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.7"
+      }
+    ],
+    "erkamyaman/rust-anything": [
+      {
+        "tag": "v3.1.0",
+        "published_at": "2026-11-21T21:58:09Z",
+        "url": "https://github.com/erkamyaman/rust-anything/releases/tag/v3.1.0"
+      },
+      {
+        "tag": "v3.0.0",
+        "published_at": "2026-11-21T15:09:51Z",
+        "url": "https://github.com/erkamyaman/rust-anything/releases/tag/v3.0.0"
+      }
+    ]
+  },
+  "metric_note": "Instant counts only; not daily star growth."
+}

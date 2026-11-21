@@ -237,3 +237,7 @@ protoAgent v0.237.0 moves schedules, watches, waits and inbox work to separate d
 ## 2026-11-18 — AG-UI bridges persistent agent runtimes and UI protocol
 
 AG-UI 1.0.5 fixes event ordering/snapshot compaction under concurrent tool calls; the new Cloudflare Agents SDK adapter exposes per-thread Durable Objects over SSE/WebSocket and maps human approvals to resumable interrupts. This extends Runtime/Control Plane with a protocol-level, replayable human-in-the-loop boundary. Test replay ordering, approval idempotency, stale-state protection and client compatibility before production adoption. [Official release](https://github.com/ag-ui-protocol/ag-ui/releases/tag/release%2F2026-11-17).
+
+## 2026-11-22 — AG-UI adapters enforce authorization and safe resume
+
+AG-UI 2026-11-21 release hardens LangGraph forwardedProps and resume gates; ADK adapter closes an authorization bypass (GHSA-jhvp-j8pf-5vh5). Regression-test auth, interrupted threads, checkpoint controls and client compatibility. Source: https://github.com/ag-ui-protocol/ag-ui/releases/tag/release%2F2026-11-21

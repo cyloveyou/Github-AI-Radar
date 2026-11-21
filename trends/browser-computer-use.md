@@ -88,3 +88,7 @@ Browser Use 1.0.6 changes the implicit model from `bu-fast` to `bu-4.0`. Upstrea
 ## 2026-11-19 — Semantic UI controls reach native desktop agents
 
 Vercel `agent-desktop` uses OS accessibility trees, stable element references and CLI/MCP to drive native applications across desktop platforms. This complements web-oriented `agent-browser` and reduces reliance on pixel coordinates, but permissions, reference stability and cross-platform task success require independent tests. Source: https://github.com/vercel-labs/agent-desktop
+
+## 2026-11-22 — Browser Use long MCP calls become resumable
+
+Browser Use 1.0.7 returns partial output within 50 seconds and allows a subsequent empty-code `browser_exec` to collect more, avoiding 60-second MCP client timeouts while work continues. Test repeated calls, cancellation and recovery. Source: https://github.com/browser-use/browser-use/releases/tag/1.0.7
