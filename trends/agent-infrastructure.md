@@ -241,3 +241,7 @@ AG-UI 1.0.5 fixes event ordering/snapshot compaction under concurrent tool calls
 ## 2026-11-22 — AG-UI adapters enforce authorization and safe resume
 
 AG-UI 2026-11-21 release hardens LangGraph forwardedProps and resume gates; ADK adapter closes an authorization bypass (GHSA-jhvp-j8pf-5vh5). Regression-test auth, interrupted threads, checkpoint controls and client compatibility. Source: https://github.com/ag-ui-protocol/ag-ui/releases/tag/release%2F2026-11-21
+
+## 2026-11-23 — Agent skills extend into robot simulation and hardware
+
+Google DeepMind 的 robotics-antigravity-plugin 将 Agent 生成控制器、MuJoCo 仿真验证和真实机械臂执行串联。重点不在 Star，而在 Agent 工具接口跨越软件与物理执行边界；后续需要独立核验安全停机、仿真到现实迁移及可复现实验。

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22",
+  "updated_at": "2026-11-23",
   "projects": {
     "alibaba/open-code-review": {
       "name": "Open Code Review",
@@ -1896,12 +1896,13 @@
         "browser-computer-use"
       ],
       "first_seen": "2026-11-13",
-      "last_reported": "2026-11-22",
+      "last_reported": "2026-11-23",
       "reports": [
         "daily/2026/11/2026-11-13.md",
         "daily/2026/11/2026-11-16.md",
         "daily/2026/11/2026-11-17.md",
-        "daily/2026/11/2026-11-22.md"
+        "daily/2026/11/2026-11-22.md",
+        "daily/2026/11/2026-11-23.md"
       ],
       "status": "watching"
     },
@@ -1976,6 +1977,35 @@
       "last_reported": "2026-11-22",
       "reports": [
         "daily/2026/11/2026-11-22.md"
+      ],
+      "status": "watching"
+    },
+    "google-deepmind/robotics-antigravity-plugin": {
+      "name": "Robotics Antigravity Plugin",
+      "repo_url": "https://github.com/google-deepmind/robotics-antigravity-plugin",
+      "categories": [
+        "agent-tools",
+        "robotics",
+        "simulation"
+      ],
+      "first_seen": "2026-11-23",
+      "last_reported": "2026-11-23",
+      "reports": [
+        "daily/2026/11/2026-11-23.md"
+      ],
+      "status": "watching"
+    },
+    "EL4CTEO/fast-anything": {
+      "name": "fast-anything",
+      "repo_url": "https://github.com/EL4CTEO/fast-anything",
+      "categories": [
+        "coding-agent",
+        "performance-validation"
+      ],
+      "first_seen": "2026-11-23",
+      "last_reported": "2026-11-23",
+      "reports": [
+        "daily/2026/11/2026-11-23.md"
       ],
       "status": "watching"
     }

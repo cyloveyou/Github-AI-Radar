@@ -92,3 +92,7 @@ Vercel `agent-desktop` uses OS accessibility trees, stable element references an
 ## 2026-11-22 — Browser Use long MCP calls become resumable
 
 Browser Use 1.0.7 returns partial output within 50 seconds and allows a subsequent empty-code `browser_exec` to collect more, avoiding 60-second MCP client timeouts while work continues. Test repeated calls, cancellation and recovery. Source: https://github.com/browser-use/browser-use/releases/tag/1.0.7
+
+## 2026-11-23 — Browser Use 1.0.8 stabilizes cached judging and headless authorization
+
+Browser Use 1.0.8 将此前候选版的 Judge 缓存复用、设备码登录、密码输入保护正式发布；这强化了浏览器 Agent 的成本、认证和敏感信息治理，但性能与安全效果仍需独立测试。
